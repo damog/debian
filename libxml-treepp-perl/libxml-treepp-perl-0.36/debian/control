@@ -1,0 +1,16 @@
+Source: libxml-treepp-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 5.0.0)
+Build-Depends-Indep: perl (>= 5.8.8-7)
+Maintainer: David Moreno <damog@debian.org>
+Standards-Version: 3.7.2
+
+Package: libxml-treepp-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}
+Description: XML::TreePP -- Pure Perl implementation for parsing/writing XML files
+ XML::TreePP module parses XML file and expands it for a hash tree. And
+ also generate XML file from a hash tree. This is a pure Perl
+ implementation. You can also download XML from remote web server like
+ XMLHttpRequest object at JavaScript language.

@@ -1,0 +1,42 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Thu, 11 Dec 2008 16:05:36 -0500
+Source: libxml-treepp-perl
+Binary: libxml-treepp-perl
+Architecture: source all
+Version: 0.36-1
+Distribution: unstable
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ libxml-treepp-perl - XML::TreePP -- Pure Perl implementation for parsing/writing XML f
+Changes: 
+ libxml-treepp-perl (0.36-1) unstable; urgency=low
+ .
+   * New upstream release
+Checksums-Sha1: 
+ efd0409a50006e1efe6897a96d8057a2d805f6e8 1060 libxml-treepp-perl_0.36-1.dsc
+ 9cedc495e06ba6eeca6773593873841512fc51ce 62128 libxml-treepp-perl_0.36.orig.tar.gz
+ 23f16c579e9e0a8c98c94b5fbc81abf0cb960891 2142 libxml-treepp-perl_0.36-1.diff.gz
+ 69202072d89f64dd6f9268f014da3169777d0f15 24406 libxml-treepp-perl_0.36-1_all.deb
+Checksums-Sha256: 
+ a09f5b8b4c67ae31ce05f919660104304eb9dabd1ad58c6e821f1abda8a30ff1 1060 libxml-treepp-perl_0.36-1.dsc
+ 176e3b2b3849dc20b125b423041c1a40645e0155da5c643daf4db34a946603d6 62128 libxml-treepp-perl_0.36.orig.tar.gz
+ 27e7bc79ee443a72a2804358b8cd4813f8646b388ba2aea771ad48f093fada97 2142 libxml-treepp-perl_0.36-1.diff.gz
+ c27b379dd334c1b20873ab65349aed700b6824579bcb97f7b6034df94e51742e 24406 libxml-treepp-perl_0.36-1_all.deb
+Files: 
+ c2925a7e1045cff1484ee329ca630d4c 1060 perl optional libxml-treepp-perl_0.36-1.dsc
+ 28f7a873268a366e758af3046b9e1567 62128 perl optional libxml-treepp-perl_0.36.orig.tar.gz
+ b2e91e2d572fe1c312927ac24fc9c417 2142 perl optional libxml-treepp-perl_0.36-1.diff.gz
+ b7a4b4fdebd7459124a64ba0dd080d6b 24406 perl optional libxml-treepp-perl_0.36-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAklBgn4ACgkQmBxf18ZxJX31EQCghiAV7kqIgc5VN9jhM+zarirs
+u6wAoLdfwF9MJlCCvNcCyaNol/E9iFT1
+=F7LR
+-----END PGP SIGNATURE-----

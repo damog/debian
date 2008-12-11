@@ -1,0 +1,28 @@
+Format: 1.8
+Date: Thu, 11 Dec 2008 16:05:36 -0500
+Source: libxml-treepp-perl
+Binary: libxml-treepp-perl
+Architecture: source
+Version: 0.36-1
+Distribution: unstable
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ libxml-treepp-perl - XML::TreePP -- Pure Perl implementation for parsing/writing XML f
+Changes: 
+ libxml-treepp-perl (0.36-1) unstable; urgency=low
+ .
+   * New upstream release
+Checksums-Sha1: 
+ d58b0a97d0a2aed0a674b7823bbad93dd8c034fd 815 libxml-treepp-perl_0.36-1.dsc
+ 9cedc495e06ba6eeca6773593873841512fc51ce 62128 libxml-treepp-perl_0.36.orig.tar.gz
+ 61c2802d0cb0c071f8a44af09823b9b87c3e3518 2143 libxml-treepp-perl_0.36-1.diff.gz
+Checksums-Sha256: 
+ 4ea6dd03436ced5e00f9df8b0e4d7ab757af6a81c0ea20b3197ca181bbda3f5b 815 libxml-treepp-perl_0.36-1.dsc
+ 176e3b2b3849dc20b125b423041c1a40645e0155da5c643daf4db34a946603d6 62128 libxml-treepp-perl_0.36.orig.tar.gz
+ 24fb16333829bbb9b56f231c6d3bbf6a68bfd61be9becfe5da8c977b35de82f8 2143 libxml-treepp-perl_0.36-1.diff.gz
+Files: 
+ 4dea5797b9cd3d4d71dd992adb3e4d94 815 perl optional libxml-treepp-perl_0.36-1.dsc
+ 28f7a873268a366e758af3046b9e1567 62128 perl optional libxml-treepp-perl_0.36.orig.tar.gz
+ e84197951d633487bd04446cf849544f 2143 perl optional libxml-treepp-perl_0.36-1.diff.gz

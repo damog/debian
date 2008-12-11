@@ -1,0 +1,956 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://purl.org/rss/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:media="http://search.yahoo.com/mrss/" xmlns:openSearch="http://a9.com/-/spec/opensearchrss/1.0/">
+<channel rdf:about="http://www.kawa.net/xp/index-e.html">
+<title>Kawa.net xp - ajax/JavaScript/Perl/CGI by Yusuke Kawasaki</title>
+<link>http://www.kawa.net/xp/index-e.html</link>
+<dc:date>2008-10-26T13:22:00+09:00</dc:date>
+<dc:language>en</dc:language>
+<dc:rights>Copyright 1995-2006 Yusuke Kawasaki. All rights reserved.</dc:rights>
+<description>Yusuke Kawasaki&apos;s homepage from Japan. Ajax/JavaScript/Perl/CGI/etc. technical articles and photos.</description>
+<image rdf:resource="http://www.kawa.net/xp/images/xp-title-128x32.gif" />
+<items>
+<rdf:Seq>
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/feedpp/feedpp-e.html" />
+<rdf:li rdf:resource="http://youtube.com/?v=FUFOWlhnS1Y" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/06/yapcna-2008-in-chicago.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/06/mashup-application-and-google-api-gdd.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/06/jui-2008-tokyo-was-over.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/05/announcement-jui-2008-tokyo.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/05/yapcasia-2008-tokyo-dom-manipulation-by.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/05/osdctw-2008-dom-manipulation-by.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/05/translatable-presentation-with-s6.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/04/event-opensocial-google-japans.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-feedpp/message/23" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-feedpp/message/21" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/02/gainer-over-http-and-devicegainer.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/01/event-web-20-expo-tokyo-javascript-labs.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-feedpp/message/18" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/01/jsonp-se-jsonp-static-emulation.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/romanize/romanize-e.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/01/event-tokyo-actionscript-meetup-2008-f.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2008/01/hatsumode-at-sanno-hie-shrine.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/11/event-sun-tech-days-2007-in-tokyo.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-feedpp/message/17" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/romanize/hangul-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/treepp/treepp-e.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/25" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/11/event-john-resig-and-future-of.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/10/gugod-and-ebisujs.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/11/event-panel-discussion-about-web20s.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/10/travel-germany-switzerland-and-czech.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/09/event-shuccho-shibuyajs-24-in-mozilla.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/09/tsukurubu-flash-and-ajax-best-websites.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/09/event-web-service-business-and-mashing.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/10/event-ma3-participants-session.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/11/cd-voices-of-beauty-wagram-music_4654.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/09/google-japans-developer-round-table-1.html" />
+<rdf:li rdf:resource="http://kawanet.blogspot.com/2007/11/cd-voices-of-beauty-wagram-music.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/24" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/21" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-feedpp/message/16" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/20" />
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/overhttp/overhttp-e.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/19" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/18" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-feedpp/message/15" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/16" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/15" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-treepp/message/14" />
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/html/tagparser-e.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-objtree/message/8" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/animation/cube-e.html" />
+<rdf:li rdf:resource="http://youtube.com/?v=TBM_WFDkftM" />
+<rdf:li rdf:resource="http://youtube.com/?v=LeF95hWgJOE" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/jkl/parsexml-e.html" />
+<rdf:li rdf:resource="http://youtube.com/?v=5R_7-58IOF8" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-objtree/message/6" />
+<rdf:li rdf:resource="http://www.kawa.net/works/cantonese/canton.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/romanize/roman-demo-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/ajaxtb/ajaxtb-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/ajaxcom/ajaxcom-e.html" />
+<rdf:li rdf:resource="http://youtube.com/?v=zxZfobdGbA4" />
+<rdf:li rdf:resource="http://youtube.com/?v=pnks8-4O1_8" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/xml/objtree-e.html" />
+<rdf:li rdf:resource="http://tech.groups.yahoo.com/group/xml-objtree/message/1" />
+<rdf:li rdf:resource="http://youtube.com/?v=eE4fCbCZsU4" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/tips/yui-tooltips-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/romanize/chinese-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/tips/crash-safari/intelmac-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/romanize/japanese-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/service/jsan/search/index.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/animation/raster-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/game/ncross-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/date/w3cdtf-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/tips/dump/dom-tree.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/tips/dump/icab-omniweb-bug.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/cantonese/ccdict.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/data-scheme/base64-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/greasemonkey/myscripts-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/tips/mimetype/content-type-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/ajax/rss/rss-box-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/js/passwd/gen-passwds-e.html" />
+<rdf:li rdf:resource="http://www.kawa.net/works/perl/catch/KCatch.pm.html" />
+</rdf:Seq>
+</items>
+</channel>
+<openSearch:itemsPerPage>25</openSearch:itemsPerPage>
+<openSearch:startIndex>1</openSearch:startIndex>
+<openSearch:totalResults>41</openSearch:totalResults>
+<image rdf:about="http://www.kawa.net/xp/images/xp-title-128x32.gif">
+<url>http://www.kawa.net/xp/images/xp-title-128x32.gif</url>
+<title>Kawa.net xp - ajax/JavaScript/Perl/CGI by Yusuke Kawasaki</title>
+<link>http://www.kawa.net/xp/index-e.html</link>
+</image>
+<item rdf:about="http://www.kawa.net/works/perl/feedpp/feedpp-e.html">
+<title>[Perl] XML::FeedPP - Parse/write/merge/edit RSS/RDF/Atom syndication feeds</title>
+<link>http://www.kawa.net/works/perl/feedpp/feedpp-e.html</link>
+<dc:date>2008-10-26T13:22:00+09:00</dc:date>
+<dc:subject>Perl</dc:subject>
+<description>XML::FeedPP is an all-purpose syndication utility that parses and publishes
+RSS 2.0, RSS 1.0 (RDF), Atom 0.3 and 1.0 feeds.
+It allows you to add new content, merge feeds, and convert among various formats.
+It is a pure Perl implementation and does not require any other module except for XML::TreePP.
+Released version:
+XML-FeedPP-0.36.tar.gz
+TARGZ
+CPAN
+Subversion repository:
+http://xml-treepp.googlecode.com/svn/trunk/XML-FeedPP/
+SVN
+Documents:
+README
+README
+Changes
+Changes</description>
+</item>
+<item rdf:about="http://youtube.com/?v=FUFOWlhnS1Y">
+<title>Mashup Awards 4 授賞式オープニングムービー</title>
+<link>http://youtube.com/?v=FUFOWlhnS1Y</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2008-10-23T23:37:46-07:00</dc:date>
+<media:category label="Tags"> ma4 mashup</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=FUFOWlhnS1Y" />
+<media:thumbnail url="http://i3.ytimg.com/vi/FUFOWlhnS1Y/default.jpg" width="120" height="90" />
+<media:title>Mashup Awards 4 授賞式オープニングムービー</media:title>
+<description>
+				&lt;img src=&quot;http://i3.ytimg.com/vi/FUFOWlhnS1Y/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				2008年10月19日（日）マッシュアップアワード４授賞式オープニングムービーです。
+http://mashupaward.jp/
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=ma4&quot;&gt;ma4&lt;/a&gt; &lt;a href=&quot;/results?search_query=mashup&quot;&gt;mashup&lt;/a&gt;&lt;br/&gt;
+					Added: October 23, 2008&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/06/yapcna-2008-in-chicago.html">
+<title>YAPC::NA 2008 in Chicago</title>
+<link>http://kawanet.blogspot.com/2008/06/yapcna-2008-in-chicago.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-06-23T02:39:00.880+09:00</dc:date>
+<dc:subject>yapcna</dc:subject>
+<dc:subject>yapc</dc:subject>
+<dc:subject>perl</dc:subject>
+<dc:subject>yapcna2008</dc:subject>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/SF6EU0xPxKI/AAAAAAAAAUE/t3I0iICH2Fg/s72-c/yapcna1-larry.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">1</thr:total>
+<description>I have proudly attended YAPC::NA 2008 in Chicago and enjoyed that.&lt;br /&gt;YAPC::NA is original yet another Perl conference since 1999.&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SF6EU0xPxKI/AAAAAAAAAUE/t3I0iICH2Fg/s400/yapcna1-larry.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214750911839061154&quot;&gt;You can see more &lt;a href=&quot;http://www.flickr.com/photos/u-suke/sets/72157605619931487/&quot;&gt;my photos in Chicago&lt;/a&gt; on flickr.&lt;br /&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_2008.html&quot;&gt;YAPC::NA 2008 Pre-Conference Dinner&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;Ingy bring me to the restaurant by his motorcycle. ingy++&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SF6EMK1OV_I/AAAAAAAAAT0/mrvXFeCRt7I/s400/yapcna0-preconf.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214750763142502386&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20081_1.html&quot;&gt;YAPC::NA 2008 (Day 1) Get it started&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;I attended every YAPC::Asias which were exciting and held three times in Tokyo. However, this is my first time to come to YAPC::NA.&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/SF6EQh6_T7I/AAAAAAAAAT8/v9fA4hDredw/s400/yapcna1-hall.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214750838060175282&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20082moose.html&quot;&gt;YAPC::NA 2008 (Day 2) Just two seconds to generate .pm by WSST&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;I gave my first talk titled:&lt;br /&gt;&lt;b&gt;WSS - WebService Specification Schema and LL libraries&lt;/b&gt;&lt;br /&gt;I still used JavaScript-powered S6 presentation tool with &lt;a href=&quot;http://kawanet.blogspot.com/2008/05/translatable-presentation-with-s6.html&quot;&gt;one-click translation feature&lt;/a&gt; for my slides.&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/SF6FCH91sLI/AAAAAAAAAVE/HvMKNpacq5Q/s400/yapcna2-wsst-title.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214751690086265010&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20082stevan_littlemoose.html&quot;&gt;YAPC::NA 2008 (Day 2) &quot;Moose&quot; by Stevan Little&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;Stevan Little gave a general talk about Moose:&lt;br /&gt;&lt;b&gt;Moose - A post modern object system for Perl 5&lt;/b&gt;&lt;br /&gt;Moose is getting much popular also in Japan this year.&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp3.blogger.com/_cgZUdkW7lzE/SF6E-0DkoWI/AAAAAAAAAU8/tyjPj7NTUIs/s400/yapcna2-moose.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214751633201996130&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20082ingyuse_the_moose.html&quot;&gt;YAPC::NA 2008 (Day 2) &quot;use the Moose;&quot; by Ingy&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;Ingy döt Net gave an interesting talk about:&lt;br /&gt;&lt;b&gt;Perl and JavaScript&lt;/b&gt;&lt;br /&gt;I like teh incredible &lt;a href=&quot;http://search.cpan.org/dist/the/&quot;&gt;the.pm&lt;/a&gt; module.&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/SF6EYa20tLI/AAAAAAAAAUM/tAS3QH8_LKo/s400/yapcna2-ingy3.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214750973602608306&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20083lightning_talks.html&quot;&gt;YAPC::NA 2008 (Day 3) Lightning Talks!&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;I gave another talk titled:&lt;br /&gt;&lt;b&gt;DOM manipulation by Gainer/Wiimote over HTTP&lt;/b&gt;.&lt;br /&gt;Before starting presentation, I had a technical trouble with my real device gadgets, however I made it.&lt;br /&gt;I&apos;ll give this talk again at &lt;a href=&quot;http://www.yapceurope2008.org/ye2008/&quot;&gt;YAPC::Europe 2008&lt;/a&gt; in Copenhagen, Denmark.&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SF6FE84zekI/AAAAAAAAAVM/HF7bmDkA21c/s400/yapcna3-dom-wii-title.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214751738651966018&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20083improvised_lightni.html&quot;&gt;YAPC::NA 2008 (Day 3) Improvised Lightning Talks&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;This is a brand-new style of lightning talk.&lt;br /&gt;It&apos;s absolutely fantastic that Ingy&apos;s one thing which he&apos;d never do in Perl.&lt;br /&gt;He&apos;s true entertainer!&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp3.blogger.com/_cgZUdkW7lzE/SF6Eo1rc3AI/AAAAAAAAAU0/T6V9EV00ZqA/s400/ingy-strips.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214751255680572418&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_2008_1.html&quot;&gt;YAPC::NA 2008 is over&lt;/a&gt;&lt;/h3&gt;&lt;br /&gt;I appreciate the organizer Josh McAdams&apos;s hospitality. jmcada++&lt;br /&gt;&lt;img style=&quot;display:block; margin:0.5em auto 0.5em; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp3.blogger.com/_cgZUdkW7lzE/SF6FOG7b58I/AAAAAAAAAVU/bJqtZtLwgnE/s400/yapcna3-hackers.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5214751895966181314&quot;&gt;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;Differences between YAPC::NA and YAPC::Asia&lt;/h3&gt;&lt;br /&gt;I could find some of interesting differences between the conference and other conferences in Japan including YAPC::Asia.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;More foods and drinks&lt;/b&gt;&lt;br /&gt;YAPC::Asia started to provide lunch and snacks this year.&lt;br /&gt;Here are free drinks and delightful fruits provided in YAPC::NA.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;More interruptions&lt;/b&gt;&lt;br /&gt;I think it&apos;s not common for Japanese audiences to interrupt speaker&apos;s talk to ask something. &lt;a href=&quot;http://blog.livedoor.jp/dankogai/&quot;&gt;Dan-san&lt;/a&gt; could be probably only Japanese hacker who can do that? ;-)&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;More chats in hall&lt;/b&gt;&lt;br /&gt;Not only few people here prefer to stay at entrance to chat with another perl hackers rather than just listen presentations.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;More BOFs&lt;/b&gt;&lt;br /&gt;I don&apos;t see such concurrent meetings which occur naturally in Japan.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;More women&lt;/b&gt;&lt;br /&gt;Josh said that there were 17 women in second day&apos;s conference dinner.&lt;br /&gt;It&apos;s definitely rare that we could have two-digit numbers of women attend such technical conference in Japan.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;Less technological previews, more productive solutions&lt;/b&gt;&lt;br /&gt;Personally, I love talks about cutting-edge technologies, future glances, ingenious topics etc. We can see such &quot;I-Made-It!&quot;-styled talks in Japan.&lt;br /&gt;Here, more speakers provide solutions for attendees&apos; daily production.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;* &lt;b&gt;Few Japanese attendees&lt;/b&gt;&lt;br /&gt;I was only Japanese attendee come from Japan.&lt;br /&gt;I hope more Japanese hackers could come to give their techs out for global.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;&lt;h3 style=&quot;margin-top: 0; margin-bottom: 0;&quot;&gt;My reports written in Japanese&lt;/h3&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_2008.html&quot;&gt;YAPC::NA 2008 Pre-Conference Dinner&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20081_1.html&quot;&gt;YAPC::NA 2008 (Day 1) Get it started&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20082moose.html&quot;&gt;YAPC::NA 2008 (Day 2) Just two seconds to generate .pm by WSST&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20082stevan_littlemoose.html&quot;&gt;YAPC::NA 2008 (Day 2) &quot;Moose&quot; by Stevan Little&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20082ingyuse_the_moose.html&quot;&gt;YAPC::NA 2008 (Day 2) &quot;use the Moose;&quot; by Ingy&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20083lightning_talks.html&quot;&gt;YAPC::NA 2008 (Day 3) Lightning Talks!&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_20083improvised_lightni.html&quot;&gt;YAPC::NA 2008 (Day 3) Improvised Lightning Talks&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/06/yapcna_2008_1.html&quot;&gt;YAPC::NA 2008 was over&lt;/a&gt;&lt;br /&gt;* &lt;a href=&quot;http://kawa.at.webry.info/200806/article_3.html&quot;&gt;YAPC::NA 2008 summary report&lt;/a&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/06/mashup-application-and-google-api-gdd.html">
+<title>&quot;Mashup Application and Google API&quot; @ GDD</title>
+<link>http://kawanet.blogspot.com/2008/06/mashup-application-and-google-api-gdd.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-06-17T06:31:27.493+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/SFbahwLLO9I/AAAAAAAAATE/5yNAtAauZvE/s72-c/2570005005_de8edaac95.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>Last Tuesday, I gave a talk titled &lt;a href=&quot;http://www.kawa.net/text/google/gdd2008/japan.html&quot;&gt;&quot;Mashup Application and Google API&quot;&lt;/a&gt; for &lt;a href=&quot;http://code.google.com/intl/ja/events/developerday/2008/about.html&quot;&gt;Google Developer Day 2008 in Japan&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/27556134@N03/2570005005/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SFbahwLLO9I/AAAAAAAAATE/5yNAtAauZvE/s400/2570005005_de8edaac95.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5212593892130241490&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;b&gt;[Topics]&lt;/b&gt;&lt;br /&gt;* Google provides 60 APIs!&lt;br /&gt;* Translatable presentation with Google AJAX Language API&lt;br /&gt;* Organizing Mashup Award 4th with 100+ APIs in Japan&lt;br /&gt;* Mashup of Google Maps API and Recruit Web Service UI Library&lt;br /&gt;* Growth of Google Maps family (embeddable、static、flash)&lt;br /&gt;* Google Char API (blank map!)&lt;br /&gt;* AJAX Libraries API (cache for Prototype, jQuery, etc.)&lt;br /&gt;* Brand New APIs (real device web services)&lt;br /&gt;&lt;br /&gt;My slides using S6 again is below. (written in Japanese)&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/text/google/gdd2008/japan.html&quot;&gt;http://www.kawa.net/text/google/gdd2008/japan.html&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/text/google/gdd2008/japan.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SFbaqdXR0OI/AAAAAAAAATM/x6Y8Q1xxttA/s400/google-title.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5212594041699553506&quot; /&gt;&lt;/a&gt;&lt;br /&gt;The conference was completely for developers who love Google. I am not Google&apos;s employee, you know, but I have surprised that more than 100 attendees have nevertheless come to my room.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/27556134@N03/2570003655/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/SFbazkeKogI/AAAAAAAAATU/gLnVKnazwcc/s400/2570003655_0872ec9277.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5212594198226313730&quot; /&gt;&lt;/a&gt;&lt;br /&gt;In addition to my talk above, I took the platform of keynote to demonstrate in favor for OpenSocial.&lt;br /&gt;We provides a trial service which uses an OpenSocial&apos;s container of Shindig.</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/06/jui-2008-tokyo-was-over.html">
+<title>The JUI 2008 Tokyo was over</title>
+<link>http://kawanet.blogspot.com/2008/06/jui-2008-tokyo-was-over.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-06-17T06:12:04.934+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/SFbVfC8CLaI/AAAAAAAAAS0/cwsUMQ4PqRA/s72-c/JUI.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>The JUI 2008 Tokyo conference was over with great success.&lt;br /&gt;More than 100 attendees came to the venue!&lt;br /&gt;We really enjoyed JavaScript tech talks in depth.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/iandeth/2510326040/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SFbVfC8CLaI/AAAAAAAAAS0/cwsUMQ4PqRA/s400/JUI.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5212588348069260706&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;b&gt;The JUI 2008 Tokyo&lt;/b&gt;&lt;br /&gt;* Date: 18:30pm, Monday, March 19, 2008&lt;br /&gt;* Venue: Recruit Ginza 8 Bldg., Tokyo, Japan&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[Main Talks]&lt;/b&gt;&lt;br /&gt;* Paul Bakaus (from Germany) - An in-depth look at jQuery UI&lt;br /&gt;* amachang - S6&lt;br /&gt;* inucara - &lt;a href=&quot;http://inucara.net/presentation/about-inucara.net/&quot;&gt;inucara.net&lt;/a&gt;&lt;br /&gt;* iandeth - &lt;a href=&quot;http://iandeth.dyndns.org/mt/ian/archives/000674.html&quot;&gt;Recruit WEB Service UI Library&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[Lightning Talks]&lt;/b&gt;&lt;br /&gt;* gugod (from Taiwan) - &lt;a href=&quot;http://blog.gugod.org/2008/05/jui-lightning-talk-jformino.html&quot;&gt;jFormino&lt;/a&gt;&lt;br /&gt;* noriaki - &lt;a href=&quot;http://doko.r08.jp/jui/tokyo.html&quot;&gt;jQuery on Greasemonkey&lt;/a&gt;&lt;br /&gt;* Yoshiomi KURISU - &lt;a href=&quot;http://dev.chrisryu.com/2008/05/join_and_enjyoy_jui_tokyo_2008.html&quot;&gt;Colors in jQuery&lt;/a&gt;&lt;br /&gt;* monjudoh - Twitter client with jQuery&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[Special Guests]&lt;/b&gt;&lt;br /&gt;* Ingy (from Seattle/Taipei) - Jemplate&lt;br /&gt;* mala - use DOM&lt;br /&gt;* TAKESAKO - YAPC::Asia 2008 Tokyo&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[Pictures]&lt;/b&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/gugod/archives/date-posted/2008/05/21/&quot;&gt;gugod&lt;/a&gt;／&lt;a href=&quot;http://www.flickr.com/photos/iandeth/sets/72157605165868154/&quot;&gt;iandeth&lt;/a&gt;／&lt;a href=&quot;http://www.flickr.com/photos/u-suke/archives/date-taken/2008/05/19/&quot;&gt;kawanet&lt;/a&gt;／&lt;a href=&quot;http://www.flickr.com/photos/26789009@N04/archives/date-taken/2008/05/19/&quot;&gt;taigo&lt;/a&gt;／&lt;a href=&quot;http://www.flickr.com/photos/takesako/sets/72157605145039667/&quot;&gt;takesako&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;We got special guests to give us additional lightning talks!&lt;br /&gt;We also had an after-party with almost half of all attendees.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/u-suke/2506248584/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/SFbV1bzPOuI/AAAAAAAAAS8/6Qfnr7sISQA/s400/JUI-dinner.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5212588732700375778&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Amachang, Paul and other great JS hackers&apos;re talking about past talks in &lt;a href=&quot;http://shibuyajs.org/&quot;&gt;Shibuya.js&lt;/a&gt; user group.&lt;br /&gt;I hope I could host such a great conference again.</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/05/announcement-jui-2008-tokyo.html">
+<title>Announcement: The JUI 2008 Tokyo</title>
+<link>http://kawanet.blogspot.com/2008/05/announcement-jui-2008-tokyo.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-05-19T04:09:32.704+09:00</dc:date>
+<media:thumbnail url="http://bp0.blogger.com/_cgZUdkW7lzE/SBuCEJi_1tI/AAAAAAAAASU/rXgQR4gwJKY/s72-c/jui_logo%5B1%5D.gif" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">1</thr:total>
+<description>&lt;a href=&quot;http://www.facebook.com/event.php?eid=11240373854&quot;&gt;&lt;img style=&quot;float:right; margin:0 0 10px 10px;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/SBuCEJi_1tI/AAAAAAAAASU/rXgQR4gwJKY/s400/jui_logo%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5195889602895795922&quot; /&gt;&lt;/a&gt;Today I&apos;m proudly announcing the first JUI conference. JavaScript techs enhancing user interface on the web is getting more important not only for developers/engineers but also for general users. The JUI is the conference forcused on JavaScript User Interface techs.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://paulbakaus.com/?p=4&quot;&gt;Paul Bakaus&lt;/a&gt;, the jQuery UI Lead, will come from Germany. The leading Japanese JavaScript hackers will &lt;i&gt;counter (welcome)&lt;/i&gt; him. &lt;a href=&quot;http://translate.google.com/translate?u=http://mtl.recruit.co.jp/jui/form/&amp;langpair=ja%7Cen&quot;&gt;Register now!&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br clear=&quot;all&quot;&gt;&lt;u&gt;&lt;strong&gt;The JUI 2008 Tokyo&lt;/strong&gt;&lt;/u&gt;&lt;br /&gt;&lt;br /&gt;* Date: Monday, May 19, 2008&lt;br /&gt;* Time: 6:30pm - 9:00pm&lt;br /&gt;* Venue: 8-4-17 Ginza, Chuo-ku, Tokyo, JAPAN &lt;a href=&quot;http://map.doko.jp/m/sc=1141065/&quot;&gt;[map]&lt;/a&gt; &lt;a href=&quot;http://maps.google.com/?q=%93%8C%8B%9E%93s%92%86%89%9B%8B%E6%8B%E2%8D%C08-4-17%20JAPAN&quot;&gt;[map]&lt;/a&gt; &lt;br /&gt;* Host: The JUI Committee&lt;br /&gt;* Sponsor: RECRUIT Media Technology Labs&lt;br /&gt;* Contact: jui-committee [at] googlegroups.com&lt;br /&gt;* Facebook: &lt;a href=&quot;http://www.facebook.com/event.php?eid=11240373854&quot;&gt;http://www.facebook.com/event.php?eid=11240373854&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[ MAIN SPEAKERS ]&lt;/b&gt;&lt;br /&gt;* Paul Bakaus (from Germany) - &lt;a href=&quot;http://ui.jquery.com/&quot;&gt;http://ui.jquery.com/&lt;/a&gt;&lt;br /&gt;* amachang - &lt;a href=&quot;http://d.hatena.ne.jp/amachang/&quot;&gt;http://d.hatena.ne.jp/amachang/&lt;/a&gt;&lt;br /&gt;* inucara - &lt;a href=&quot;http://inucara.net/&quot;&gt;http://inucara.net/&lt;/a&gt;&lt;br /&gt;* iandeth - &lt;a href=&quot;http://iandeth.dyndns.org/mt/ian/&quot;&gt;http://iandeth.dyndns.org/mt/ian/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[ LIGHTNING TALKS ]&lt;/b&gt; &lt;sup style=&quot;color:red;&quot;&gt;updated&lt;/sup&gt;&lt;br /&gt;  * monjudoh - &lt;a href=&quot;http://d.hatena.ne.jp/monjudoh/&quot;&gt;http://d.hatena.ne.jp/monjudoh/&lt;/a&gt;&lt;br /&gt;  * noriaki - &lt;a href=&quot;http://blog.fulltext-search.biz/&quot;&gt;http://blog.fulltext-search.biz/&lt;/a&gt;&lt;br /&gt;  * Yoshiomi KURISU - &lt;a href=&quot;http://dev.chrisryu.com/&quot;&gt;http://dev.chrisryu.com/&lt;/a&gt;&lt;br /&gt;  * gugod (from Taiwan) - &lt;a href=&quot;http://blog.gugod.org/&quot;&gt;http://blog.gugod.org/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[ REGISTRATION ]&lt;/b&gt; (free of charge)&lt;br /&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/jui/form/&quot;&gt;http://mtl.recruit.co.jp/jui/form/&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://translate.google.com/translate?u=http://mtl.recruit.co.jp/jui/form/&amp;langpair=ja%7Cen&quot;&gt;English translated version&lt;/a&gt; of the form is also tested and available.&lt;br /&gt;&lt;br /&gt;&lt;b&gt;[ CONTACT ]&lt;/b&gt;&lt;br /&gt;* jui-committee [at] googlegroups.com&lt;br /&gt;&lt;br /&gt;&lt;center&gt;&lt;iframe src=&quot;http://map.doko.jp/blogparts/b/sc=1141065/sz=1/&quot; width=&quot;240&quot; height=&quot;400&quot; frameborder=&quot;0&quot; scrolling=&quot;no&quot;&gt;&lt;a href=&quot;http://www.doko.jp/search/shop/sc1141065/&quot;&gt;RECRUIT Ginza 8 Bldg.（G8）［Dokoiku?］&lt;/a&gt;&lt;/iframe&gt;&lt;/center&gt;&lt;br /&gt;&lt;small&gt;* Translated version of the &lt;a href=&quot;http://kawa.at.webry.info/200804/article_8.html&quot;&gt;original post&lt;/a&gt; of this is &lt;a href=&quot;http://translate.google.com/translate?langpair=ja%7Cen&amp;u=http://kawa.at.webry.info/200804/article_8.html&quot;&gt;here&lt;/a&gt;.&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;br /&gt;2008.05.19 LT speakers updated</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/05/yapcasia-2008-tokyo-dom-manipulation-by.html">
+<title>YAPC::Asia 2008 Tokyo - DOM manipulation by Wiimote/Gainer over HTTP</title>
+<link>http://kawanet.blogspot.com/2008/05/yapcasia-2008-tokyo-dom-manipulation-by.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-05-17T17:37:54.907+09:00</dc:date>
+<media:thumbnail url="http://bp3.blogger.com/_cgZUdkW7lzE/SC6Tfwi0wQI/AAAAAAAAASc/e18cibjzPn8/s72-c/yapc-wiimote.gif" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>I love YAPC::Asia which is really exciting Perl conference.&lt;br /&gt;At &lt;a href=&quot;http://conferences.yapcasia.org/ya2008/&quot;&gt;YAPC::Asia 2008 Tokyo&lt;/a&gt; of this week, I got first chance to give a talk in the conference.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/text/yapcasia/2008/tokyo.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp3.blogger.com/_cgZUdkW7lzE/SC6Tfwi0wQI/AAAAAAAAASc/e18cibjzPn8/s400/yapc-wiimote.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5201256793475694850&quot; /&gt;&lt;/a&gt;&lt;br /&gt;My talk was titled &lt;b&gt;&lt;a href=&quot;http://userdisk.webry.biglobe.ne.jp/001/614/44/N000/000/000/yapc-wiimote.gif&quot;&gt;DOM manipulation by Wiimote/Gainer over HTTP&lt;/a&gt;&lt;/b&gt;.&lt;br /&gt;Some slides are updated from &lt;a href=&quot;http://kawanet.blogspot.com/2008/05/osdctw-2008-dom-manipulation-by.html&quot;&gt;OSDC.TW 2008&lt;/a&gt;&apos;s one.&lt;br /&gt;I&apos;ll give this talk again for &lt;a href=&quot;http://conferences.mongueurs.net/yn2008/&quot;&gt;YAPC::NA 2008&lt;/a&gt; in Chicago next month.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://userdisk.webry.biglobe.ne.jp/001/614/44/N000/000/000/2494352683_448ec2de59.jpg&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/SC6TuQi0wRI/AAAAAAAAASk/rhKYPOPf7Js/s400/2494352683_448ec2de59.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5201257042583798034&quot; /&gt;&lt;/a&gt;&lt;br /&gt;The room was almost full and had some standees at last!&lt;br /&gt;Thank you for coming to listen my talk.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/u-suke/sets/72157605070697124/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SC6T5gi0wSI/AAAAAAAAASs/7tU3zYVN5Io/s400/2494351825_d0c9a8c112.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5201257235857326370&quot; /&gt;&lt;/a&gt;&lt;br /&gt;The venue of the conference was &lt;a href=&quot;http://www.titech.ac.jp/home.html&quot;&gt;Tokyo Institute of Technology&lt;/a&gt; at Ookayama, Tokyo.&lt;br /&gt;It had many trees in the campus and was really nice venue.&lt;br /&gt;The number of attendees was counted as more than 500 people.&lt;br /&gt;The committee announced that the conference cost &lt;a href=&quot;http://module.jp/dist/yapcasia2008-LT-oyama.pdf&quot;&gt;about three million yen&lt;/a&gt; (about USD 30,000) in total.&lt;br /&gt;I&apos;d love to say thank you for organizers and volunteers.&lt;br /&gt;&lt;br /&gt;As an aside, &lt;a href=&quot;http://www.recruit.co.jp/corporate/english/&quot;&gt;RECRUIT Co., Ltd.&lt;/a&gt; was one of the gold sponsors of the conference. It was honor of us. The &lt;a href=&quot;http://mtl.recruit.co.jp/about-en.html&quot;&gt;Media Technology Labs&lt;/a&gt; have a plan to back up such open source related conference and projects.&lt;br /&gt;&amp;nbsp;&lt;br /&gt;&lt;small&gt;* Translated version of the &lt;a href=&quot;http://kawa.at.webry.info/200805/article_2.html&quot;&gt;original post&lt;/a&gt; of this is &lt;a href=&quot;http://translate.google.com/translate?langpair=ja%7Cen&amp;amp;u=http://kawa.at.webry.info/200805/article_2.html&quot;&gt;here&lt;/a&gt;.&lt;/small&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/05/osdctw-2008-dom-manipulation-by.html">
+<title>OSDC.TW 2008 - DOM manipulation by Wiimote/Gainer over HTTP</title>
+<link>http://kawanet.blogspot.com/2008/05/osdctw-2008-dom-manipulation-by.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-05-17T16:28:18.908+09:00</dc:date>
+<dc:subject>event</dc:subject>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/SBs89pi_1nI/AAAAAAAAARk/lQW5LYi6brc/s72-c/osdc-tw-title%5B1%5D.gif" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>12th April, I gave a new talk titled &lt;a href=&quot;http://www.kawa.net/text/osdc.tw/2008/wiimote-dom.html&quot;&gt;&quot;DOM manipulation by Wiimote/Gainer over HTTP&quot;&lt;/a&gt; for the &lt;a href=&quot;http://www.osdc.tw/osdc2008/english/news_1/&quot;&gt;OSDC.TW 2008&lt;/a&gt; at Taipei.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/text/osdc.tw/2008/wiimote-dom.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SBs89pi_1nI/AAAAAAAAARk/lQW5LYi6brc/s400/osdc-tw-title%5B1%5D.gif&quot; border=&quot;0&quot; id=&quot;BLOGGER_PHOTO_ID_5195813624924329586&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I think manipulating DOM is a bother. That is why I have developed the &lt;a href=&quot;http://www.kawa.net/works/js/jkl/parsexml-e.html&quot;&gt;JKL.ParseXML&lt;/a&gt; and &lt;a href=&quot;http://www.kawa.net/works/js/xml/objtree-e.html&quot;&gt;XML.ObjTree&lt;/a&gt; libraries for my use. And I was involved in kinds of &lt;a href=&quot;http://kawanet.blogspot.com/2008/02/gainer-over-http-and-devicegainer.html&quot;&gt;real device web service&lt;/a&gt; techs in these days. The presentation could be an answer from me about DOM manipulation. ;-)&lt;br /&gt;&lt;br /&gt;The same titled talk will be soon made again in both of the &lt;a href=&quot;http://conferences.yapcasia.org/ya2008/&quot;&gt;YAPC::Asia 2008 Tokyo&lt;/a&gt; and the &lt;a href=&quot;http://conferences.mongueurs.net/yn2008/&quot;&gt;YAPC::NA 2008&lt;/a&gt; at Chicago.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;Special thanks:&lt;/i&gt;&lt;br /&gt;    * Hiroshi Nemoto - &lt;a href=&quot;http://code.google.com/p/wiimote-over-http/&quot;&gt;Wiimote HTTPd&lt;/a&gt;&apos;s co-author&lt;br /&gt;    * Hitoshi Amano (a.k.a. amachang) - &lt;a href=&quot;http://amachang.art-code.org/pr/&quot;&gt;S6 presentation tool&lt;/a&gt;&apos;s author&lt;br /&gt;    * Shuhei Terai (a.k.a. &lt;a href=&quot;http://www.trick7.com/blog/&quot;&gt;trick7&lt;/a&gt;) - Gainer&apos;s maestro&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/04/osdctw_2008.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/SBs9yJi_1oI/AAAAAAAAARs/qvRcJ6tYmeQ/s400/2407054836_4b2ab4b3d0%5B1%5D.jpg&quot; border=&quot;0&quot; id=&quot;BLOGGER_PHOTO_ID_5195814526867461762&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Anyway, this was my first time to get to Taiwan. I must say that the Formosa was the great island of good foods and kind full people. &lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/u-suke/sets/72157604481600832/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/SBtG1Ji_1pI/AAAAAAAAAR0/1GPfaHvd10I/s400/2408870275_95f88cc6b5%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5195824474011719314&quot; /&gt;&lt;/a&gt;&lt;br /&gt;After the conference, I moved to &lt;a href=&quot;http://blog.gugod.org/&quot;&gt;gugod&lt;/a&gt;&apos;s office in the Jhubei City which is next to Hsinchu. I love 小籠包 (Xiaolongbao) above, however, 潤餅 (Taiwanese crepe) at a street stand was really tasty.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://mtl.recruit.co.jp/blog/2008/04/osdctwsocialtext.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/SBtR0Zi_1qI/AAAAAAAAAR8/qf3fFPGollk/s400/2417340057_1e66043e0b%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5195836555754722978&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I&apos;d love to back to Taiwan again next year. &lt;a href=&quot;http://www.flickr.com/photos/u-suke/sets/72157604481600832/&quot;&gt;More photos...&lt;/a&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/05/translatable-presentation-with-s6.html">
+<title>Translatable presentation with the S6 JavaScript library</title>
+<link>http://kawanet.blogspot.com/2008/05/translatable-presentation-with-s6.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-05-03T06:02:00.335+09:00</dc:date>
+<dc:subject>javascript</dc:subject>
+<dc:subject>library</dc:subject>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/SBta8pi_1rI/AAAAAAAAASE/89-kTO3l9QI/s72-c/one-click-1%5B1%5D.gif" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>For &lt;a href=&quot;http://kawanet.blogspot.com/2008/05/osdctw-2008-dom-manipulation-by.html&quot;&gt;my talk at OSDC.TW 2008&lt;/a&gt; in Taiwan, I have added a couple of features to the &lt;a href=&quot;http://amachang.art-code.org/pr/&quot;&gt;S6&lt;/a&gt;. The S6 is a great presentation tool developed by &lt;a href=&quot;http://d.hatena.ne.jp/amachang/&quot;&gt;amachang&lt;/a&gt;, based on HTML/Web standards and implemented in pure JavaScript. (&lt;a href=&quot;http://www.kawa.net/works/js/s6/oneclick.html&quot;&gt;demo&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/works/js/s6/oneclick.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SBta8pi_1rI/AAAAAAAAASE/89-kTO3l9QI/s400/one-click-1%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5195846593093293746&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Writing a slide with the lib is entirely easy:&lt;br /&gt;&lt;pre&gt;&amp;lt;div class=&quot;s6_fadeScale&quot;&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;h3&amp;gt;page title here&amp;lt;/h3&amp;gt;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;lt;p&amp;gt;page body here&amp;lt;/p&amp;gt;&lt;br /&gt;&amp;lt;/div&amp;gt;&lt;/pre&gt;&lt;tt&gt;class=&quot;s6_fadeScale&quot;&lt;/tt&gt; means &lt;a href=&quot;http://www.kawa.net/works/js/s6/oneclick.html#page=6&quot;&gt;the fading/scaling effect &lt;/a&gt; on paging.&lt;br /&gt;&lt;br /&gt;&lt;a name=&quot;translation&quot;&gt;&lt;/a&gt;And the most noteworthy feature of this special version of the S6 is automatic translation feature which is powered by &lt;a href=&quot;http://code.google.com/apis/ajaxlanguage/&quot;&gt;Google AJAX Language API&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Just clicking a text node on the slide, it&apos;s translated into Japanese or another language in a moment. This is efficient for I18N, M17N and native language support. (&lt;a href=&quot;http://www.kawa.net/works/js/s6/oneclick.html#page=3&quot;&gt;demo&lt;/a&gt;)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/works/js/s6/oneclick.html#page=2&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/SBtc1Ji_1sI/AAAAAAAAASM/UAqEtRgweWU/s400/one-click-2%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5195848663267530434&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/works/js/s6/oneclick.html#page=2&quot;&gt;13 languages&lt;/a&gt;, &lt;span style=&quot;font-style:italic;&quot;&gt;Japanese, Korean, Traditional Chinese, Simplified Chinese, Arabic, Russian, Greek, German, Italian, Dutch, French, Spanish and Portuguese&lt;/span&gt;, are supported to be translated into. The number of languages is depend on it of the &lt;a href=&quot;http://translate.google.com/translate_t&quot;&gt;Google Translate&lt;/a&gt;. Reverse translation, ex. translating from Japanese to English, is also supported for granted.&lt;br /&gt;&lt;br /&gt;This means, with the lib, your presentation would get more familiar for the people who could not read the language of it.&lt;br /&gt;I&apos;ll welcome you giving cool talks in Japan with the lib. We Japanese don&apos;t need to be afraid of slides written in English anymore! :-)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/works/js/s6/s6-translate.zip&quot;&gt;Download it now&lt;/a&gt; and enjoy!&lt;br /&gt;&lt;br /&gt;&lt;small&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200804/article_7.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese and was &lt;a href=&quot;http://translate.google.com/translate?u=http://kawa.at.webry.info/200804/article_7.html&amp;langpair=ja%7Cen&quot;&gt;translatable&lt;/a&gt;.&lt;/i&gt;&lt;/small&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/04/event-opensocial-google-japans.html">
+<title>[Event] OpenSocial - Google JAPAN&apos;s developer roundtable #5</title>
+<link>http://kawanet.blogspot.com/2008/04/event-opensocial-google-japans.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-04-13T17:17:46.931+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/SAGuyvvplwI/AAAAAAAAARc/0zq6bSmKY7M/s72-c/2332475169_d04a297de9%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>At 14th March, I have participated in the Google JAPAN&apos;s developer roundtable as a panel member.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.flickr.com/photos/u-suke/2332475169/in/datetaken/&quot;&gt;&lt;img src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/SAGuyvvplwI/AAAAAAAAARc/0zq6bSmKY7M/s400/2332475169_d04a297de9%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; /&gt;&lt;/a&gt;&lt;br /&gt;The the great venue was the Aoyama Diamond Hall, Omote-Sando.&lt;br /&gt;&lt;br /&gt;The official report from Google is out:&lt;br /&gt;&lt;a href=&quot;http://www.google.co.jp/developer/prg/events/5-vol1.html&quot;&gt;Google JAPAN&apos;s developer roundtable #5 - OpenSocial&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;I introduced the &lt;a href=&quot;http://beta.doko.jp/sandbox/get_shop.html&quot;&gt;Dokoiku&apos;s experimental OpenSocial container&lt;/a&gt; implemented with &lt;a href=&quot;http://incubator.apache.org/shindig/&quot;&gt;Shindig&lt;/a&gt;.</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-feedpp/message/23">
+<title>Re: Bug in 0.33</title>
+<link>http://tech.groups.yahoo.com/group/xml-feedpp/message/23</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2008-03-02T18:11:32Z</dc:date>
+<description>I see. The feed has pubDate elements like: &lt;pubDate&gt;Sun, 02 March 2008 12:00:00 EST&lt;/pubDate&gt; XML::FeedPP modules expects: &lt;pubDate&gt;Sun, 02 Mar 2008 12:00:00</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-feedpp/message/21">
+<title>Re: Bug in 0.33</title>
+<link>http://tech.groups.yahoo.com/group/xml-feedpp/message/21</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2008-03-02T07:13:15Z</dc:date>
+<description>Greg, X::F::RSS::Item class does not have _w3cdtf function. However, The X::F::RSS::Item class inherits X::F::Item class which has _w3cdtf function. In this</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/02/gainer-over-http-and-devicegainer.html">
+<title>&quot;Gainer over HTTP&quot; and the Device::Gainer module for Perl</title>
+<link>http://kawanet.blogspot.com/2008/02/gainer-over-http-and-devicegainer.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-02-09T22:45:56.435+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/R62j9zpQSyI/AAAAAAAAAQs/cADQPVT-paQ/s72-c/120250204019616321477%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>&lt;a href=&quot;http://gainer.cc/&quot;&gt;Gainer&lt;/a&gt; is one of the hottest gadgets now.&lt;br /&gt;This weekend, I got the module lent by &lt;a href=&quot;http://trick7.com/blog/&quot;&gt;Shuhei Terai&lt;/a&gt;, my colleague and a great Flash/ActionScript developer a.k.a. &lt;i&gt;Trick7&lt;/i&gt;.&lt;br /&gt;&lt;blockquote&gt;Gainer is an environment for user interfaces and media installations. By using the Gainer environment, the user can handle sensors and/or actuators with a PC on various programming environments such as Flash, Max/MSP, Processing and so on.&lt;br /&gt;&lt;i&gt;&lt;a href=&quot;http://gainer.cc/Main/HomePage?userlang=en&quot;&gt;http://gainer.cc/Main/HomePage?userlang=en&lt;/a&gt;&lt;/i&gt;&lt;/blockquote&gt;&lt;br /&gt;Gainer supports some of LLs, ActionScript and Ruby (with &lt;a href=&quot;http://funnel.cc/Main/HomePage?userlang=en&quot;&gt;Funnel&lt;/a&gt;).&lt;br /&gt;Perl is not supported yet unfortunately.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R62j9zpQSyI/AAAAAAAAAQs/cADQPVT-paQ/s1600-h/120250204019616321477%5B1%5D.jpg&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R62j9zpQSyI/AAAAAAAAAQs/cADQPVT-paQ/s400/120250204019616321477%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5164964629894417186&quot; /&gt;&lt;/a&gt;&lt;br /&gt;So I wrote a Perl module named Device::Gainer and submitted on CodeRepos:&lt;br /&gt;&lt;a href=&quot;http://svn.coderepos.org/share/lang/perl/Device-Gainer/trunk/lib/Device/Gainer.pm&quot;&gt;http://svn.coderepos.org/share/lang/perl/Device-Gainer/trunk/lib/Device/Gainer.pm&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;SYNOPSIS:&lt;pre&gt;use Device::Gainer;&lt;br /&gt;my $gainer = Device::Gainer-&amp;gt;new( host =&amp;gt; &apos;192.168.1.xx&apos; );&lt;br /&gt;$gainer-&amp;gt;on_pressed( sub { print &quot;PRESS\n&quot;; } );&lt;br /&gt;$gainer-&amp;gt;on_released( sub { print &quot;RELEASE\n&quot;; } );&lt;br /&gt;$gainer-&amp;gt;turn_on_led();&lt;br /&gt;$gainer-&amp;gt;turn_off_led();&lt;/pre&gt;The module has enough functionality for my purpose, however,&lt;br /&gt;it&apos;s not completed especially for documents and tests.&lt;br /&gt;The following methods are supported currently:&lt;br /&gt;&lt;br /&gt;&lt;table&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;Method&lt;/td&gt;&lt;td&gt;Command&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;turn_on_led&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;h*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;turn_off_led&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;l*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;digital_output&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;D____*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;set_high&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;H_*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;set_low&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;L_*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;peek_digital_input&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;R*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;analog_output&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;a___*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;peek_analog_input&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;I*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;on_pressed&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;N*&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;&lt;tt&gt;on_released&lt;/tt&gt;&lt;/td&gt;&lt;td&gt;F*&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;br /&gt;Anyway, I wrote a proxy server for &quot;&lt;span style=&quot;font-weight:bold;&quot;&gt;Gainer over HTTP&lt;/span&gt;&quot; using the Device::Gainer and &lt;a href=&quot;http://naoya.g.hatena.ne.jp/naoya/20061113/1163418064&quot;&gt;POE::Component::Server::HTTP&lt;/a&gt;  module.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R62kCTpQSzI/AAAAAAAAAQ0/X54qjTOLyCk/s1600-h/gainer-httpd%5B1%5D.gif&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R62kCTpQSzI/AAAAAAAAAQ0/X54qjTOLyCk/s400/gainer-httpd%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5164964707203828530&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Now we can use the Gainer through the Internet!&lt;br /&gt;This means the &lt;b&gt;Gainer Ajax&lt;/b&gt; tech can be the hot topics in the Ajax/JavaScript developers as well...&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R62kGzpQS0I/AAAAAAAAAQ8/rPWtH7S5aIY/s1600-h/gainer-over-http%5B1%5D.gif&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R62kGzpQS0I/AAAAAAAAAQ8/rPWtH7S5aIY/s400/gainer-over-http%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5164964784513239874&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I failed to use &lt;a href=&quot;http://search.cpan.org/dist/Win32-SerialPort/lib/Win32/SerialPort.pm&quot;&gt;Win32::SerialPort&lt;/a&gt; module to connect to Gainer module directly.&lt;br /&gt;&lt;br /&gt;&lt;i&gt;The &lt;a href=&quot;http://kawa.at.webry.info/200802/article_1.html&quot;&gt;original&lt;/a&gt; &lt;a href=&quot;http://kawa.at.webry.info/200802/article_2.html&quot;&gt;posts&lt;/a&gt; of this were written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/01/event-web-20-expo-tokyo-javascript-labs.html">
+<title>[Event] Web 2.0 EXPO Tokyo  &quot;JavaScript Labs&quot;</title>
+<link>http://kawanet.blogspot.com/2008/01/event-web-20-expo-tokyo-javascript-labs.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-02-05T01:07:02.844+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/R463Ejg8tVI/AAAAAAAAAOE/YmDsUPDqT6o/s72-c/web2.0expo-takesako-1%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>I gave a presentation on &lt;a href=&quot;http://www.cmptech.jp/web2expo/eng/index.html&quot;&gt;Web 2.0 EXPO Tokyo&lt;/a&gt; (day 1) with &lt;a href=&quot;http://labs.cybozu.co.jp/blog/takesako/&quot;&gt;TAKESAKO&lt;/a&gt; and &lt;a href=&quot;http://d.hatena.ne.jp/amachang/&quot;&gt;amachang&lt;/a&gt;. This talk was titled as &quot;JavaScript Labs&quot; and introduced the cutting-edge JavaScript technical topics and what we had interest for now.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://flickr.com/photos/takesako/sets/72157603192469273/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R463Ejg8tVI/AAAAAAAAAOE/YmDsUPDqT6o/s400/web2.0expo-takesako-1%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156259912266593618&quot; /&gt;&lt;/a&gt;&lt;div style=&quot;text-align: center&quot;&gt;(photo taken by &lt;a href=&quot;http://flickr.com/photos/takesako/sets/72157603192469273/&quot;&gt;TAKESAKO&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;At my part of the session, I talked about JavaScript&apos;s today and its future. And also I focused into my attending to Facebook and OpenSocial.&lt;br /&gt;I&apos;m wanting to see them. FBJS is early days, and OpenSocial is still version 0.5 and full of uncertainty at this time though.&lt;br /&gt;I showed tiny demo application for OpenSocial:&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R463KDg8tWI/AAAAAAAAAOM/t8ePkXJMflE/s1600-h/web2.0expo-ppt-2%5B1%5D.jpg&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R463KDg8tWI/AAAAAAAAAOM/t8ePkXJMflE/s400/web2.0expo-ppt-2%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156260006755874146&quot; /&gt;&lt;/a&gt;&lt;br /&gt;The room we made a talk was soon fulled with about 100 audiences.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R463PDg8tXI/AAAAAAAAAOU/b76NNL2-QJU/s1600-h/P1070935-400%5B1%5D.jpg&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R463PDg8tXI/AAAAAAAAAOU/b76NNL2-QJU/s400/P1070935-400%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156260092655220082&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Thank you all very much for attending our session and see you soon again!&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://flickr.com/photos/takesako/2037057087/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R6c3d2_0X-I/AAAAAAAAAQM/9pZyHxZGMv0/s400/2037057087_a137a375d6%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5163156483922485218&quot; /&gt;&lt;/a&gt;&lt;div style=&quot;text-align: center&quot;&gt;(photo also taken by &lt;a href=&quot;http://flickr.com/photos/takesako/sets/72157603192469273/&quot;&gt;TAKESAKO&lt;/a&gt;)&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200711/article_10.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-feedpp/message/18">
+<title>Re: Multiple category documentation in XML::FeedPP misleading</title>
+<link>http://tech.groups.yahoo.com/group/xml-feedpp/message/18</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2008-02-02T06:26:17Z</dc:date>
+<description>Antti and all, Hello from Japan. Thanks for your mail and suggestions. About the enclosure element for podcasting, I wrote an example only in the page below</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/01/jsonp-se-jsonp-static-emulation.html">
+<title>[JSONP-SE] JSONP Static Emulation</title>
+<link>http://kawanet.blogspot.com/2008/01/jsonp-se-jsonp-static-emulation.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-01-26T03:48:41.099+09:00</dc:date>
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>JSONP, JSON with Padding, is available not only with dynamic contents from server-side CGI etc., but also with static contents, just static files.&lt;br /&gt;&lt;br /&gt;However, such static JSONP files do NOT allow to change Padding, name of callback function.&lt;br /&gt;JSON with FIXED padding is a kind of JSONP? It&apos;s just a mere JavaScript file?&lt;br /&gt;&lt;pre&gt;callback(&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{ foo: &apos;HOGE&apos;, bar: &apos;POMU&apos; } // JSON content&lt;br /&gt;);&lt;/pre&gt;You may need to manage a queue when you handle multiple JSONP calls.&lt;br /&gt;&lt;br /&gt;Now, the JSONP-SE is the solution for this.&lt;br /&gt;JSON-SE means JSON Static Emulation.&lt;br /&gt;Change the padding, &quot;callback&quot; in code above, to the six lines below:&lt;br /&gt;&lt;pre&gt;( function (data) {&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var list = document.getElementsByTagName( &apos;script&apos; );&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var temp = list[list.length-1].src.match( /[\?\&amp;]callback=([A-Za-z0-9\_\.\[\]]*)/ );&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var func = temp ? temp[1] : &apos;callback&apos;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;eval( func+&quot;(data)&quot; );&lt;br /&gt;})(&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;{ foo: &apos;HOGE&apos;, bar: &apos;POMU&apos; } // JSON content&lt;br /&gt;);&lt;/pre&gt;&lt;br /&gt;This is still a static file, however, you could specify any callback function name you like.&lt;br /&gt;The JSON content in JSON-SE is exactly the same as it in JSON.&lt;br /&gt;&lt;br /&gt;You could load JSONP-SE file via &amp;lt;script&amp;gt; element in &amp;lt;body&amp;gt; element.&lt;br /&gt;&lt;pre&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;test.js?callback=hello&quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/pre&gt;The callback function &quot;hello&quot; would be called.&lt;br /&gt;&lt;pre&gt;&amp;lt;script type=&quot;text/javascript&quot; src=&quot;test.js&quot;&amp;gt;&amp;lt;/script&amp;gt;&lt;/pre&gt;Without &lt;tt&gt;?callback=...&lt;/tt&gt; argument is not specified, the default function &quot;callback&quot; would be called instead.&lt;br /&gt;&lt;br /&gt;You could generate &amp;lt;script&amp;gt; element via DOM.&lt;br /&gt;&lt;pre&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;var script = document.createElement( &apos;script&apos; );&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;script.charset = &apos;utf-8&apos;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;script.type = &apos;text/javascript&apos;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;script.src = &apos;test.js?callback=hello&apos;;&lt;br /&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;document.lastChild.appendChild( script );&lt;/pre&gt;JSONP-SE must be loaded in the bottom of the dom tree.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;Such trick, fetching argument from the src attribute of the script element loaded, is used in &lt;a href=&quot;http://script.aculo.us/&quot;&gt;script.aculo.us&lt;/a&gt; as well.&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200801/article_13.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/perl/romanize/romanize-e.html">
+<title>[Perl] Lingua::*::Romanize::* - Romanization of CJK characters</title>
+<link>http://www.kawa.net/works/perl/romanize/romanize-e.html</link>
+<dc:date>2008-01-20T19:30:00+09:00</dc:date>
+<dc:subject>Perl</dc:subject>
+<description>Lingua::*::Romanize::* modules generate roman letteres from CJK characters.
+Lingua::ZH::Romanize::Pinyin module parses
+Chinese
+characters, both of Mandarin and Cantonese.
+Lingua::JA::Romanize::Japanese module parses
+Japanese
+characters, both of Kanji and Kana.
+Lingua::KO::Romanize::Hangul module parses
+Korean
+characters, Hangul.</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/01/event-tokyo-actionscript-meetup-2008-f.html">
+<title>[Event] Tokyo ActionScript Meetup 2008 F/ Colin Moock</title>
+<link>http://kawanet.blogspot.com/2008/01/event-tokyo-actionscript-meetup-2008-f.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-01-17T13:47:24.146+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/R47Ecjg8tcI/AAAAAAAAAO8/6a0sjl3JK90/s72-c/120050616053016410803%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>When I heard that &lt;a href=&quot;http://moock.org/blog/&quot;&gt;Colin Moock&lt;/a&gt; would come to Japan to make a talk in &lt;a href=&quot;http://www.event-web.net/as3/&quot;&gt;a seminar event&lt;/a&gt; sponsored by Adobe Systems Inc., it hit me that we could welcome and &lt;i&gt;counter&lt;/i&gt; him with top ActionScript engineers in Japan!&lt;br /&gt;I&apos;d like to show him the cutting-edge ActionScript techs developed in Japan, are not introduced yet to the world in English, unfortunately.&lt;br /&gt;&lt;br /&gt;As the result, at the day of January 16, the &lt;strong&gt;Tokyo ActionScript Meetup 2008 F/ Colin Moock&lt;/strong&gt; was taken a place in Adobe Japan.&lt;br /&gt;Very deep tech talks about ActionScript 2, 3 &amp;amp; also 4(!) were told.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://www.flickr.com/photos/u-suke/2197961384/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R47Ecjg8tcI/AAAAAAAAAO8/6a0sjl3JK90/s400/120050616053016410803%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156274618234615234&quot; /&gt;&lt;/a&gt;&lt;div style=&quot;text-align:center&quot;&gt;Colin (left) and Ota-san.&lt;/div&gt;&lt;br /&gt;The last of all, I asked him some of questions invited by the audiences on ahead.&lt;br /&gt;&lt;br /&gt;I think the most of audiences including me would surprised that he could speak Japanese much fluently. &lt;br /&gt;As &lt;a href=&quot;http://www.wall.org/~larry/&quot;&gt;Larry Wall&lt;/a&gt; could speak JavaScript as well, such great programmers would be good at speaking multiple natural languages as well as programming languages.&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;h3&gt;Tokyo ActionScript Meetup 2008 F/ Colin Moock&lt;/h3&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;KEYNOTE &lt;/span&gt;&lt;br /&gt;   * Colin Moock &lt;a href=&quot;http://moock.org/&lt;br /&gt;&quot;&gt;http://moock.org/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;MAIN TALKS&lt;/span&gt;&lt;br /&gt;   * yossy &lt;a href=&quot;http://www.be-interactive.org/&lt;br /&gt;&quot;&gt;http://www.be-interactive.org/&lt;/a&gt;&lt;br /&gt;   * munegon &lt;a href=&quot;http://void.heteml.jp/blog/&lt;br /&gt;&quot;&gt;http://void.heteml.jp/blog/&lt;/a&gt;&lt;br /&gt;   * id:secondlife &lt;a href=&quot;http://d.hatena.ne.jp/secondlife/&lt;br /&gt;&quot;&gt;http://d.hatena.ne.jp/secondlife/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;LIGHTNING TALKS&lt;/span&gt;&lt;br /&gt;   * Muraken &lt;a href=&quot;http://www.muraken.biz/&quot;&gt;http://www.muraken.biz/&lt;/a&gt; &amp;amp; tera &lt;a href=&quot;http://www.trick7.com/blog/&lt;br /&gt;&quot;&gt;http://www.trick7.com/blog/&lt;/a&gt;&lt;br /&gt;   * Iwasaki &lt;a href=&quot;http://www.cosmo-int.com/&lt;br /&gt;&quot;&gt;http://www.cosmo-int.com/&lt;/a&gt;&lt;br /&gt;   * Kobayashi &lt;a href=&quot;http://d.hatena.ne.jp/yukoba/&lt;br /&gt;&quot;&gt;http://d.hatena.ne.jp/yukoba/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style=&quot;font-weight:bold;&quot;&gt;QUESTIONS AND ANSWERS&lt;/span&gt;&lt;br /&gt;   * Q: Kawasaki &lt;a href=&quot;http://www.kawa.net/&quot;&gt;http://www.kawa.net/&lt;/a&gt; on behalf of the all audiences&lt;br /&gt;   * A: Colin Moock &lt;a href=&quot;http://moock.org/&lt;br /&gt;&quot;&gt;http://moock.org/&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;We much enjoyed the session with you.&lt;br /&gt;Thank you, Colin! See you again!&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200801/article_12.html&quot;&gt;original longer post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2008/01/hatsumode-at-sanno-hie-shrine.html">
+<title>Hatsumode at the Sanno Hie Shrine</title>
+<link>http://kawanet.blogspot.com/2008/01/hatsumode-at-sanno-hie-shrine.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-01-17T11:54:23.506+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/R47BXjg8tbI/AAAAAAAAAO0/uou8RO6Ek68/s72-c/2187620662_03b5d87c1c%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>At the first business day of this year, I and my all colleagues went to the Sanno Hie Shrine for &lt;a href=&quot;http://en.wikipedia.org/wiki/Hatsum%C5%8Dde&quot;&gt;Hatsumode&lt;/a&gt;.&lt;br /&gt;This is the most important ritual on the begging of new year, I think.&lt;br /&gt;We prayed for our fine health and also our success in business.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://www.flickr.com/photos/u-suke/2187620662/&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/R47BXjg8tbI/AAAAAAAAAO0/uou8RO6Ek68/s400/2187620662_03b5d87c1c%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156271233800385970&quot; /&gt;&lt;/a&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/11/event-sun-tech-days-2007-in-tokyo.html">
+<title>[Event] Sun Tech Days 2007 in Tokyo</title>
+<link>http://kawanet.blogspot.com/2007/11/event-sun-tech-days-2007-in-tokyo.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2008-01-17T11:42:02.988+09:00</dc:date>
+<media:thumbnail url="http://bp0.blogger.com/_cgZUdkW7lzE/R469ZDg8tYI/AAAAAAAAAOc/WyADg6AQtUA/s72-c/P1070848-400%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>I gave a presentation at the last day of the &lt;a href=&quot;http://jp.sun.com/company/events/techdays/&quot;&gt;Sun Tech Days 2007 in Tokyo&lt;/a&gt; with &lt;a href=&quot;http://www.eisbahn.jp/yoichiro/2007/11/sun_tech_days_2007_mash_up.html&quot;&gt;Tanaka-san&lt;/a&gt; who won three prizes on &lt;a href=&quot;http://jp.sun.com/mashupaward/&quot;&gt;Mash up Award 3rd&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R469ZDg8tYI/AAAAAAAAAOc/WyADg6AQtUA/s1600-h/P1070848-400%5B1%5D.jpg&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R469ZDg8tYI/AAAAAAAAAOc/WyADg6AQtUA/s400/P1070848-400%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156266861523678594&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I talked about what &lt;a href=&quot;http://mtl.recruit.co.jp/about-en.html&quot;&gt;Media Technology Labs&lt;/a&gt; was challenging for.&lt;br /&gt;&lt;br /&gt;&lt;a onblur=&quot;try {parent.deselectBloggerImageGracefully();} catch(e) {}&quot; href=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R469mDg8taI/AAAAAAAAAOs/XCdOQ6G2q0o/s1600-h/page01%5B1%5D.jpg&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/R469mDg8taI/AAAAAAAAAOs/XCdOQ6G2q0o/s400/page01%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5156267084861978018&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200711/article_9.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-feedpp/message/17">
+<title>Re: FeedPP: RFC 822 time zones in pubDates</title>
+<link>http://tech.groups.yahoo.com/group/xml-feedpp/message/17</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2008-01-14T13:07:26Z</dc:date>
+<description>... XML::FeedPP updated is available via following: http://xml-treepp.googlecode.com/svn/trunk/XML-FeedPP/lib/XML/FeedPP.pm </description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/romanize/hangul-e.html">
+<title>[Ajax] Romanization of Korean language (Hangul)</title>
+<link>http://www.kawa.net/works/ajax/romanize/hangul-e.html</link>
+<dc:date>2008-01-14T02:11:00+09:00</dc:date>
+<dc:subject>Ajax</dc:subject>
+<description>Hangul is phonemic characters used in Korea.
+Enter some Korean phrases and push the button below.
+E.g. you can now sing songs which lyrics are written in Korean!
+This page is implemented by ajax and POX over HTTP.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/perl/treepp/treepp-e.html">
+<title>[Perl] XML::TreePP - A pure Perl implementation for parsing/writing xml file</title>
+<link>http://www.kawa.net/works/perl/treepp/treepp-e.html</link>
+<dc:date>2008-01-05T01:12:00+09:00</dc:date>
+<dc:subject>Perl</dc:subject>
+<description>XML::TreePP module parses XML file and expand it for a hash tree.
+And also this generates XML file from a hash tree.
+This module is a pure Perl implementation.
+You can also fetch an XML file from remote web server
+like an XMLHttpRequest object in JavaScript language.
+I think that XML::TreePP is enough fast and easy to use!
+Released version:
+XML-TreePP-0.33.tar.gz
+TARGZ
+CPAN
+Subversion repository:
+http://xml-treepp.googlecode.com/svn/trunk/XML-TreePP/
+SVN
+Documents:
+README
+README
+Changes
+Changes</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/25">
+<title>Re: [rt.cpan.org #30187] Encoding error with uncommon XML data</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/25</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-11-11T10:25:51Z</dc:date>
+<description>@xatrix thank you for your feature requesting! I released XML::TreePP version 0.32. http://www.kawa.net/works/perl/treepp/treepp-e.html </description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/11/event-john-resig-and-future-of.html">
+<title>[Event] John Resig and The Future of JavaScript</title>
+<link>http://kawanet.blogspot.com/2007/11/event-john-resig-and-future-of.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-04T00:10:15.475+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/RyyLs2nZhKI/AAAAAAAAAH8/4qiF-5rkzmI/s72-c/P1070818-320%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>John Resig now comes to Tokyo! Many Japanese JavaScript developers love him and his product of jQuery.js which is the coooolest JavaScript library in the world.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200711/article_3.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/RyyLs2nZhKI/AAAAAAAAAH8/4qiF-5rkzmI/s400/P1070818-320%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128627678359422114&quot; /&gt;&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://shibuyajs.org/articles/2007/10/16/the-future-of-javascript-presented-by-mozilla-shibuya-js&quot;&gt;Shibuya.JS&lt;/a&gt; had a joined event with &lt;a href=&quot;http://www.mozilla-japan.org/about/&quot;&gt;Mozilla Japan&lt;/a&gt; to talk to him about ECMAScript 4 and the future of JavaScript. He gave us the keynote speech in the event.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200711/article_3.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/RyyLxWnZhLI/AAAAAAAAAIE/Y80F8C_iPP8/s400/P1070802-320%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128627755668833458&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Amachang, one of the leading JavaScript engineers in Japan, made some high-level comebacks.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200711/article_3.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/RyyL1WnZhMI/AAAAAAAAAIM/22bl0b3dDZQ/s400/P1070827-320%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128627824388310210&quot; /&gt;&lt;/a&gt;&lt;br /&gt;A quorum of Shibuya.JS members introduced some of awesome JavaScript applications developed in Japan.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;* The following ustream movies are recorded by &lt;a href=&quot;http://piro.sakura.ne.jp/entrance/entrance.html#english&quot;&gt;Piro&lt;/a&gt;.&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.ustream.tv/eH16bC4yHWehv1EgrQcHGA.usv&quot;&gt;Part #1&lt;/a&gt; - John&apos;s keynote speech&lt;br /&gt;&lt;center&gt;&lt;embed width=&quot;320&quot; height=&quot;262&quot; flashvars=&quot;autoplay=false&quot; src=&quot;http://ustream.tv/eH16bC4yHWehv1EgrQcHGA.usv&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; /&gt;&lt;/center&gt;&lt;br /&gt;&lt;a href=&quot;http://ustream.tv/ilNUQTkqMl3,AxFCKG54q4zqTgbjKgF..usv&quot;&gt;Part #2&lt;/a&gt; - Shibuya.JS&apos;s talks and Q&amp;amp;A&lt;br /&gt;&lt;center&gt;&lt;embed width=&quot;320&quot; height=&quot;262&quot; flashvars=&quot;autoplay=false&quot; src=&quot;http://ustream.tv/ilNUQTkqMl3,AxFCKG54q4zqTgbjKgF..usv&quot; type=&quot;application/x-shockwave-flash&quot; wmode=&quot;transparent&quot; &gt;&lt;/embed&gt;&lt;/center&gt;&lt;br /&gt;We very very enjoyed with John. Thank you and see you again!&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200711/article_3.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/RyyL5WnZhNI/AAAAAAAAAIU/VubvlpHdjEc/s400/P1070834-320%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128627893107786962&quot; &gt;&lt;/embed&gt;&lt;/a&gt;&lt;br /&gt;We&apos;re together closing our eyes. |-)&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200711/article_3.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/10/gugod-and-ebisujs.html">
+<title>gugod and Ebisu.js</title>
+<link>http://kawanet.blogspot.com/2007/10/gugod-and-ebisujs.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T23:30:53.434+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/Ryxz72nZhEI/AAAAAAAAAHQ/EGy-ebN8QBg/s72-c/P1070333-640%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>Kang-min Liu, a.k.a. &lt;a href=&quot;http://blog.gugod.org/&quot;&gt;gugod&lt;/a&gt;, came to Japan. After we took a lunch at Ginza district, he taught me about his current project &lt;a href=&quot;http://code.handlino.com/wiki/Ebisu&quot;&gt;Ebisu.js&lt;/a&gt; which a library implementing &quot;custom events&quot; handler in JavaScript.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200710/article_3.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/Ryxz72nZhEI/AAAAAAAAAHQ/EGy-ebN8QBg/s400/P1070333-640%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128601547778393154&quot; /&gt;&lt;/a&gt;&lt;br /&gt;We both Asian people talked in English. However, it&apos;s probably true that we could make communication smoother after we start to write JavaScript language. :-)&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200710/article_3.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/Ryx0W2nZhFI/AAAAAAAAAHY/BA43sSi5DZs/s400/P1070332-640%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128602011634861138&quot; /&gt;&lt;/a&gt;&lt;br /&gt;All JavaScript engineers in the world, let me know when you come to travel to Tokyo. We will welcome you. Let&apos;s talk thoroughly about JavaScript.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200710/article_3.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/11/event-panel-discussion-about-web20s.html">
+<title>[Event] Panel discussion about Web2.0&apos;s status and its movement</title>
+<link>http://kawanet.blogspot.com/2007/11/event-panel-discussion-about-web20s.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T23:23:37.311+09:00</dc:date>
+<media:thumbnail url="http://bp3.blogger.com/_cgZUdkW7lzE/RyyDZGnZhII/AAAAAAAAAHw/nbrNbSH67f4/s72-c/P1070763-400%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>I participated a panel discussion in a seminar event sponsored by &lt;a href=&quot;http://www.meti.go.jp/english/&quot;&gt;METI&lt;/a&gt; and some other organizations in Japan. They say October is &lt;a href=&quot;http://www.jipdec.jp/gekkan/about/index.html&quot;&gt;the month for informatization&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200711/article_1.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp3.blogger.com/_cgZUdkW7lzE/RyyDZGnZhII/AAAAAAAAAHw/nbrNbSH67f4/s400/P1070763-400%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128618542963983490&quot; /&gt;&lt;/a&gt;&lt;br /&gt;November 1st at &lt;a href=&quot;http://www.softopia.or.jp/en/index.html&quot;&gt;Softpia Japan&lt;/a&gt; in Ogaki city, Gifu pref.&lt;br /&gt;&lt;br /&gt;&lt;small&gt;* METI is the Ministry of Economy, Trade and Industry.&lt;/small&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200711/article_1.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/10/travel-germany-switzerland-and-czech.html">
+<title>[Travel] Germany, Switzerland and Czech Republic</title>
+<link>http://kawanet.blogspot.com/2007/10/travel-germany-switzerland-and-czech.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T22:47:50.179+09:00</dc:date>
+<media:thumbnail url="http://bp2.blogger.com/_cgZUdkW7lzE/Ryx3r2nZhGI/AAAAAAAAAHg/zde1vW43BDQ/s72-c/dsc_0484%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>My wife, Yumi, and I love traveling around the world.&lt;br /&gt;We went to three countries at this time:&lt;br /&gt;1. Germany to celebrate my friends wedding&lt;br /&gt;2. Switzerland to hike looking up to the Matterhorn&lt;br /&gt;3. Czech Republic to beer-up beer!&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/photo/200710-europe/index.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp2.blogger.com/_cgZUdkW7lzE/Ryx3r2nZhGI/AAAAAAAAAHg/zde1vW43BDQ/s400/dsc_0484%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128605670946997346&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Here are some of articles written in Japanese.&lt;br /&gt;&lt;a href=&quot;http://www.kawa.net/photo/200710-europe/index.html&quot;&gt;Digest post with photos&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200710/article_8.html&quot;&gt;Railway from Konstanz to Zermatt&lt;/a&gt;&lt;br /&gt;&lt;a href=&quot;http://umit.kawa.net/blog/archives/2007/10/&quot;&gt;Other blog posts by Yumi&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200710/article_7.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/Ryx3vmnZhHI/AAAAAAAAAHo/bAUpMc2dwtU/s400/worldmap-200710%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128605735371506802&quot; /&gt;&lt;/a&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/09/event-shuccho-shibuyajs-24-in-mozilla.html">
+<title>[Event] &quot;Shuccho Shibuya.JS 24&quot; in Mozilla 24</title>
+<link>http://kawanet.blogspot.com/2007/09/event-shuccho-shibuyajs-24-in-mozilla.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T22:08:38.958+09:00</dc:date>
+<media:thumbnail url="http://bp1.blogger.com/_cgZUdkW7lzE/RyxvimnZhDI/AAAAAAAAAHI/8CIhpDGwpZs/s72-c/p1070222-640%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>&lt;a href=&quot;http://shibuyajs.org/articles/2007/08/24/Shibuya-js-24&quot;&gt;Shibuya.JS&lt;/a&gt; organized a event in &lt;a href=&quot;http://www.mozilla24.com/en-US/about/&quot;&gt;Mozilla 24&lt;/a&gt;.&lt;br /&gt;I also had time for a lightning talk titled &quot;Facebook.JS.&quot;&lt;br /&gt;&lt;br /&gt;&lt;center&gt;&lt;div align=&quot;center&quot; style=&quot;width:425px;text-align:center&quot; id=&quot;__ss_111891&quot;&gt;&lt;object style=&quot;margin:0px&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;param name=&quot;movie&quot; value=&quot;http://s3.amazonaws.com/slideshare/ssplayer2.swf?doc=facebookjs-javascript159&quot;/&gt;&lt;param name=&quot;allowFullScreen&quot; value=&quot;true&quot;/&gt;&lt;param name=&quot;allowScriptAccess&quot; value=&quot;always&quot;/&gt;&lt;embed src=&quot;http://s3.amazonaws.com/slideshare/ssplayer2.swf?doc=facebookjs-javascript159&quot; type=&quot;application/x-shockwave-flash&quot; allowscriptaccess=&quot;always&quot; allowfullscreen=&quot;true&quot; width=&quot;425&quot; height=&quot;355&quot;&gt;&lt;/embed&gt;&lt;/object&gt;&lt;/div&gt;&lt;/center&gt;&lt;br /&gt;To my regret, currently in Japan, here are only few developers working for Facebook applications. I hope that more Japanese developers looked to the Facebook.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200709/article_4.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/RyxvimnZhDI/AAAAAAAAAHI/8CIhpDGwpZs/s400/p1070222-640%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128596715940185138&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Note: Shibuya.JS is a JavaScript developers community in Tokyo, Japan. This user group have made some events to demonstrate cutting-edge technics of JavaScript.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200709/article_4.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/09/tsukurubu-flash-and-ajax-best-websites.html">
+<title>Tsukurubu - Flash and Ajax Best Websites Selection 20</title>
+<link>http://kawanet.blogspot.com/2007/09/tsukurubu-flash-and-ajax-best-websites.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T21:41:35.798+09:00</dc:date>
+<media:thumbnail url="http://bp1.blogger.com/_cgZUdkW7lzE/RyxhQmnZhAI/AAAAAAAAAGw/SgVlg-03dtk/s72-c/tkrb-ajax-400%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>I had a round-table talk titled &lt;a href=&quot;http://www.tkrb.jp/modules/feature0/index.php?id=12&quot;&gt;&quot;Flash &amp;amp; AJax Best Websites Selection 20&quot;&lt;/a&gt; for the Tsukurubu which is one of &lt;a href=&quot;http://mtl.recruit.co.jp/about-en.html&quot;&gt;Media Technology Labs&lt;/a&gt;&apos; projects to support web developers community. We discussed advanced 10 websites each which use Flash and Ajax technics in Japan and the world. In addition to major well-known websites, we chose some minor but absorbing websites as well.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.tkrb.jp/modules/feature0/index.php?id=12&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/RyxhQmnZhAI/AAAAAAAAAGw/SgVlg-03dtk/s400/tkrb-ajax-400%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128581013539750914&quot; /&gt;&lt;/a&gt;&lt;br /&gt;PS)&lt;br /&gt;I missed &lt;a href=&quot;http://www.bascule.co.jp/&quot;&gt;Bascule Inc.&lt;/a&gt;&apos;s website which had awesome tall flash screen.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200709/article_2.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/09/event-web-service-business-and-mashing.html">
+<title>[Event] X-over Development Conference 2007</title>
+<link>http://kawanet.blogspot.com/2007/09/event-web-service-business-and-mashing.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T21:39:21.656+09:00</dc:date>
+<media:thumbnail url="http://bp0.blogger.com/_cgZUdkW7lzE/RyxgdWnZg_I/AAAAAAAAAGo/Gbm2KR5kgjw/s72-c/xdev-title-400%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>I gave a presentation at the &lt;a href=&quot;http://itpro.nikkeibp.co.jp/ev/xdev/index.html&quot;&gt;X-over Development Conference 2007&lt;/a&gt; in Tokyo. My talk is titled as &lt;a href=&quot;http://www.tkrb.jp/modules/feature0/index.php?id=16&quot;&gt;Web Service / Business and Mashing up&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://www.tkrb.jp/modules/feature0/index.php?id=16&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/RyxgdWnZg_I/AAAAAAAAAGo/Gbm2KR5kgjw/s400/xdev-title-400%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128580133071455218&quot; /&gt;&lt;/a&gt;&lt;br /&gt;In the talk, I mentioned the Facebook platform and Google Universal Gadgets in iGoogle.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200709/article_1.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/10/event-ma3-participants-session.html">
+<title>[Event] MA3 Participants Session</title>
+<link>http://kawanet.blogspot.com/2007/10/event-ma3-participants-session.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T21:36:58.555+09:00</dc:date>
+<media:thumbnail url="http://bp1.blogger.com/_cgZUdkW7lzE/RyxpPmnZhCI/AAAAAAAAAHA/hadSQNvdQdk/s72-c/P1070252-400%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>September 22th was the &lt;a href=&quot;http://www.onewebday.org/&quot;&gt;OneWebDay&lt;/a&gt;. At this day, we hosted the MA3 Participants Session in Media Technology Labs, Tokyo. About 30 teams of developers which applied thier work for the &lt;a href=&quot;http://jp.sun.com/mashupaward/&quot;&gt;Mash up Award 3rd&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200710/article_2.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/RyxpPmnZhCI/AAAAAAAAAHA/hadSQNvdQdk/s400/P1070252-400%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; id=&quot;BLOGGER_PHOTO_ID_5128589792452903970&quot; /&gt;&lt;/a&gt;&lt;br /&gt;Top 5 websites ranked by authors themselves:&lt;br /&gt;1. &lt;a href=&quot;http://stoap.net/revolver/&quot;&gt;Revolver Style Search&lt;/a&gt; (13 votes)&lt;br /&gt;2. &lt;a href=&quot;http://kazuhiro.ty.land.to/samples/mash/dev/&quot;&gt;MAsh&lt;/a&gt; (10 votes)&lt;br /&gt;2. &lt;a href=&quot;http://tamadokoweb.com/&quot;&gt;Tamadokoweb&lt;/a&gt; (10 votes)&lt;br /&gt;4. &lt;a href=&quot;http://www.chiztek.net/&quot;&gt;CHIZTEK&lt;/a&gt; (9 votes)&lt;br /&gt;5. &lt;a href=&quot;http://commusuke.eisbahn.jp/&quot;&gt;Comusche&lt;/a&gt; (8 votes)&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;* The &lt;a href=&quot;http://kawa.at.webry.info/200710/article_2.html&quot;&gt;original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/11/cd-voices-of-beauty-wagram-music_4654.html">
+<title>[CD] VOICES OF BEAUTY // Wagram Music</title>
+<link>http://kawanet.blogspot.com/2007/11/cd-voices-of-beauty-wagram-music_4654.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T21:20:15.763+09:00</dc:date>
+<media:thumbnail url="http://bp3.blogger.com/_cgZUdkW7lzE/Ryw2XGnZg9I/AAAAAAAAAGY/5vcZlwnh-FI/s72-c/P1060244-240%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>&lt;a href=&quot;http://www.amazon.co.jp/o/ASIN/B0009PS6H0/kawanetxp-22/ref=nosim&quot;&gt;VOICES OF BEAUTY&lt;/a&gt; is my current favorite cd imported from &lt;a href=&quot;http://www.wagram.fr/&quot;&gt;France&lt;/a&gt;.&lt;br /&gt;I like listening this when I write some JavaScript or Perl codes as well.&lt;br /&gt;&lt;div align=&quot;center&quot;&gt;&lt;a href=&quot;http://www.amazon.co.jp/o/ASIN/B0009PS6H0/kawanetxp-22/ref=nosim&quot; target=&quot;_blank&quot;&gt;&lt;img id=&quot;BLOGGER_PHOTO_ID_5128533846208906194&quot; src=&quot;http://bp3.blogger.com/_cgZUdkW7lzE/Ryw2XGnZg9I/AAAAAAAAAGY/5vcZlwnh-FI/s400/P1060244-240%5B1%5D.jpg&quot; height=&quot;240&quot; width=&quot;240&quot;&gt;&lt;/a&gt;&lt;/div&gt;&lt;blockquote&gt;1. One Evening / Feist&lt;br /&gt;2. Guns Of Brixton / Nouvelle Vague&lt;br /&gt;3. It&apos;s Been Done / &lt;a href=&quot;http://www.angelamccluskey.com/&quot;&gt;Angela McCluskey&lt;/a&gt;&lt;br /&gt;4. Waiting / Cibelle&lt;br /&gt;5. Desert / &lt;a href=&quot;http://emiliesimon.artistes.universalmusic.fr/&quot;&gt;Emilie Simon&lt;/a&gt;  - La Marche de l&apos;empereur &lt;a href=&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewArtistSongs?artistId=15066140&quot; style=&quot;font-size: 0.8em;&quot;&gt;[iTunes]&lt;/a&gt;&lt;br /&gt;6. Get On With Your Life / Stina Nordenstam &lt;br /&gt;7. Radar / Kelly De Martino&lt;br /&gt;8. Sand River / Beth Gibbons &amp;amp; Rustin&apos; Man&lt;br /&gt;9. Close My Eyes / &lt;a href=&quot;http://www.shivaree.com/&quot;&gt;Shivaree&lt;/a&gt; - &lt;a href=&quot;http://www.shivaree.com/index.php?id=video.php&quot;&gt;PV&lt;/a&gt;&lt;a href=&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=136812589&amp;amp;s=143462&amp;amp;i=136812781&quot; style=&quot;font-size: 0.8em;&quot;&gt;[iTunes]&lt;/a&gt;&lt;br /&gt;10. Until The Morning / Thievery Corporation Feat. Emiliana Torrini&lt;br /&gt;11. Inna City Woman / Slow Train Feat. Lady Z&lt;br /&gt;12. Purple Shoes / MaliA&lt;br /&gt;13. Melody / Molly Johnson&lt;br /&gt;14. New York City / The Peter Malick Group Feat. Norah Jones&lt;br /&gt;15. Never Ending Story / &lt;a href=&quot;http://www.indian.co.uk/baz/&quot;&gt;BAZ&lt;/a&gt; - So pretty! &quot;If you!&quot; &lt;a href=&quot;http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=99232690&amp;amp;s=143462&amp;amp;i=99232670&quot; style=&quot;font-size: 0.8em;&quot;&gt;[iTunes]&lt;/a&gt;&lt;br /&gt;16. Cada Beijo / Bebel Gilberto&lt;br /&gt;17. Amado Mio / Pink Martini&lt;br /&gt;18. Small Song / Lhasa&lt;br /&gt;19. River Of Life / Heather Nova&lt;br /&gt;20. Forward And Reverse / Bang Gang&lt;br /&gt;21. The Closest Thing To Crazy / &lt;a href=&quot;http://www.katiemelua.com/&quot;&gt;Katie Melua&lt;/a&gt; &lt;/blockquote&gt;&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;i&gt;&lt;a href=&quot;http://kawa.at.webry.info/200706/article_1.html&quot;&gt;The original post&lt;/a&gt; of this was written in Japanese.&lt;/i&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/09/google-japans-developer-round-table-1.html">
+<title>Google Japan&apos;s Developer Round Table #1 &quot;iGoogle and Google Gadget&quot;</title>
+<link>http://kawanet.blogspot.com/2007/09/google-japans-developer-round-table-1.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T21:18:38.151+09:00</dc:date>
+<media:thumbnail url="http://bp0.blogger.com/_cgZUdkW7lzE/RyxmKWnZhBI/AAAAAAAAAG4/ApUFPR1snOo/s72-c/google-roundtable%5B1%5D.gif" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>Google Japan started &lt;a href=&quot;http://groups.google.com/group/developer-round-table&quot;&gt;a developer networking program&lt;/a&gt;. I participated its first round-table session: &quot;iGoogle and Google Gadget.&quot;&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://googlejapan.blogspot.com/2007/09/1-vol1.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp0.blogger.com/_cgZUdkW7lzE/RyxmKWnZhBI/AAAAAAAAAG4/ApUFPR1snOo/s400/google-roundtable%5B1%5D.gif&quot; border=&quot;0&quot; alt=&quot;&quot;id=&quot;BLOGGER_PHOTO_ID_5128586403723707410&quot; /&gt;&lt;/a&gt;&lt;br /&gt;See all conversations at &lt;a href=&quot;http://googlejapan.blogspot.com/2007/09/1-vol1.html&quot;&gt;page 1&lt;/a&gt;, &lt;a href=&quot;http://googlejapan.blogspot.com/2007/09/1-vol2.html&quot;&gt;page 2&lt;/a&gt; and &lt;a href=&quot;http://googlejapan.blogspot.com/2007/09/1-vol3.html&quot;&gt;page 3&lt;/a&gt; which are all written in Japanese however. ;-)&lt;br /&gt;I was very excited with Google Universal Gadget&apos;s powerfull functions.&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;&lt;span style=&quot;font-style:italic;&quot;&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200709/article_3.html&quot;&gt;The original post&lt;/a&gt; of this was written in Japanese.&lt;/span&gt;</description>
+</item>
+<item rdf:about="http://kawanet.blogspot.com/2007/11/cd-voices-of-beauty-wagram-music.html">
+<title>[Event] Mash up Caravan in Osaka</title>
+<link>http://kawanet.blogspot.com/2007/11/cd-voices-of-beauty-wagram-music.html</link>
+<dc:creator>Yusuke Kawasaki</dc:creator>
+<dc:date>2007-11-03T18:18:20.960+09:00</dc:date>
+<media:thumbnail url="http://bp1.blogger.com/_cgZUdkW7lzE/Ryw6xmnZg-I/AAAAAAAAAGg/fphXheiuc8g/s72-c/P1060870-480%5B1%5D.jpg" xmlns:media="http://search.yahoo.com/mrss/" width="72" height="72" />
+<thr:total xmlns:thr="http://purl.org/syndication/thread/1.0">0</thr:total>
+<description>The first day of &lt;a href=&quot;http://jp.sun.com/mashupaward/caravan/&quot;&gt;Mash up Caravan&lt;/a&gt; is started from Osaka.&lt;br /&gt;This tour is projected as a promotion campaign for &lt;a href=&quot;http://jp.sun.com/mashupaward/&quot;&gt;Mash up Award&lt;/a&gt; which is the most largest contest of web applications which use web services in Japan.&lt;br /&gt;&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200707/article_5.html&quot;&gt;&lt;img style=&quot;display:block; margin:0px auto 10px; text-align:center;cursor:pointer; cursor:hand;&quot; src=&quot;http://bp1.blogger.com/_cgZUdkW7lzE/Ryw6xmnZg-I/AAAAAAAAAGg/fphXheiuc8g/s400/P1060870-480%5B1%5D.jpg&quot; border=&quot;0&quot; alt=&quot;&quot; id=&quot;BLOGGER_PHOTO_ID_5128538699521950690&quot; /&gt;&lt;/a&gt;&lt;br /&gt;I made a talk for leading-edge technics of JavaScript and some libraries.&lt;br /&gt;After Osaka, the caravan will get to Sapporo, Fukuoka and Tokyo.&lt;br /&gt;&lt;br /&gt;&lt;hr&gt;The original post written in Japanese:&lt;br /&gt;&lt;a href=&quot;http://kawa.at.webry.info/200707/article_5.html&quot;&gt;Kawa.net Blog (2007/07/24)&lt;/a&gt;</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/24">
+<title>Re: XML::TreePP encoding problem</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/24</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-10-30T16:40:34Z</dc:date>
+<description>Neik, &quot;return if($from eq $to)&quot; in encode_from_to is exactly simple, however, that explicit encoding/decoding is required in order to support utf8 flag. We do</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/21">
+<title>XML::TreePP 0.31 Released _o_</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/21</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-09-25T19:15:25Z</dc:date>
+<description>I announce that XML::TreePP version 0.31 was released last weekend. Previous versions had a problem in writefile() method used without utf8_flag =&gt; 1. I</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-feedpp/message/16">
+<title>XML::FeedPP 0.30 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-feedpp/message/16</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-08-19T18:48:54Z</dc:date>
+<description>I announce that XML::FeedPP version 0.30 released. ======================================================== # XML::FeedPP Changes 2007/08/20 (0.30) * Atom 1.0</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/20">
+<title>XML::TreePP 0.27 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/20</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-08-13T10:25:12Z</dc:date>
+<description>I announce that XML::TreePP version 0.27 is released WITHOUT new features. You don&apos;t need to update to this if you&apos;re already using 0.25 or above. </description>
+</item>
+<item rdf:about="http://www.kawa.net/works/perl/overhttp/overhttp-e.html">
+<title>[Perl] XML::OverHTTP - A base class for XML over HTTP-styled web service interface</title>
+<link>http://www.kawa.net/works/perl/overhttp/overhttp-e.html</link>
+<dc:date>2007-08-12T22:15:00+09:00</dc:date>
+<dc:subject>Perl</dc:subject>
+<description>XML::OverHTTP is a base class for XML over HTTP-styled web service interface.
+This is not used directly from end-users.
+As a child class of this, module authors can easily write own interface
+module for XML over HTTP-styled web service.
+Current version:
+XML-OverHTTP-0.07.tar.gz
+TARGZ
+CPAN</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/19">
+<title>XML::TreePP 0.25 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/19</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-08-06T14:28:52Z</dc:date>
+<description>I announce that XML::TreePP version 0.25 is now released with new features below: ======================================================================== #</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/18">
+<title>XML::TreePP 0.22 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/18</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-07-28T15:30:55Z</dc:date>
+<description>I announce that XML::TreePP version 0.22 is released with new features below: ======================================================================== #</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-feedpp/message/15">
+<title>XML::FeedPP 0.22 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-feedpp/message/15</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-07-26T21:22:22Z</dc:date>
+<description>Good morning again from Hakata, Japan. I&apos;m re-announcing that XML::FeedPP version 0.22 is released. version 0.21 and before have a problem with summer time</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/16">
+<title>XML::TreePP 0.21 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/16</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-07-24T17:40:55Z</dc:date>
+<description>I&apos;m today announcing that XML::TreePP 0.21 is released for a bug fix. http://www.kawa.net/works/perl/treepp/treepp-e.html </description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/15">
+<title>Re: Unable to stop TreePP from sorting hash in order.</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/15</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-07-22T11:06:19Z</dc:date>
+<description>... Before version 0.20, first_order option have sorted every elements on generating XML. After version 0.20, it now keeps the order given in a array for the</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-treepp/message/14">
+<title>XML::TreePP 0.20 Released!</title>
+<link>http://tech.groups.yahoo.com/group/xml-treepp/message/14</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-07-22T10:59:23Z</dc:date>
+<description>I announce the release of XML::TreePP module&apos;s new version 0.20 after a long interval. You can get the source from: </description>
+</item>
+<item rdf:about="http://www.kawa.net/works/perl/html/tagparser-e.html">
+<title>[Perl] HTML::TagParser - Yet another HTML tag parser by pure Perl implementation</title>
+<link>http://www.kawa.net/works/perl/html/tagparser-e.html</link>
+<dc:date>2007-04-06T19:57:00+09:00</dc:date>
+<dc:subject>Perl</dc:subject>
+<description>HTML::TagParser is a pure Perl implementaion for parsing HTML files.
+This module provides some methods like DOM.
+This module is not strict about XHTML format
+because many of HTML pages are not strict.
+You know, many pages use &lt;br&gt; elemtents instead of &lt;br/&gt;
+and have &lt;p&gt; elements which are not closed.</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-objtree/message/8">
+<title>Re: xotree</title>
+<link>http://tech.groups.yahoo.com/group/xml-objtree/message/8</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2007-03-11T05:05:10Z</dc:date>
+<description>Mark, You mean your script retrieves the same content twice or more? Opera could make problems with its strong content caching though. IE and Firefox does not</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/animation/cube-e.html">
+<title>[JavaScript] Animation.Cube - Rotating Cube Animation Effect</title>
+<link>http://www.kawa.net/works/js/animation/cube-e.html</link>
+<dc:date>2007-01-08T17:19:00+09:00</dc:date>
+<dc:subject>JavaScript</dc:subject>
+<description>Animation.Cube class is a JavaScript library for a rotating cube animation effect.
+This effect needs CPU speed faster than
+Animation.Raster class.</description>
+</item>
+<item rdf:about="http://youtube.com/?v=TBM_WFDkftM">
+<title>Yakushima Macaque - Inuyama Monkey Park #3</title>
+<link>http://youtube.com/?v=TBM_WFDkftM</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2007-01-05T17:53:38-08:00</dc:date>
+<media:category label="Tags">monkey</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=TBM_WFDkftM" />
+<media:thumbnail url="http://i1.ytimg.com/vi/TBM_WFDkftM/default.jpg" width="120" height="90" />
+<media:title>Yakushima Macaque - Inuyama Monkey Park #3</media:title>
+<description>
+				&lt;img src=&quot;http://i1.ytimg.com/vi/TBM_WFDkftM/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				Yakushima Macaque, species of Japanese Macaque, are flocking around bonfire and eating baked sweet potato.
+（ヤクニホンザル＠犬山モンキーパーク）
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=monkey&quot;&gt;monkey&lt;/a&gt;&lt;br/&gt;
+					Added: January 5, 2007&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://youtube.com/?v=LeF95hWgJOE">
+<title>Black Capped Squirrel Monkey - Inuyama Monkey Park #2</title>
+<link>http://youtube.com/?v=LeF95hWgJOE</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2007-01-05T17:44:16-08:00</dc:date>
+<media:category label="Tags">monkey</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=LeF95hWgJOE" />
+<media:thumbnail url="http://i1.ytimg.com/vi/LeF95hWgJOE/default.jpg" width="120" height="90" />
+<media:title>Black Capped Squirrel Monkey - Inuyama Monkey Park #2</media:title>
+<description>
+				&lt;img src=&quot;http://i1.ytimg.com/vi/LeF95hWgJOE/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				Black Capped Squirrel Monkeys are digging feed.
+（ボリビアリスザル＠犬山モンキーパーク）
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=monkey&quot;&gt;monkey&lt;/a&gt;&lt;br/&gt;
+					Added: January 5, 2007&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/jkl/parsexml-e.html">
+<title>[ajax] JKL.ParseXML - XML Parsing Library for JavaScript</title>
+<link>http://www.kawa.net/works/js/jkl/parsexml-e.html</link>
+<dc:date>2007-01-05T01:05:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>JKL.ParseXML is a JavaScript library that let you convert an XML into a JavaScript object (JSON).
+See also XML.ObjTree class.</description>
+</item>
+<item rdf:about="http://youtube.com/?v=5R_7-58IOF8">
+<title>Black Handed Spider Monkey - Inuyama Monkey Park #1</title>
+<link>http://youtube.com/?v=5R_7-58IOF8</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2007-01-01T15:37:59-08:00</dc:date>
+<media:category label="Tags">monkey</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=5R_7-58IOF8" />
+<media:thumbnail url="http://i2.ytimg.com/vi/5R_7-58IOF8/default.jpg" width="120" height="90" />
+<media:title>Black Handed Spider Monkey - Inuyama Monkey Park #1</media:title>
+<description>
+				&lt;img src=&quot;http://i2.ytimg.com/vi/5R_7-58IOF8/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				Black Handed Spider Monkeys are catching  nats.
+（ジェフロイクモザル＠犬山モンキーパーク）
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=monkey&quot;&gt;monkey&lt;/a&gt;&lt;br/&gt;
+					Added: January 1, 2007&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-objtree/message/6">
+<title>Re: Can I read remote XML files?</title>
+<link>http://tech.groups.yahoo.com/group/xml-objtree/message/6</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2006-11-27T07:41:46Z</dc:date>
+<description>Hi Michael, Talking about Perl modules, I think JSON.pm would be good choice. This is a pure Perl implemented module which doesn&apos;t require compiling to use it.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/cantonese/canton.html">
+<title>Ruby on Chinese Pinyin</title>
+<link>http://www.kawa.net/works/cantonese/canton.html</link>
+<dc:date>2006-11-10T10:33:00+09:00</dc:date>
+<description>Ajax-ized
+web service version of this is also available. Try it!
+NEW
+Type (or copy&amp;paste) some chinese characters and push the button.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/perl/romanize/roman-demo-e.html">
+<title>[Perl] Lingua::*::Romanize::* - Online Demo</title>
+<link>http://www.kawa.net/works/perl/romanize/roman-demo-e.html</link>
+<dc:date>2006-11-06T00:46:00+09:00</dc:date>
+<dc:subject>Perl</dc:subject>
+<description>This page is online-demo of
+Lingua::*::Romanize::* modules for Perl.
+Enter some CJK phrases and push the button below.
+Chinese,
+Japanese and
+Korean
+characters are available.
+This is not a translation system but to get phonemic notation by roman letters.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/ajaxtb/ajaxtb-e.html">
+<title>[ajax] AjaxTB - a pluggable trackback feature in static HTML page</title>
+<link>http://www.kawa.net/works/ajax/ajaxtb/ajaxtb-e.html</link>
+<dc:date>2006-09-19T00:38:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>AjaxTB provides your static pages with trackback feature.
+AjaxTB&apos; CGI part works to receive a trackback which is sent by visiters.
+AjaxTB&apos; JavaScript part works to display trackbacks received.
+CMS is not needed. PHP is not required.
+AjaxTB is really pluggable and easy to use.
+Indexed RSS and JSON files are also generated when a trackback is posted.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/ajaxcom/ajaxcom-e.html">
+<title>[ajax] AjaxCom - one line comment box in static HTML page</title>
+<link>http://www.kawa.net/works/ajax/ajaxcom/ajaxcom-e.html</link>
+<dc:date>2006-09-19T00:34:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>AjaxCom provides your pages with one line comment box.
+You and your visiters can write comments in your static page!
+You know, ajax is used here.
+CMS is not required. PHP is not required.
+Ajaxcom is pluggable and easy to use.
+Perl/CGI works only when comments are entered.
+A plain text file is loaded when comments are displayed.</description>
+</item>
+<item rdf:about="http://youtube.com/?v=zxZfobdGbA4">
+<title>Nakanobu Nebuta Matsuri（中延ねぶた祭り）2/2</title>
+<link>http://youtube.com/?v=zxZfobdGbA4</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2006-09-16T19:45:10-07:00</dc:date>
+<media:category label="Tags">nakanobu nebuta</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=zxZfobdGbA4" />
+<media:thumbnail url="http://i3.ytimg.com/vi/zxZfobdGbA4/default.jpg" width="120" height="90" />
+<media:title>Nakanobu Nebuta Matsuri（中延ねぶた祭り）2/2</media:title>
+<description>
+				&lt;img src=&quot;http://i3.ytimg.com/vi/zxZfobdGbA4/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				Nine floats parade at Nakanobu shopping mall.
+This is an yet another nebuta-matsuri in Tokyo.
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=nakanobu&quot;&gt;nakanobu&lt;/a&gt; &lt;a href=&quot;/results?search_query=nebuta&quot;&gt;nebuta&lt;/a&gt;&lt;br/&gt;
+					Added: September 16, 2006&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://youtube.com/?v=pnks8-4O1_8">
+<title>Nakanobu Nebuta Matsuri（中延ねぶた祭り）1/2</title>
+<link>http://youtube.com/?v=pnks8-4O1_8</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2006-09-16T19:37:25-07:00</dc:date>
+<media:category label="Tags">nakanobu nebuta</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=pnks8-4O1_8" />
+<media:thumbnail url="http://i1.ytimg.com/vi/pnks8-4O1_8/default.jpg" width="120" height="90" />
+<media:title>Nakanobu Nebuta Matsuri（中延ねぶた祭り）1/2</media:title>
+<description>
+				&lt;img src=&quot;http://i1.ytimg.com/vi/pnks8-4O1_8/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				Nine floats parade at Nakanobu shopping mall.
+This is an yet another nebuta-matsuri in Tokyo.
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=nakanobu&quot;&gt;nakanobu&lt;/a&gt; &lt;a href=&quot;/results?search_query=nebuta&quot;&gt;nebuta&lt;/a&gt;&lt;br/&gt;
+					Added: September 16, 2006&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/xml/objtree-e.html">
+<title>[JavaScript] XML.ObjTree - XML source code from/to JavaScript object like E4X</title>
+<link>http://www.kawa.net/works/js/xml/objtree-e.html</link>
+<dc:date>2006-08-18T03:14:00+09:00</dc:date>
+<dc:subject>JavaScript</dc:subject>
+<description>XML.ObjTree class is a parser/generater for XML source code and JavaScript object.
+This is a JavaScript version of
+XML::TreePP
+for Perl.
+This also works as a wrapper for XMLHTTPRequest
+and successor to
+JKL.ParseXML class
+when using with prototype.js or
+JSAN&apos;s
+HTTP.Request class.
+Attributes&apos; prefix &apos;@&apos; like
+E4X (ECMAScript for XML) is also available.
+Safari for Intel Mac is supported.
+XML.ObjTree Group
+is now opened on Yahoo! Groups.</description>
+</item>
+<item rdf:about="http://tech.groups.yahoo.com/group/xml-objtree/message/1">
+<title>Welcome to XML.ObjTree Group</title>
+<link>http://tech.groups.yahoo.com/group/xml-objtree/message/1</link>
+<dc:creator>Kawasaki Yusuke</dc:creator>
+<dc:date>2006-08-17T18:11:06Z</dc:date>
+<description>This group is a community for XML.ObjTree users and developers. If you have a question about the library, let us share it. Of course, your patches and</description>
+</item>
+<item rdf:about="http://youtube.com/?v=eE4fCbCZsU4">
+<title>Miraremakuccha - SH902i&apos;s bug</title>
+<link>http://youtube.com/?v=eE4fCbCZsU4</link>
+<dc:creator>rss@youtube.com (YusukeKawasaki)</dc:creator>
+<dc:date>2006-07-07T19:42:44-07:00</dc:date>
+<media:category label="Tags">SH902i Bug みられまくっちゃ</media:category>
+<media:credit>YusukeKawasaki</media:credit>
+<media:player url="http://youtube.com/?v=eE4fCbCZsU4" />
+<media:thumbnail url="http://i2.ytimg.com/vi/eE4fCbCZsU4/default.jpg" width="120" height="90" />
+<media:title>Miraremakuccha - SH902i&apos;s bug</media:title>
+<description>
+				&lt;img src=&quot;http://i2.ytimg.com/vi/eE4fCbCZsU4/default.jpg&quot; align=&quot;right&quot; border=&quot;0&quot; width=&quot;120&quot; height=&quot;90&quot; vspace=&quot;4&quot; hspace=&quot;4&quot; /&gt;
+				&lt;p&gt;
+				Entering a phrase &quot;miraremakuccha&quot;, NTT DoCoMo/SHARP SH902i&apos;s bug makes my phone crashed!
+				&lt;/p&gt;
+				&lt;p&gt;
+					Author: &lt;a href=&quot;http://youtube.com/profile?user=YusukeKawasaki&quot;&gt;YusukeKawasaki&lt;/a&gt;&lt;br/&gt;
+					Keywords:  &lt;a href=&quot;/results?search_query=SH902i&quot;&gt;SH902i&lt;/a&gt; &lt;a href=&quot;/results?search_query=Bug&quot;&gt;Bug&lt;/a&gt; &lt;a href=&quot;/results?search_query=%E3%81%BF%E3%82%89%E3%82%8C%E3%81%BE%E3%81%8F%E3%81%A3%E3%81%A1%E3%82%83&quot;&gt;みられまくっちゃ&lt;/a&gt;&lt;br/&gt;
+					Added: July 7, 2006&lt;br/&gt;
+				&lt;/p&gt;
+</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/tips/yui-tooltips-e.html">
+<title>[YUI] Link tooltip with website&apos;s thumbnail screenshot</title>
+<link>http://www.kawa.net/works/js/tips/yui-tooltips-e.html</link>
+<dc:date>2006-06-27T00:06:00+09:00</dc:date>
+<dc:subject>YUI</dc:subject>
+<description>This is a mash-up demonstration using
+Yahoo! UI Library&apos;s YAHOO.widget.Tooltip object with
+Simple API&apos;s
+thumbnail generating service.
+Try to move your mouse cursor onto the links below:</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/romanize/chinese-e.html">
+<title>[Ajax] Romanization of Chinese language (Pinyin)</title>
+<link>http://www.kawa.net/works/ajax/romanize/chinese-e.html</link>
+<dc:date>2006-06-13T20:13:00+09:00</dc:date>
+<dc:subject>Ajax</dc:subject>
+<description>Pinyin is a romanization system (phonemic notation) of Chinese characters.
+Enter some Chinese phrases and push the button below.
+Both of Simplified Chinese (GB2312) and Traditional Chinese (BIG5) are allowed.
+This page is implemented by ajax and POX over HTTP.
+See also
+Lingua::ZH::Romanize::Pinyin module page.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/tips/crash-safari/intelmac-e.html">
+<title>[Mac] One click to crash Safari for Intel Mac</title>
+<link>http://www.kawa.net/works/ajax/tips/crash-safari/intelmac-e.html</link>
+<dc:date>2006-05-14T00:40:00+09:00</dc:date>
+<dc:subject>Mac</dc:subject>
+<description>Do you know any differences between Safari for Intel Mac and for PowerPC?
+Just two lines of JavaScript code below crashes Safari for Intel Mac.
+But Safari for PowerPC and other browsers are never crased.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/romanize/japanese-e.html">
+<title>[Ajax] Romanization of Japanese language (Kanji and Kana)</title>
+<link>http://www.kawa.net/works/ajax/romanize/japanese-e.html</link>
+<dc:date>2006-05-08T04:07:00+09:00</dc:date>
+<dc:subject>Ajax</dc:subject>
+<description>Japanese language is written with a mix of
+Kanji
+and
+Kana
+characters.
+Most of Kanji characters used in Japan were imported from China.
+Two types of Kana characters, called Katakana and Hiragana, were created in Japan.
+Kana characters are general terms for the syllabic Japanese scripts.
+Enter some Japanese phrases and push the button below.
+This page is implemented by ajax and POX over HTTP.</description>
+</item>
+<item rdf:about="http://www.kawa.net/service/jsan/search/index.html">
+<title>JSAN Search - JavaScript Libraries Database</title>
+<link>http://www.kawa.net/service/jsan/search/index.html</link>
+<dc:date>2006-05-03T20:53:00+09:00</dc:date>
+<description>A yet another search engine for JavaScript libraries registered on JSAN.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/animation/raster-e.html">
+<title>[JavaScript] Animation.Raster - Virtual Raster Scrolling Effect</title>
+<link>http://www.kawa.net/works/js/animation/raster-e.html</link>
+<dc:date>2006-04-30T08:25:00+09:00</dc:date>
+<dc:subject>JavaScript</dc:subject>
+<description>This library provides a virtual
+raster scrolling&apos;s
+effect for images and block elements.
+Tested on
+Internet Explorer 7.0, Firefox 1.5, Opera 8.5, Safari 2.0.3 and OmniWeb 5.1.3.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/game/ncross-e.html">
+<title>[Sudoku] Quick Sudoku Solving by JavaScript</title>
+<link>http://www.kawa.net/works/js/game/ncross-e.html</link>
+<dc:date>2006-04-18T21:54:00+09:00</dc:date>
+<dc:subject>Sudoku</dc:subject>
+<description>I think the most important thing of Sudoku is not getting its answer but is solving it.
+However, ...</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/date/w3cdtf-e.html">
+<title>[JSAN] Date.W3CDTF - JavaScript Date object&apos;s W3CDTF extension</title>
+<link>http://www.kawa.net/works/js/date/w3cdtf-e.html</link>
+<dc:date>2006-04-05T22:49:00+09:00</dc:date>
+<dc:subject>JSAN</dc:subject>
+<description>Date.W3CDTF class understands the W3CDTF date/time format, an ISO 8601 profile, defined by W3C.
+This date/time format is the native date format of RSS 1.0.
+It can be used to parse these formats in order to create the appropriate objects.
+This is my first library to be contributed to
+JSAN.
+Date.W3CDTF class supports two types of formats below:
+2005-04-23T17:20:00+09:00 (with timezone)
+2005-04-23T17:20:00Z (without timezone)</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/tips/dump/dom-tree.html">
+<title>[ajax] Expanding DOM tree (cross browser DOM inspector)</title>
+<link>http://www.kawa.net/works/ajax/tips/dump/dom-tree.html</link>
+<dc:date>2006-03-21T02:41:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>XML URL:</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/tips/dump/icab-omniweb-bug.html">
+<title>[ajax] XML parser bug on iCab and OmniWeb</title>
+<link>http://www.kawa.net/works/ajax/tips/dump/icab-omniweb-bug.html</link>
+<dc:date>2006-03-21T02:40:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>Source XML file:
+Flickr&apos;s RSS 2.0 file (as example)
+Demonstration:
+Expanding DOM tree (cross browser DOM inspector)</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/cantonese/ccdict.html">
+<title>CCDICT - Chinese Dictionary Search</title>
+<link>http://www.kawa.net/works/cantonese/ccdict.html</link>
+<dc:date>2006-03-08T16:20:00+09:00</dc:date>
+<description>Enter (or copy&amp;paste) some chinese characters and push the button.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/data-scheme/base64-e.html">
+<title>[JavaScript] data: scheme URI generator / base64-encoded image file</title>
+<link>http://www.kawa.net/works/js/data-scheme/base64-e.html</link>
+<dc:date>2006-03-05T08:56:00+09:00</dc:date>
+<dc:subject>JavaScript</dc:subject>
+<description>The data: scheme can contain binary data such as image.
+Firefox and Opera supports the data: scheme, but IE doesn&apos;t yet.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/greasemonkey/myscripts-e.html">
+<title>[Greasemonkey] User Scripts by kawa.net</title>
+<link>http://www.kawa.net/works/greasemonkey/myscripts-e.html</link>
+<dc:date>2006-02-13T21:14:00+09:00</dc:date>
+<dc:subject>Greasemonkey</dc:subject>
+<description>Here are my User Scripts
+for Greasemonkey.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/tips/mimetype/content-type-e.html">
+<title>[ajax] Content-Type: availablity on XMLHttpRequest</title>
+<link>http://www.kawa.net/works/ajax/tips/mimetype/content-type-e.html</link>
+<dc:date>2006-02-09T01:05:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>Some of content-types are only available on many browsers&apos; XMLHttpRequest.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/ajax/rss/rss-box-e.html">
+<title>[ajax] RSS BOX in your website</title>
+<link>http://www.kawa.net/works/ajax/rss/rss-box-e.html</link>
+<dc:date>2006-02-09T01:04:00+09:00</dc:date>
+<dc:subject>ajax</dc:subject>
+<description>How to put a RSS BOX in your website.</description>
+</item>
+<item rdf:about="http://www.kawa.net/works/js/passwd/gen-passwds-e.html">
+<title>JavaScript: Generating Random Passwords</title>
+<link>http://www.kawa.net/works/js/passwd/gen-passwds-e.html</link>
+<dc:date>2005-10-27T01:10:00+09:00</dc:date>
+</item>
+<item rdf:about="http://www.kawa.net/works/perl/catch/KCatch.pm.html">
+<title>KCatch.pm - Catch warn and die to avoid &quot;Internal Server Error&quot;</title>
+<link>http://www.kawa.net/works/perl/catch/KCatch.pm.html</link>
+<dc:date>2004-11-24T00:47:00+09:00</dc:date>
+<description>NAME</description>
+</item>
+</rdf:RDF>
