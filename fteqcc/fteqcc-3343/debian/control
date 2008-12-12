@@ -1,0 +1,19 @@
+Source: fteqcc
+Section: devel
+Priority: optional
+Maintainer: David Moreno <damog@debian.org>
+Build-Depends: debhelper (>= 4.1.16), cdbs
+Standards-Version: 3.8.0
+
+Package: fteqcc
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: FTE QuakeC compiler
+ fteqcc compiles QuakeC source code to binary, platform-independent 
+ code that Quake based engines can interpret. QuakeC is the language
+ that Quake game logic is developed in and is used for developing
+ modifications.
+ .
+ FTE QCC supports Quake1, QuakeWorld, Hexen2 and FTE Quake, 64bit
+ architectures and multithreading.
+Homepage: http://fteqw.sourceforge.net/

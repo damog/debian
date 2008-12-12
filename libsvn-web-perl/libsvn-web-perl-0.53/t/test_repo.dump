@@ -1,0 +1,275 @@
+SVN-fs-dump-format-version: 2
+
+UUID: 05d405f4-8dea-0310-8e20-829214fe2c8f
+
+Revision-number: 0
+Prop-content-length: 56
+Content-length: 56
+
+K 8
+svn:date
+V 27
+2004-12-06T08:05:35.443040Z
+PROPS-END
+
+Revision-number: 1
+Prop-content-length: 112
+Content-length: 112
+
+K 7
+svn:log
+V 14
+test init tree
+K 10
+svn:author
+V 3
+svk
+K 8
+svn:date
+V 27
+2004-12-06T08:05:35.445932Z
+PROPS-END
+
+Node-path: A
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: A/P
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: A/P/pe
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 32
+Text-content-md5: 1b5afbe8b6a4cde6a684c5817dc59684
+Content-length: 42
+
+PROPS-END
+first line in pe
+2nd line in pe
+
+
+Node-path: A/Q
+Node-kind: dir
+Node-action: add
+Prop-content-length: 35
+Content-length: 35
+
+K 3
+foo
+V 11
+prop on A/Q
+PROPS-END
+
+
+Node-path: A/Q/qu
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 32
+Text-content-md5: 56422a8bb5a73f3d148497a934be3951
+Content-length: 42
+
+PROPS-END
+first line in qu
+2nd line in qu
+
+
+Node-path: A/Q/qz
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 32
+Text-content-md5: 42ed2bf1ddbaf69d5f5014a68c87b321
+Content-length: 42
+
+PROPS-END
+first line in qz
+2nd line in qz
+
+
+Node-path: A/be
+Node-kind: file
+Node-action: add
+Prop-content-length: 58
+Text-content-length: 59
+Text-content-md5: 0b8a2265fbf4c578eb4895cf79a57435
+Content-length: 117
+
+K 12
+svn:keywords
+V 24
+Rev URL Revision FileRev
+PROPS-END
+$Rev$ $Revision$
+$FileRev$
+first line in be
+2nd line in be
+
+
+Node-path: B
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: C
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: C/R
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: me
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 32
+Text-content-md5: 4e6b8217e292dee12e28978ae0d666cb
+Content-length: 42
+
+PROPS-END
+first line in me
+2nd line in me
+
+
+Revision-number: 2
+Prop-content-length: 112
+Content-length: 112
+
+K 7
+svn:log
+V 14
+test init tree
+K 10
+svn:author
+V 3
+svk
+K 8
+svn:date
+V 27
+2004-12-06T08:05:35.468804Z
+PROPS-END
+
+Node-path: A/P
+Node-action: delete
+
+
+Node-path: B/S
+Node-kind: dir
+Node-action: add
+Node-copyfrom-rev: 1
+Node-copyfrom-path: A
+
+
+Node-path: B/fe
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 20
+Text-content-md5: 8045a38e6cf3fa5428454868c1de7137
+Content-length: 30
+
+PROPS-END
+file fe added later
+
+
+Node-path: D
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: D/de
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 20
+Text-content-md5: 7dd8202826f7a217cefcb61b112f694c
+Content-length: 30
+
+PROPS-END
+file de added later
+
+
+Node-path: me
+Node-kind: file
+Node-action: change
+Text-content-length: 38
+Text-content-md5: 74003280f9c78798854b4fb020a387e7
+Content-length: 38
+
+first line in me
+2nd line in me - mod
+
+
+Revision-number: 3
+Prop-content-length: 250
+Content-length: 250
+
+K 7
+svn:log
+V 151
+Add a directory and a file with spaces in their names, to ensure that spaces
+are properly encoded and decoded through SVN::Web.  Prompted by rt#19093.
+
+K 10
+svn:author
+V 3
+nik
+K 8
+svn:date
+V 27
+2006-05-06T12:29:41.721774Z
+PROPS-END
+
+Node-path: E F
+Node-kind: dir
+Node-action: add
+Prop-content-length: 10
+Content-length: 10
+
+PROPS-END
+
+
+Node-path: E F/test file
+Node-kind: file
+Node-action: add
+Prop-content-length: 10
+Text-content-length: 21
+Text-content-md5: 2d282102fa671256327d4767ec23bc6b
+Content-length: 31
+
+PROPS-END
+This is a test file.
+
+

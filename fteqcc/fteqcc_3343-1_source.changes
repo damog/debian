@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 08 Mar 2008 11:53:27 -0500
+Source: fteqcc
+Binary: fteqcc
+Architecture: source
+Version: 3343-1
+Distribution: unstable
+Urgency: low
+Maintainer: René van Bevern <rvb@debian.org>
+Changed-By: David Moreno Garza <damog@debian.org>
+Description: 
+ fteqcc     - FTE QuakeC compiler
+Closes: 469170
+Changes: 
+ fteqcc (3343-1) unstable; urgency=low
+ .
+   * New upstream release (Closes: #469170).
+Checksums-Sha1: 
+ 8c7edf8e1422f51a10de1863a1723ad19ca152aa 743 fteqcc_3343-1.dsc
+ e54acd3b7656a9aed68c12e40d447db25009421a 200130 fteqcc_3343.orig.tar.gz
+ 7a3542170848e25628d7126361be10b2af80d916 4201 fteqcc_3343-1.diff.gz
+Checksums-Sha256: 
+ 4fd48c6ce5dd1ab6a281c576655c8df09c78878d7bf25e7a6974a638143ed92b 743 fteqcc_3343-1.dsc
+ c951f0855b764c0757d650919fb79dd13cf7bf6479e38eb80b35f7be047f2a66 200130 fteqcc_3343.orig.tar.gz
+ d711a35976d13361b517dbc95e5f33a25604ec458258f298901afbb1a8125b0f 4201 fteqcc_3343-1.diff.gz
+Files: 
+ 7ca15b5334154aa071227d52ef5be831 743 devel optional fteqcc_3343-1.dsc
+ 09bcb68e063fd5432b4588ab1b25fae7 200130 devel optional fteqcc_3343.orig.tar.gz
+ 1b7bd6e153f466591e72062b05500c74 4201 devel optional fteqcc_3343-1.diff.gz

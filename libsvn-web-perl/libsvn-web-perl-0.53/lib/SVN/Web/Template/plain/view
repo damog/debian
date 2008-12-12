@@ -1,0 +1,38 @@
+<p><a href="[% script %]/[% repos %]/log[% path %]?rev=[% rev %]">Revision Log</a></p>
+<div class="title">
+<a href="[% script %]/[% repos %]/revision?rev=[% rev %]">[%|l(rev)%]revision %1[%END%]</a> - [% author || '(no author)' %] - [% date %]:<br />
+</div>
+<p>
+[% msg | log_msg %]
+</p>
+[% FOREACH pk = paths %]
+[% pk.value.action %] -
+[% IF pk.value.isdir %]
+<a href="[% script %]/[% repos %]/browse[% pk.key %]/?rev=[% rev %]">[% pk.key %]</a>
+[% IF pk.value.copyfrom %]
+<a href="[% script %]/[% repos %]/browse[% pk.value.copyfrom %]/?rev=[% pk.value.copyfromrev %]">[%|l(pk.value.copyfrom, pk.value.copyfromrev)%](from %1:%2)[%END%]</a>
+[% END %]
+
+[% ELSE %]
+[% IF pk.value.action == 'D' %]
+[% pk.key %]
+[% ELSE %]
+<a href="[% script %]/[% repos %]/view[% pk.key %]?rev=[% rev %]">[% pk.key %]</a>
+<a href="[% script %]/[% repos %]/checkout[% pk.key %]?rev=[% rev %]">[%|l%](checkout)[%END%]</a>
+[% END %]
+[% IF pk.value.copyfrom %]
+<a href="[% script %]/[% repos %]/view[% pk.value.copyfrom %]?rev=[% pk.value.copyfromrev %]">[%|l(pk.value.copyfrom, pk.value.copyfromrev)%](from %1:%2)[%END%]</a>
+[% END %]
+[% END %]
+
+<br />
+[% END %]
+<div id="preview">
+  [% IF mimetype.match('^text/') %]
+    <pre class="code-block">[% file | html %]</pre>
+  [% ELSIF mimetype.match('^image/') %]
+    <img src="[% script %]/[% repos %]/checkout[% path %]" />
+  [% ELSE %]
+<p>This file can not be displayed in the browser.  You can <a href="[% script %]/[% repos %]/checkout[% path %]">download it</a>.</p>
+  [% END %]
+</div>

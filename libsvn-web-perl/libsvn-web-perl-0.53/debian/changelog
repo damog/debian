@@ -1,0 +1,23 @@
+libsvn-web-perl (0.53-2.1) unstable; urgency=low
+
+  [ Stefan Ritter ]
+  * Non-maintainer upload.
+  * Dependencies are not set correctly (Closes: #473094)
+
+  [ Christoph Berg ]
+  * Add more run-time dependencies: liblocale-maketext-lexicon-perl,
+    libhttp-server-simple-perl, libhtml-parser-perl.
+
+ -- Christoph Berg <myon@debian.org>  Sat, 05 Apr 2008 02:06:07 +0200
+
+libsvn-web-perl (0.53-2) unstable; urgency=low
+
+  * Adding watch file to keep track of updates
+
+ -- David Moreno Garza <damog@debian.org>  Mon, 25 Feb 2008 10:00:07 -0500
+
+libsvn-web-perl (0.53-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- David Moreno Garza <damog@debian.org>  Fri, 30 Nov 2007 14:01:12 -0500

@@ -1,0 +1,102 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.55.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 bea36db34ac69057951dd505e0ca60d65538f35f Build.PL
+SHA1 520a583b38b4f2d2aa76d766470baf1b4a4e7a51 CHANGES.pod
+SHA1 7b57d0a24319d2a89f5132f37d2294429a388a0f CONTRIBUTING.pod
+SHA1 d1062d85c0122a970edbafda5e969f7b4afbe26c MANIFEST
+SHA1 20817bbf049938d5bba58a6ca0727157e67c2178 META.yml
+SHA1 10ff3cb66031d8671cfbd03cbb4bfc14c3370c8d Makefile.PL
+SHA1 6526f05a145d67f12182e1fd4c266b1638de5aaa README
+SHA1 62a73f8f454d7ab7d109f9fa935ae05e91a26fce TODO
+SHA1 f80fad0adde057b48313e682ffd498f8f7fbef61 UPDATING.pod
+SHA1 7d661813b0a7ec8f0791e15279ec168f76def36b bin/svnweb-install
+SHA1 4efa43e0c277a3155e319ad6e3bc0c80598643ef bin/svnweb-server
+SHA1 41cc64d4add3bdfce753e03e74d2de4ed5b360b0 conf/apache1.tt
+SHA1 679ea7e1e56ad8364178ea0f31d85bdc95da5c03 conf/apache2.tt
+SHA1 ddf3bd84c2c04b30ed172dc9fdb4c7872ec20d8c lib/SVN/Web.pm
+SHA1 196165bf088b87da4e20c5458247cff99aaa0d58 lib/SVN/Web/Blame.pm
+SHA1 407b5b526985e8dcb893bd704a3dcd9511a00b44 lib/SVN/Web/Browse.pm
+SHA1 d1bd012d5214007d033d10f637b1323866c22376 lib/SVN/Web/Checkout.pm
+SHA1 eccb3fdb04af416fd6958ae2db8411c11e4faf88 lib/SVN/Web/Diff.pm
+SHA1 429e692a733026d337b3399279185bd57bed33fd lib/SVN/Web/DiffParser.pm
+SHA1 6ce1a7f85da7e3b8922b7b05f87df4b26b5c6ded lib/SVN/Web/I18N.pm
+SHA1 4a994b088d19d8ee898679c86cbf8fd7ec59c72e lib/SVN/Web/I18N/en.po
+SHA1 4682ea1d4eb0d6c8f115bdb098707a7cdc1a60d8 lib/SVN/Web/I18N/fr.po
+SHA1 d4a15942a0891cf00c09c032c559b1ef06f17bca lib/SVN/Web/I18N/zh_cn.po
+SHA1 8274a5efef8210902776180aa94f1cf5dfbfe67c lib/SVN/Web/I18N/zh_tw.po
+SHA1 eb3a6625aff9352db3fb469ccf9ab1aeed9b888c lib/SVN/Web/List.pm
+SHA1 8f01ee8f6e24ba2da8f1220e466901dca2c36a3a lib/SVN/Web/Log.pm
+SHA1 0ca63032577f87becf3f35f3743b6321603581b6 lib/SVN/Web/RSS.pm
+SHA1 b622d5c6a7dfaa196e6d5fa395d39ab70b2fe88e lib/SVN/Web/Revision.pm
+SHA1 4e09f47629601557603649a131fb7e259abe7a8c lib/SVN/Web/Style/common.css
+SHA1 c7f365aa5f266c338dcf72609844b7b35e07a024 lib/SVN/Web/Style/styles-hlb.css
+SHA1 eba6b6abe72e5109b82348188e957825ef109ed4 lib/SVN/Web/Style/trac/browser.css
+SHA1 aa619eeb97d689b527e992003995b66f1e21e410 lib/SVN/Web/Style/trac/changeset.css
+SHA1 b4b44f2b7ec33e0240bd008ebe85d37f749be0a8 lib/SVN/Web/Style/trac/code.css
+SHA1 69333e899b14209268572ab6ec59549c1c1d3e6b lib/SVN/Web/Style/trac/diff.css
+SHA1 f5e9f35f7f0a9b9eb7940098ab38aa32bc5c62c1 lib/SVN/Web/Style/trac/feed-icon-16x16.png
+SHA1 9dd0a6187297068b664beb63e21594c1a0b2bc62 lib/SVN/Web/Style/trac/file.png
+SHA1 9dd0a6187297068b664beb63e21594c1a0b2bc62 lib/SVN/Web/Style/trac/filedeny.png
+SHA1 4893f3bba7bd4748784c31d55f9d7a1391d119ed lib/SVN/Web/Style/trac/folder.png
+SHA1 4893f3bba7bd4748784c31d55f9d7a1391d119ed lib/SVN/Web/Style/trac/folderdeny.png
+SHA1 1aa6724736aba1edc7862be3f2fcce09ae399031 lib/SVN/Web/Style/trac/parent.png
+SHA1 70899de94e923e3a9abf3bd6cbd4ebf5af166e5e lib/SVN/Web/Style/trac/svnweb.css
+SHA1 4623cb93b8677e5362a0956e4c96a294a74f72e2 lib/SVN/Web/Style/trac/text-diff-html.css
+SHA1 ab17e64c0764d55acb26d120348a9f0a956eca7b lib/SVN/Web/Style/trac/trac.css
+SHA1 1cd2a07c6228145c475dc4b26543330fd6ea289c lib/SVN/Web/Template/plain/browse
+SHA1 688dbac49cf965e5d5661804872ba6fb5dbaf1f2 lib/SVN/Web/Template/plain/diff
+SHA1 b7fa80002592240d66801fca04ae83604dc01b3c lib/SVN/Web/Template/plain/footer
+SHA1 50916a335d7a2826fde6ac142920134bc3b6c8f8 lib/SVN/Web/Template/plain/header
+SHA1 5da68420974ac06fa09864de00064a8c8d9fae25 lib/SVN/Web/Template/plain/list
+SHA1 4d9a90b287fbf6f0ee81f5b2b465d27f6799a42f lib/SVN/Web/Template/plain/log
+SHA1 c6d768f2a116c3fef0fe3a68eecac4848a0eeeff lib/SVN/Web/Template/plain/revision
+SHA1 4c4c53cf4f6de47a58d87a6a53b6bec63cb4a164 lib/SVN/Web/Template/plain/view
+SHA1 ea06eb2538a68c0137ccf3b4e768d533b5335d7e lib/SVN/Web/Template/plain/x
+SHA1 0d6b9f5f7afef2adec6b83f3accfb48d489e6156 lib/SVN/Web/Template/trac/_action_menu
+SHA1 4092be0442cde17dbf4f8c935d49082d809d7d9b lib/SVN/Web/Template/trac/_diff
+SHA1 431c0f0c7d252e471d4f15800162f8b99c5b651e lib/SVN/Web/Template/trac/_log_msg
+SHA1 dd6b710eb2c7f9d53a83dfc7f4ec727edd551762 lib/SVN/Web/Template/trac/blame
+SHA1 6394428270dcadd85f44b67c6265e5181b28b259 lib/SVN/Web/Template/trac/browse
+SHA1 db70eaf3635f80e565773afcf32031e6cd9c0c14 lib/SVN/Web/Template/trac/diff
+SHA1 4c6638e1cc601ae0a06e1ca310c560f36ca2c9f6 lib/SVN/Web/Template/trac/footer
+SHA1 025aca927b96c33302a1fa52a54296bb7cb5fa01 lib/SVN/Web/Template/trac/header
+SHA1 6560add4fc20ae5f97970b49c5eeb111c9746420 lib/SVN/Web/Template/trac/list
+SHA1 ca666cf10c504d897a1781e4cbb57badc6b7e541 lib/SVN/Web/Template/trac/log
+SHA1 e310e8700389748688837e6885e74629a3aec604 lib/SVN/Web/Template/trac/revision
+SHA1 99dad950693df574a75bf0b9e459d3bd5c36795d lib/SVN/Web/Template/trac/rss
+SHA1 9e54ee48b02f6b3faa2891afda42c01548418ea9 lib/SVN/Web/Template/trac/view
+SHA1 c3f9344030d90bd0cd4863fd7926a4db51fada5c lib/SVN/Web/Template/trac/x
+SHA1 32786839388333d070edbf7291ba76c2d690a4cd lib/SVN/Web/Test.pm
+SHA1 5cff77c77be25c1a3275af96fd2e2835c8abc025 lib/SVN/Web/View.pm
+SHA1 cbe0082208239ed360b406082f0cf1d1cc448d56 lib/SVN/Web/X.pm
+SHA1 eda250c4743e5f1336a29360e67ece9fcc1b4c2e lib/SVN/Web/action.pm
+SHA1 e0133c50fb597f8a0355de9f347a2f1c929b9dcf t/1use.t
+SHA1 325ab862e69051c28fb983fa5ddea4038712ac6e t/2basic.t
+SHA1 6f8e289b2f687abdee6fb1d7041428a5b6bf6b14 t/3svnweb-install.t
+SHA1 ebc0f8645c4fad62c264b949f3a134c0500c355a t/cache.t
+SHA1 5fb95714a294283f9b84b6e5fa926883e2aefe88 t/cgi.t
+SHA1 697d075aacf296699a1ebc85477b244f82bafe7a t/mod_perl.t
+SHA1 becc583be7bec0f4ca504f86dd791d722be53a46 t/svnweb-server.t
+SHA1 c3b77dd3c7d132bc44bf31bb0b6e7eb239499a4b t/test_repo.dump
+SHA1 455cc3afd0ab331d3e925a0b458e0e5a76060681 t/timedate_format.t
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.7 (FreeBSD)
+
+iD8DBQFGNPCLk6gHZCw343URAgg/AJ9vB3lsaidMXd3nI2ImRhgnXnywzQCcDneR
+/eA8t7gS0WTz0+1KvyEY1vA=
+=wbMq
+-----END PGP SIGNATURE-----

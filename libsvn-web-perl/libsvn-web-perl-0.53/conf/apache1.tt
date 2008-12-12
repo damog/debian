@@ -1,0 +1,82 @@
+ServerName 127.0.0.1
+ServerType standalone
+ServerRoot "/usr/local"
+PidFile /dev/null
+Timeout 300
+KeepAlive Off
+
+LoadModule config_log_module  [% libexec_dir %]/mod_log_config.so
+LoadModule mime_module        [% libexec_dir %]/mod_mime.so
+LoadModule alias_module       [% libexec_dir %]/mod_alias.so
+[% IF mod_perl %]
+LoadModule perl_module        [% mod_perl_path %]
+[% END %]
+
+[% IF cgi_bin %]
+LoadModule cgi_module         [% libexec_dir %]/mod_cgi.so
+LoadModule dir_module         [% libexec_dir %]/mod_dir.so
+LoadModule env_module         [% libexec_dir %]/mod_env.so
+[% END %]
+
+ClearModuleList
+AddModule mod_log_config.c
+AddModule mod_mime.c
+AddModule mod_alias.c
+AddModule mod_so.c
+[% IF mod_perl %]
+AddModule mod_perl.c
+[% END %]
+
+[% IF cgi_bin %]
+AddModule mod_cgi.c
+AddModule mod_dir.c
+AddModule mod_env.c
+[% END %]
+
+Port [% httpd_port %]
+
+UseCanonicalName Off
+
+HostnameLookups Off
+
+ErrorLog [% svnweb_install_dir %]/log.err
+LogLevel debug
+
+LogFormat "%h %l %u %t \"%r\" %>s %b \"%{Referer}i\" \"%{User-Agent}i\"" combined
+LogFormat "%h %l %u %t \"%r\" %>s %b" common
+LogFormat "%{Referer}i -> %U" referer
+LogFormat "%{User-agent}i" agent
+
+CustomLog [% svnweb_install_dir %]/log common
+
+ServerSignature Off
+
+[% IF mod_perl %]
+<Perl>
+    use lib '[% blib_dir %]';
+</Perl>
+
+<Directory [% svnweb_install_dir %]>
+  AllowOverride None
+  Options None
+  SetHandler perl-script
+  PerlHandler SVN::Web
+</Directory>
+
+<Directory [% svnweb_install_dir %]/css>
+  SetHandler default-handler
+</Directory>
+
+[% END %]
+
+[% IF cgi_bin %]
+<Directory [% svnweb_install_dir %]>
+  Options All ExecCGI
+  AddHandler cgi-script .cgi
+  DirectoryIndex index.cgi
+  SetEnv PERL5LIB [% blib_dir %]
+</Directory>
+[% END %]
+
+Alias /svnweb [% svnweb_install_dir %]
+

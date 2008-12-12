@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Fri, 12 Dec 2008 14:16:42 -0500
+Source: fteqcc
+Binary: fteqcc
+Architecture: source
+Version: 3343-2
+Distribution: unstable
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ fteqcc     - FTE QuakeC compiler
+Closes: 436876
+Changes: 
+ fteqcc (3343-2) unstable; urgency=low
+ .
+   * Stripping binary (Closes: #436876).
+   * Added misc depends
+   * Updated Standars-Version to 3.8.0
+   * Hijacking package after last upstream release.
+Checksums-Sha1: 
+ c4ba1735c4431fe6062b81da09c325a911b69471 690 fteqcc_3343-2.dsc
+ 415b0b6079314c3d694b189ec72a0e69eb66d112 4262 fteqcc_3343-2.diff.gz
+Checksums-Sha256: 
+ 61c4ebd24b959733edaded66fe0754b316a05db3641d5a9a0c675c5ab0502656 690 fteqcc_3343-2.dsc
+ 09980e88e1c4e130640622b9b9e65379541bc688d124f15723973331d679c873 4262 fteqcc_3343-2.diff.gz
+Files: 
+ 24b8dea9215ee4f2f086a0d8b83e86a7 690 devel optional fteqcc_3343-2.dsc
+ 8fa8713bfb0a616257f6943f9b70954c 4262 devel optional fteqcc_3343-2.diff.gz

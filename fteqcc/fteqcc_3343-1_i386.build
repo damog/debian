@@ -1,0 +1,300 @@
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package fteqcc
+dpkg-buildpackage: source version 3343-1
+dpkg-buildpackage: source changed by David Moreno Garza <damog@debian.org>
+ fakeroot debian/rules clean
+test -x debian/rules
+dh_testroot
+/usr/bin/make -f debian/rules reverse-config
+make[1]: Entering directory `/home/david/debian/packages/fteqcc/fteqcc-3343'
+make[1]: Nothing to be done for `reverse-config'.
+make[1]: Leaving directory `/home/david/debian/packages/fteqcc/fteqcc-3343'
+if [ "reverse-patches" = "reverse-patches" ]; then rm -f debian/stamp-patched; fi
+patches: 
+if [ "reverse-patches" != "reverse-patches" ]; then touch debian/stamp-patched; fi
+if [ "reverse-patches" != "reverse-patches" ] ; then \
+		/usr/bin/make -f debian/rules update-config ; \
+	fi
+for dir in debian/patches ; do \
+	    rm -f $dir/*.log ; \
+	done
+dh_clean 
+/usr/bin/make  -C . CFLAGS="-g -O2 -g -Wall -O2" CXXFLAGS="-g -O2 -g -Wall -O2" CPPFLAGS="" LDFLAGS=""  -k clean
+make[1]: Entering directory `/home/david/debian/packages/fteqcc/fteqcc-3343'
+rm -f fteqcc.bin fteqcc.exe qccmain.o qcc_cmdlib.o qcc_pr_comp.o qcc_pr_lex.o comprout.o hash.o qcd_main.o qcc_gtk.o qccguistuff.o qccgui.o qccguistuff.o
+make[1]: Leaving directory `/home/david/debian/packages/fteqcc/fteqcc-3343'
+rm -f debian/stamp-makefile-build
+rm -f *.o fteqcc.bin
+ dpkg-source -b fteqcc-3343
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building fteqcc using existing fteqcc_3343.orig.tar.gz
+dpkg-source: info: building fteqcc in fteqcc_3343-1.diff.gz
+dpkg-source: warning: file fteqcc-3343/debian/watch has no final newline (either original or modified version)
+dpkg-source: info: building fteqcc in fteqcc_3343-1.dsc
+ dpkg-genchanges -S >../fteqcc_3343-1_source.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: source only upload (original source is included)
+W: /home/david/.pbuilderrc does not exist
+I: using fakeroot in build.
+Current time: Fri Dec 12 14:14:03 EST 2008
+pbuilder-time-stamp: 1229109243
+Building the build Environment
+ -> extracting base tarball [/var/cache/pbuilder/base.tgz]
+ -> creating local configuration
+ -> copying local configuration
+ -> mounting /proc filesystem
+ -> mounting /dev/pts filesystem
+ -> policy-rc.d already exists
+Obtaining the cached apt archive contents
+Installing the build-deps
+ -> Attempting to satisfy build-dependencies
+ -> Creating pbuilder-satisfydepends-dummy package
+Package: pbuilder-satisfydepends-dummy
+Version: 0.invalid.0
+Architecture: i386
+Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+ This package was created automatically by pbuilder and should
+Depends: debhelper (>= 4.1.16), cdbs
+dpkg-deb: building package `pbuilder-satisfydepends-dummy' in `/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+aptitude is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Selecting previously deselected package pbuilder-satisfydepends-dummy.
+(Reading database ... 9644 files and directories currently installed.)
+Unpacking pbuilder-satisfydepends-dummy (from .../pbuilder-satisfydepends-dummy.deb) ...
+dpkg: dependency problems prevent configuration of pbuilder-satisfydepends-dummy:
+ pbuilder-satisfydepends-dummy depends on debhelper (>= 4.1.16); however:
+  Package debhelper is not installed.
+ pbuilder-satisfydepends-dummy depends on cdbs; however:
+  Package cdbs is not installed.
+dpkg: error processing pbuilder-satisfydepends-dummy (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ pbuilder-satisfydepends-dummy
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Initializing package states...
+Writing extended state information...
+The following NEW packages will be installed:
+  bsdmainutils{a} cdbs{a} debhelper{a} file{a} gettext{a} gettext-base{a} 
+  groff-base{a} html2text{a} intltool-debian{a} libcroco3{a} 
+  libglib2.0-0{a} libmagic1{a} libpcre3{a} libxml2{a} man-db{a} 
+  po-debconf{a} 
+The following partially installed packages will be configured:
+  pbuilder-satisfydepends-dummy 
+0 packages upgraded, 16 newly installed, 0 to remove and 0 not upgraded.
+Need to get 921kB/8929kB of archives. After unpacking 23.7MB will be used.
+Writing extended state information...
+Get:1 http://http.us.debian.org sid/main cdbs 0.4.52 [921kB]
+debconf: delaying package configuration, since apt-utils is not installed
+Fetched 921kB in 0s (1009kB/s)
+Selecting previously deselected package libmagic1.
+(Reading database ... 9644 files and directories currently installed.)
+Unpacking libmagic1 (from .../libmagic1_4.26-2_i386.deb) ...
+Selecting previously deselected package file.
+Unpacking file (from .../archives/file_4.26-2_i386.deb) ...
+Selecting previously deselected package html2text.
+Unpacking html2text (from .../html2text_1.3.2a-5_i386.deb) ...
+Selecting previously deselected package libpcre3.
+Unpacking libpcre3 (from .../libpcre3_7.8-2_i386.deb) ...
+Selecting previously deselected package libglib2.0-0.
+Unpacking libglib2.0-0 (from .../libglib2.0-0_2.16.6-1_i386.deb) ...
+Selecting previously deselected package libxml2.
+Unpacking libxml2 (from .../libxml2_2.6.32.dfsg-5_i386.deb) ...
+Selecting previously deselected package libcroco3.
+Unpacking libcroco3 (from .../libcroco3_0.6.1-2_i386.deb) ...
+Selecting previously deselected package gettext-base.
+Unpacking gettext-base (from .../gettext-base_0.17-6_i386.deb) ...
+Selecting previously deselected package gettext.
+Unpacking gettext (from .../gettext_0.17-6_i386.deb) ...
+Selecting previously deselected package intltool-debian.
+Unpacking intltool-debian (from .../intltool-debian_0.35.0+20060710.1_all.deb) ...
+Selecting previously deselected package po-debconf.
+Unpacking po-debconf (from .../po-debconf_1.0.15_all.deb) ...
+Selecting previously deselected package groff-base.
+Unpacking groff-base (from .../groff-base_1.18.1.1-21_i386.deb) ...
+Selecting previously deselected package bsdmainutils.
+Unpacking bsdmainutils (from .../bsdmainutils_6.1.10_i386.deb) ...
+Selecting previously deselected package man-db.
+Unpacking man-db (from .../man-db_2.5.2-3_i386.deb) ...
+Selecting previously deselected package debhelper.
+Unpacking debhelper (from .../debhelper_7.0.17_all.deb) ...
+Selecting previously deselected package cdbs.
+Unpacking cdbs (from .../archives/cdbs_0.4.52_all.deb) ...
+Setting up libmagic1 (4.26-2) ...
+Setting up file (4.26-2) ...
+Setting up html2text (1.3.2a-5) ...
+Setting up libpcre3 (7.8-2) ...
+Setting up libglib2.0-0 (2.16.6-1) ...
+Setting up libxml2 (2.6.32.dfsg-5) ...
+Setting up libcroco3 (0.6.1-2) ...
+Setting up gettext-base (0.17-6) ...
+Setting up gettext (0.17-6) ...
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.15) ...
+Setting up groff-base (1.18.1.1-21) ...
+Setting up bsdmainutils (6.1.10) ...
+Setting up man-db (2.5.2-3) ...
+Building database of manual pages ...
+Setting up debhelper (7.0.17) ...
+Setting up cdbs (0.4.52) ...
+Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+ -> Finished parsing the build-deps
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fakeroot is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Copying back the cached apt archive contents
+ -> new cache content cdbs_0.4.52_all.deb added
+Copying source file
+    -> copying [../fteqcc_3343-1.dsc]
+    -> copying [../fteqcc_3343.orig.tar.gz]
+    -> copying [../fteqcc_3343-1.diff.gz]
+Extracting source
+dpkg-source: warning: extracting unsigned source package (fteqcc_3343-1.dsc)
+dpkg-source: extracting fteqcc in fteqcc-3343
+dpkg-source: info: unpacking fteqcc_3343.orig.tar.gz
+dpkg-source: info: applying fteqcc_3343-1.diff.gz
+ -> Building the package
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package fteqcc
+dpkg-buildpackage: source version 3343-1
+dpkg-buildpackage: source changed by David Moreno Garza <damog@debian.org>
+dpkg-buildpackage: host architecture i386
+ fakeroot debian/rules clean
+test -x debian/rules
+dh_testroot
+/usr/bin/make -f debian/rules reverse-config
+make[1]: Entering directory `/tmp/buildd/fteqcc-3343'
+make[1]: Nothing to be done for `reverse-config'.
+make[1]: Leaving directory `/tmp/buildd/fteqcc-3343'
+if [ "reverse-patches" = "reverse-patches" ]; then rm -f debian/stamp-patched; fi
+patches: 
+if [ "reverse-patches" != "reverse-patches" ]; then touch debian/stamp-patched; fi
+if [ "reverse-patches" != "reverse-patches" ] ; then \
+		/usr/bin/make -f debian/rules update-config ; \
+	fi
+for dir in debian/patches ; do \
+	    rm -f $dir/*.log ; \
+	done
+dh_clean 
+/usr/bin/make  -C . CFLAGS="-g -O2 -g -Wall -O2" CXXFLAGS="-g -O2 -g -Wall -O2" CPPFLAGS="" LDFLAGS=""  -k clean
+make[1]: Entering directory `/tmp/buildd/fteqcc-3343'
+rm -f fteqcc.bin fteqcc.exe qccmain.o qcc_cmdlib.o qcc_pr_comp.o qcc_pr_lex.o comprout.o hash.o qcd_main.o qcc_gtk.o qccguistuff.o qccgui.o qccguistuff.o
+make[1]: Leaving directory `/tmp/buildd/fteqcc-3343'
+rm -f debian/stamp-makefile-build
+rm -f *.o fteqcc.bin
+ dpkg-source -b fteqcc-3343
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building fteqcc using existing fteqcc_3343.orig.tar.gz
+dpkg-source: info: building fteqcc in fteqcc_3343-1.diff.gz
+dpkg-source: warning: file fteqcc-3343/debian/watch has no final newline (either original or modified version)
+dpkg-source: info: building fteqcc in fteqcc_3343-1.dsc
+ debian/rules build
+test -x debian/rules
+mkdir -p "."
+/usr/bin/make -f debian/rules reverse-config
+make[1]: Entering directory `/tmp/buildd/fteqcc-3343'
+make[1]: Nothing to be done for `reverse-config'.
+make[1]: Leaving directory `/tmp/buildd/fteqcc-3343'
+if [ "debian/stamp-patched" = "reverse-patches" ]; then rm -f debian/stamp-patched; fi
+patches: 
+if [ "debian/stamp-patched" != "reverse-patches" ]; then touch debian/stamp-patched; fi
+if [ "debian/stamp-patched" != "reverse-patches" ] ; then \
+		/usr/bin/make -f debian/rules update-config ; \
+	fi
+make[1]: Entering directory `/tmp/buildd/fteqcc-3343'
+make[1]: Nothing to be done for `update-config'.
+make[1]: Leaving directory `/tmp/buildd/fteqcc-3343'
+/usr/bin/make  -C . CFLAGS="-g -O2 -g -Wall -O2" CXXFLAGS="-g -O2 -g -Wall -O2" CPPFLAGS="" LDFLAGS=""  all
+make[1]: Entering directory `/tmp/buildd/fteqcc-3343'
+gcc -Wall -ggdb -DQCCONLY  -o qccmain.o -c qccmain.c -g -O2 -g -Wall -O2
+qccmain.c: In function 'QCC_main':
+qccmain.c:2640: warning: pointer targets in assignment differ in signedness
+gcc -Wall -ggdb -DQCCONLY  -o qcc_cmdlib.o -c qcc_cmdlib.c -g -O2 -g -Wall -O2
+gcc -Wall -ggdb -DQCCONLY  -o qcc_pr_comp.o -c qcc_pr_comp.c -g -O2 -g -Wall -O2
+qcc_pr_comp.c: In function 'QCC_PR_DummyFieldDef':
+qcc_pr_comp.c:7371: warning: value computed is not used
+qcc_pr_comp.c: In function 'QCC_PR_ExpandUnionToFields':
+qcc_pr_comp.c:7465: warning: pointer targets in passing argument 5 of 'QCC_PR_DummyFieldDef' differ in signedness
+qcc_pr_comp.c: In function 'QCC_PR_ParseDefs':
+qcc_pr_comp.c:8523: warning: dereferencing type-punned pointer will break strict-aliasing rules
+qcc_pr_comp.c:7483: warning: 'i' may be used uninitialized in this function
+gcc -Wall -ggdb -DQCCONLY  -o qcc_pr_lex.o -c qcc_pr_lex.c -g -O2 -g -Wall -O2
+gcc -Wall -ggdb -DQCCONLY  -o comprout.o -c comprout.c -g -O2 -g -Wall -O2
+gcc -Wall -ggdb -DQCCONLY  -o hash.o -c hash.c -g -O2 -g -Wall -O2
+gcc -Wall -ggdb -DQCCONLY  -o qcd_main.o -c qcd_main.c -g -O2 -g -Wall -O2
+gcc -Wall -ggdb -DQCCONLY  -o fteqcc.bin -O3 -s qccmain.o qcc_cmdlib.o qcc_pr_comp.o qcc_pr_lex.o comprout.o hash.o qcd_main.o
+make[1]: Leaving directory `/tmp/buildd/fteqcc-3343'
+touch debian/stamp-makefile-build
+DEB_MAKE_CHECK_TARGET unset, not running checks
+ fakeroot debian/rules binary
+test -x debian/rules
+dh_testroot
+dh_clean -k 
+dh_installdirs -A 
+mkdir -p "."
+DEB_MAKE_CHECK_TARGET unset, not running checks
+DEB_MAKE_INSTALL_TARGET unset, skipping default makefile.mk common-install target
+dh_installdirs -pfteqcc 
+mkdir -p debian/fteqcc/usr/bin
+install fteqcc.bin debian/fteqcc/usr/bin/fteqcc
+dh_installdocs -pfteqcc   
+dh_installexamples -pfteqcc 
+dh_installman -pfteqcc  
+dh_installinfo -pfteqcc  
+dh_installmenu -pfteqcc 
+dh_installcron -pfteqcc 
+dh_installinit -pfteqcc   
+dh_installdebconf -pfteqcc 
+dh_installemacsen -pfteqcc   
+dh_installcatalogs -pfteqcc 
+dh_installpam -pfteqcc 
+dh_installlogrotate -pfteqcc 
+dh_installlogcheck -pfteqcc 
+dh_installchangelogs -pfteqcc   
+dh_installudev -pfteqcc 
+dh_lintian -pfteqcc 
+dh_install -pfteqcc  
+dh_link -pfteqcc  
+dh_installmime -pfteqcc 
+dh_strip -pfteqcc  --dbg-package=fteqcc
+dh_compress -pfteqcc  
+dh_fixperms -pfteqcc  
+dh_makeshlibs -pfteqcc  
+dh_installdeb -pfteqcc 
+dh_perl -pfteqcc 
+dh_shlibdeps -pfteqcc    
+dh_gencontrol -pfteqcc  
+dh_md5sums -pfteqcc 
+dh_builddeb -pfteqcc 
+dpkg-deb: building package `fteqcc' in `../fteqcc_3343-1_i386.deb'.
+ dpkg-genchanges  >../fteqcc_3343-1_i386.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: full upload (original source is included)
+Copying back the cached apt archive contents
+ -> unmounting dev/pts filesystem
+ -> unmounting proc filesystem
+ -> cleaning the build env 
+    -> removing directory /var/cache/pbuilder/build//3569 and its subdirectories
+Current time: Fri Dec 12 14:14:36 EST 2008
+pbuilder-time-stamp: 1229109276

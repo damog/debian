@@ -1,0 +1,132 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH FTEQCC 1 "Juni 26, 2005"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+fteqcc \- FTE QuakeC compiler
+.SH SYNOPSIS
+.B fteqcc
+.RI [ options ]
+.SH DESCRIPTION
+This manual page documents briefly the
+.B fteqcc
+command.
+.PP
+.\" TeX users may be more comfortable with the \fB<whatever>\fP and
+.\" \fI<whatever>\fP escape sequences to invode bold face and italics, 
+.\" respectively.
+\fBfteqcc\fP is a program that compiles QuakeC sourcecode to binaray game data of Quake1 or QuakeWorld based games.
+.SH OPTIONS
+.TP
+.B \-\-help
+Show summary of options.
+.TP
+.B \-Fautoproto
+enable automatic prototyping
+.TP
+.B \-Fwasm
+dump all assembler code to qc.asm
+.TP
+.B \-Kkeyword, \-Kno-keyword
+turn language keywords on or off. Keywords available to toggle are: asm, break, case, class, const, continue, default, entity, enum, enumflags, extern, float, for, goto, int, integer, noref, nosave, shared, state, string, struct, switch, thinktime, typedef, union, var and vector.
+.TP
+.B -O0, -O1, -O2, -O3, 
+use optimisation level between 0 and 3. With 0, no optimisation takes place, other values include more or less of the options in the section \fBOPTIMISATION\fP.
+.TP
+.B \-src directory
+Specify a directory to look for source files (progs.src) in.
+.TP
+.B \-Wall
+show all warnings
+.SH FORMAT
+\fBfteqcc\fP supports several output formats.
+.TP
+.B -Tstandard, -Tq1, -Tquakec
+This is the default setting and generates code compatible with original Quake1.
+.TP
+.B -Thexen2, -Th2
+Outputs Hexen2 compatible code.
+.TP
+.B -Tkkqwsv, -Tkk7, -Tbigprogs, -Tversion7, -Tkkqwsv
+Generates KK Version 7 compatible progs
+.TP
+.B -Tfte
+Generates code specific to FTE Quake.
+.SH OPTIMISATION
+The following options may be used to fine-tune optimisation. Some of them are activated automatically.
+.TP
+.B \-Oassignments
+c = a*b is performed in one operation rather than two, and can cause older decompilers to fail.
+.TP
+.B \-Oshortenifs
+if (!a) was traditionally compiled in two statements. This optimisation does it in one, but can cause some decompilers to get confused.
+.TP
+.B \-Ononvec_parms
+In the origional qcc, function parameters were specified as a vector store even for floats. This fixes that.
+.TP
+.B \-Oconstant_names
+strips out the names of constants from your progs, resulting in smaller files. It makes decompilers leave out names or fabricate numerical ones.
+.TP
+.B \-Oconstant_name_strings
+strips out the names of string constants from your progs. This can break addons, so don't use it in those cases.
+.TP
+.B \-Odupconstdefs
+merge definitions of constants which are the same value. Pay extra attention to assignment to constant warnings.
+.TP
+.B \-Onouplicatestrings
+compact the string table that is stored in the progs. It will be considerably smaller with this.
+.TP
+.B \-Olocals
+Strips out local names and definitions. This makes it REALLY hard to decompile
+.TP
+.B \-Ofunction_names
+This strips out the names of functions which are never called. Doesn't make much of an impact though.
+.TP
+.B \-Ofilenames
+This strips out the filenames of the progs. This can confuse the really old decompilers, but is nothing to the more recent ones.
+.TP
+.B \-Ounreferenced
+Removes the entries of unreferenced variables. Doesn't make a difference in well maintained code.
+.TP
+.B \-Ooverlaptemps
+Optimises the pr_globals count by overlapping temporaries. In QC, every multiplication, division or operation in general produces a temporary variable. This optimisation prevents excess, and in the case of Hexen2's gamecode, reduces the count by 50k. This is the most important optimisation, ever.
+.TP
+.B \-Oconstantarithmatic
+5*6 actually emits an operation into the progs. This prevents that happening, effectivly making the compiler see 30
+.TP
+.B \-Oprecache_file
+Strip out stuff wasted used in function calls and strings to the precache_file builtin (which is actually a stub in quake).
+.TP
+.B \-Oreturn_only
+Functions ending in a return statement do not need a done statement at the end of the function. This can confuse some decompilers, making functions appear larger than they were.
+.TP
+.B \-Ocompound_jumps
+This optimisation plays an effect mostly with nested if/else statements, instead of jumping to an unconditional jump statement, it'll jump to the final destination instead. This will bewilder decompilers.
+.TP
+.B \-Ostrip_functions
+Strips out the 'defs' of functions that were only ever called directly. This does not affect saved games.
+.TP
+.B \-Olocals_marshalling
+Store all locals in one section of the pr_globals. Vastly reducing it. This effectivly does the job of overlaptemps. It's been noticed as buggy by a few, however, and the curcumstances where it causes problems are not yet known.
+.TP
+.B \-Ovectorcals
+Where a function is called with just a vector, this causes the function call to store three floats instead of one vector. This can save a good number of pr_globals where those vectors contain many duplicate coordinates but do not match entirly.
+.SH AUTHOR
+fteqcc was written by David Walton <acceptthis@users.sourceforge.net>
+and J. Smith <timeserv@users.sourceforge.net>.
+.PP
+This manual page was written by Ren\('e van Bevern <rvb@debian.org>,
+for the Debian project (but may be used by others). Most information was obtained from comments in the source codes.

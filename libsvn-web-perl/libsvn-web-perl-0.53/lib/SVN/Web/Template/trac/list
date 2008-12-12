@@ -1,0 +1,18 @@
+[% PROCESS header %]
+[% IF reposcount %]
+<p>
+[%|l%](choose repos)[%END%]
+</p>
+
+<ul>
+  [% FOREACH r = repos %]
+ <li><a href="[% c.script %]/[% r.key %]">[% r.key %]</a> <span class="reponame">&#8594; [% r.value %]</span></li>
+  [% END %]
+</ul>
+[% ELSE %]
+<p>
+[%|l%](no repos)[%END%]
+</p>
+[% END %]
+
+[% PROCESS footer %]

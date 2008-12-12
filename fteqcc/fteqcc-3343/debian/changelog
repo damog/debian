@@ -1,0 +1,39 @@
+fteqcc (3343-2) unstable; urgency=low
+
+  * Stripping binary (Closes: #436876).
+  * Added misc depends
+  * Updated Standars-Version to 3.8.0
+  * Hijacking package after last upstream release.
+
+ -- David Moreno <damog@debian.org>  Fri, 12 Dec 2008 14:16:42 -0500
+
+fteqcc (3343-1) unstable; urgency=low
+
+  * New upstream release (Closes: #469170).
+
+ -- David Moreno Garza <damog@debian.org>  Sat, 08 Mar 2008 11:53:27 -0500
+
+fteqcc (2666-1) unstable; urgency=low
+
+  * New upstream release
+
+  * debian/control: update Standards-Version to 3.7.2 without changes,
+    updated my E-Mail address
+  
+  * debian/patches: deleted, no longer necessary
+
+  * debian/rules: clean "fteqcc.bin" and install "fteqcc.bin", this is
+    what upstream's build system outputs now instead of "fteqcc".
+  
+  * debian/watch: added
+
+  * debian/copyright: update FSF address
+
+ -- René van Bevern <rvb@debian.org>  Sat,  1 Jul 2006 20:38:27 +0200
+
+fteqcc (2352-1) unstable; urgency=low
+
+  * Initial release. (Closes: #315653)
+
+ -- David Moreno Garza <damog@debian.org>  Fri, 24 Jun 2005 19:59:16 +0200
+

@@ -1,0 +1,85 @@
+---
+name: SVN-Web
+version: 0.53
+author:
+  - 'Nik Clayton <nik@FreeBSD.org>'
+abstract: Subversion repository web frontend
+license: perl
+resources:
+  license: http://dev.perl.org/licenses/
+requires:
+  Apache::Request: 0
+  Exception::Class: 1.22
+  HTTP::Server::Simple: 0
+  List::Util: 0
+  Locale::Maketext: 0
+  Locale::Maketext::Lexicon: 0
+  Number::Format: 0
+  Template: 0
+  Template::Plugin::Clickable: 0
+  Template::Plugin::Clickable::Email: 0
+  Template::Plugin::Number::Format: 0
+  Test::WWW::Mechanize: 0
+  Time::Zone: 0
+  URI: 0
+  YAML: 0
+recommends:
+  Cache::Cache: 0
+  Template::Plugin::Subst: 0
+  Test::Benchmark: 0
+  Test::HTML::Tidy: 0
+  XML::RSS::Parser: 0
+provides:
+  SVN::Web:
+    file: lib/SVN/Web.pm
+    version: 0.53
+  SVN::Web::Blame:
+    file: lib/SVN/Web/Blame.pm
+    version: 0.53
+  SVN::Web::Browse:
+    file: lib/SVN/Web/Browse.pm
+    version: 0.53
+  SVN::Web::Checkout:
+    file: lib/SVN/Web/Checkout.pm
+    version: 0.53
+  SVN::Web::Diff:
+    file: lib/SVN/Web/Diff.pm
+    version: 0.53
+  SVN::Web::DiffParser:
+    file: lib/SVN/Web/DiffParser.pm
+    version: 0.53
+  SVN::Web::DiffParser::Change:
+    file: lib/SVN/Web/DiffParser.pm
+  SVN::Web::I18N:
+    file: lib/SVN/Web/I18N.pm
+    version: 0.53
+  SVN::Web::List:
+    file: lib/SVN/Web/List.pm
+    version: 0.53
+  SVN::Web::Log:
+    file: lib/SVN/Web/Log.pm
+    version: 0.53
+  SVN::Web::RSS:
+    file: lib/SVN/Web/RSS.pm
+    version: 0.53
+  SVN::Web::Revision:
+    file: lib/SVN/Web/Revision.pm
+    version: 0.53
+  SVN::Web::Test:
+    file: lib/SVN/Web/Test.pm
+    version: 0.53
+  SVN::Web::Test::Mechanize:
+    file: lib/SVN/Web/Test.pm
+  SVN::Web::View:
+    file: lib/SVN/Web/View.pm
+    version: 0.53
+  SVN::Web::X:
+    file: lib/SVN/Web/X.pm
+    version: 0.53
+  SVN::Web::action:
+    file: lib/SVN/Web/action.pm
+    version: 0.53
+generated_by: Module::Build version 0.2807
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.2.html
+  version: 1.2

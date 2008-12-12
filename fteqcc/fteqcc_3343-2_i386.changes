@@ -1,0 +1,43 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 12 Dec 2008 14:16:42 -0500
+Source: fteqcc
+Binary: fteqcc
+Architecture: source i386
+Version: 3343-2
+Distribution: unstable
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ fteqcc     - FTE QuakeC compiler
+Closes: 436876
+Changes: 
+ fteqcc (3343-2) unstable; urgency=low
+ .
+   * Stripping binary (Closes: #436876).
+   * Added misc depends
+   * Updated Standars-Version to 3.8.0
+   * Hijacking package after last upstream release.
+Checksums-Sha1: 
+ 421baeade00bee366a7c21a38034042c77f7251d 935 fteqcc_3343-2.dsc
+ 58e53088f890cab4a720180315e1baed1e16b6f5 4276 fteqcc_3343-2.diff.gz
+ da2bcc4f3834d7fd9605ca1b62d0f438795829bf 88584 fteqcc_3343-2_i386.deb
+Checksums-Sha256: 
+ ee52d18fc9448cbcd957fbf8ab05980499bb926d0e95705fbc25c22d86c70aa8 935 fteqcc_3343-2.dsc
+ 385252d8f1b82cad9813510fa324a467c2a76165518610f2f06f8a9679278a2d 4276 fteqcc_3343-2.diff.gz
+ 9f79aa836291dbadda137c4a70b740ee47439ddcea032cbb1fac459d8c932150 88584 fteqcc_3343-2_i386.deb
+Files: 
+ 54ebb838657140d081f5615955d3acb9 935 devel optional fteqcc_3343-2.dsc
+ 6b11d6f5dfec5c0ffaf06a9ed437bc9b 4276 devel optional fteqcc_3343-2.diff.gz
+ 9f185a530c8ca9719956a22dba19db7b 88584 devel optional fteqcc_3343-2_i386.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAklCvdIACgkQmBxf18ZxJX1TwQCgszayDU015ZjSpVgb8Rummeny
+LPYAoL/V88+XOXPT/XDxkh2kagjqFMT3
+=qgx7
+-----END PGP SIGNATURE-----

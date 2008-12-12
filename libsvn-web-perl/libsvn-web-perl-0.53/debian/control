@@ -1,0 +1,25 @@
+Source: libsvn-web-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 5.0.0), libmodule-build-perl, libsvn-perl, libtemplate-perl, libexception-class-perl, libtest-www-mechanize-perl, liblocale-maketext-lexicon-perl, subversion
+Build-Depends-Indep: perl
+Maintainer: David Moreno Garza <damog@debian.org>
+Standards-Version: 3.7.2
+Homepage: http://search.cpan.org/dist/SVN-Web/
+
+Package: libsvn-web-perl
+Architecture: all
+Depends: ${perl:Depends}, ${misc:Depends}, libsvn-perl, libyaml-perl, libtemplate-perl, libexception-class-perl, libhtml-parser-perl, liblocale-maketext-lexicon-perl, libhttp-server-simple-perl
+Description: Subversion repository web frontend
+ SVN::Web provides a web interface to subversion repositories.
+ .
+ * Viewing multiple Subversion repositories.
+ * Browsing every revision of the repository.
+ * Viewing the contents of files in the repository at any revision.
+ * Viewing diffs of arbitrary revisions of any file.
+ * Viewing the revision log of files and directories, see what was
+   changed when, by who.
+ * Viewing the blame/annotation details of any file.
+ * Generating RSS feeds of commits, down to the granularity of individual
+   files.
+ * Many more.
