@@ -203,6 +203,9 @@ sub run {
     my $path  = $self->{path};
 
     $path =~ s{/+$}{};
+		$path =~ s{^/+}{};
+		$uri .= '/';
+
     my(undef, $yng_rev, undef, $head) = $self->get_revs();
 
     # Handle log paging

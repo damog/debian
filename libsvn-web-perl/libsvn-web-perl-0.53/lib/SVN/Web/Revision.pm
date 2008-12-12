@@ -211,7 +211,7 @@ sub run {
         )
         if $rev > $yrev;
 
-    $ra->get_log(['/'], $rev, $rev, 1, 1, 1,
+		$ra->get_log([''], $rev, $rev, 2, 1, 1,
         sub { $self->{REV} = $self->_log(@_) });
 
     $self->_resolve_changed_paths();

@@ -133,6 +133,9 @@ sub run {
 
     my $rev = $act_rev;
 
+		$path =~ s{^/+}{};
+		$uri .= '/';
+
     # Get the log for this revision of the file
     $ra->get_log([$path], $rev, $rev, 1, 1, 1,
         sub { $self->{REV} = $self->_log(@_) });

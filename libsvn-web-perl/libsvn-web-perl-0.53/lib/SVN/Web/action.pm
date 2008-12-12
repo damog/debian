@@ -240,6 +240,8 @@ sub recent_interesting_rev {
 
     my $ra  = $self->{repos}{ra};
 
+		$path =~ s{^/}{};
+
     my @log_result;
     $ra->get_log([$path], $rev, 1, 1, 0, 1,
                  sub { @log_result = @_; });

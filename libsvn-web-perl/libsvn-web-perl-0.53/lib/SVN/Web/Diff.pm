@@ -184,6 +184,9 @@ sub run {
     my $uri  = $self->{repos}{uri};
     my $path = $self->{path};
 
+    $path =~ s{^/}{};
+    $uri .= '/';
+
     my(undef, undef, undef, $at_head) = $self->get_revs();
 
     my $mime = $self->{cgi}->param('mime') || 'text/html';
