@@ -4,7 +4,7 @@ Priority: optional
 Build-Depends: debhelper (>= 5.0.0), libmodule-build-perl, libsvn-perl, libtemplate-perl, libexception-class-perl, libtest-www-mechanize-perl, liblocale-maketext-lexicon-perl, subversion
 Build-Depends-Indep: perl
 Maintainer: David Moreno <damog@debian.org>
-Standards-Version: 3.7.2
+Standards-Version: 3.8.0
 Homepage: http://search.cpan.org/dist/SVN-Web/
 
 Package: libsvn-web-perl

@@ -1,6 +1,7 @@
 libsvn-web-perl (0.53-3) unstable; urgency=low
 
   * Patch to assertion failure (Closes: #493551).
+  * Reformatting long description (Closes: #480331).
 
  -- David Moreno <damog@debian.org>  Fri, 12 Dec 2008 17:04:46 -0500
 
