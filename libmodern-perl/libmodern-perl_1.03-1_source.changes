@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Mon, 25 May 2009 11:01:41 -0400
+Source: libmodern-perl
+Binary: libmodern-perl
+Architecture: source
+Version: 1.03-1
+Distribution: unstable
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ libmodern-perl - enable all of the features of Modern Perl with one command
+Closes: 515231
+Changes: 
+ libmodern-perl (1.03-1) unstable; urgency=low
+ .
+   * Initial Release (Closes: #515231).
+Checksums-Sha1: 
+ 1429693f72cbcbb0f2f80923f3cbcdccca768627 850 libmodern-perl_1.03-1.dsc
+ c564f6847d1433b03e10537cfa96145d28e367c0 2995 libmodern-perl_1.03.orig.tar.gz
+ 2ba4ec81f7653244d8c1c468ca127cf8a0ae7566 1171 libmodern-perl_1.03-1.diff.gz
+Checksums-Sha256: 
+ afb8db09bd38880bf99e44ce02387273620708c418ecde95dbe772f585ee1e98 850 libmodern-perl_1.03-1.dsc
+ 40bf555afc6c679be1a5514677665f8853594bcf8de1a63b0a28ad39de3edf89 2995 libmodern-perl_1.03.orig.tar.gz
+ e5ebe1d675cb2bf5cb7fcdd45277cf9ef97977fab6923507b349d50a79ba0548 1171 libmodern-perl_1.03-1.diff.gz
+Files: 
+ fe38d8460892bb38d88ea4b6134cab2a 850 perl optional libmodern-perl_1.03-1.dsc
+ 1338c29f86b109280f8c723ece49299e 2995 perl optional libmodern-perl_1.03.orig.tar.gz
+ c0d86c3978eb80054bbaa7be2a9e880c 1171 perl optional libmodern-perl_1.03-1.diff.gz

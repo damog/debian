@@ -1,0 +1,14 @@
+Source: libmodern-perl
+Section: perl
+Priority: optional
+Build-Depends: debhelper (>= 7), libmodule-build-perl
+Build-Depends-Indep: perl (>= 5.6.0-12)
+Maintainer: David Moreno <damog@debian.org>
+Standards-Version: 3.8.1
+Homepage: http://search.cpan.org/dist/Modern-Perl/
+
+Package: libmodern-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: enable all of the features of Modern Perl with one command
+ enable all of the features of Modern Perl with one command

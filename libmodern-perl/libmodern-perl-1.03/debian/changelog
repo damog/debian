@@ -1,0 +1,5 @@
+libmodern-perl (1.03-1) unstable; urgency=low
+
+  * Initial Release (Closes: #515231).
+
+ -- David Moreno <damog@debian.org>  Mon, 25 May 2009 11:01:41 -0400

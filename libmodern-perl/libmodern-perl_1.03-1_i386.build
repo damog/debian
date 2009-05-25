@@ -1,0 +1,254 @@
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package libmodern-perl
+dpkg-buildpackage: source version 1.03-1
+dpkg-buildpackage: source changed by David Moreno <damog@debian.org>
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b libmodern-perl-1.03
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libmodern-perl using existing libmodern-perl_1.03.orig.tar.gz
+dpkg-source: info: building libmodern-perl in libmodern-perl_1.03-1.diff.gz
+dpkg-source: info: building libmodern-perl in libmodern-perl_1.03-1.dsc
+ dpkg-genchanges -S >../libmodern-perl_1.03-1_source.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: source only upload (original source is included)
+W: /home/david/.pbuilderrc does not exist
+I: using fakeroot in build.
+I: Current time: Mon May 25 12:43:28 EDT 2009
+I: pbuilder-time-stamp: 1243269808
+I: Building the build Environment
+I: extracting base tarball [/var/cache/pbuilder/base.tgz]
+I: creating local configuration
+I: copying local configuration
+I: mounting /proc filesystem
+I: mounting /dev/pts filesystem
+I: policy-rc.d already exists
+I: Obtaining the cached apt archive contents
+I: Installing the build-deps
+ -> Attempting to satisfy build-dependencies
+ -> Creating pbuilder-satisfydepends-dummy package
+Package: pbuilder-satisfydepends-dummy
+Version: 0.invalid.0
+Architecture: i386
+Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+ This package was created automatically by pbuilder and should
+Depends: debhelper (>= 7), libmodule-build-perl, perl (>= 5.6.0-12)
+dpkg-deb: building package `pbuilder-satisfydepends-dummy' in `/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+aptitude is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Selecting previously deselected package pbuilder-satisfydepends-dummy.
+(Reading database ... 9751 files and directories currently installed.)
+Unpacking pbuilder-satisfydepends-dummy (from .../pbuilder-satisfydepends-dummy.deb) ...
+dpkg: dependency problems prevent configuration of pbuilder-satisfydepends-dummy:
+ pbuilder-satisfydepends-dummy depends on debhelper (>= 7); however:
+  Package debhelper is not installed.
+dpkg: error processing pbuilder-satisfydepends-dummy (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ pbuilder-satisfydepends-dummy
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Initializing package states...
+Writing extended state information...
+The following NEW packages will be installed:
+  bsdmainutils{a} debhelper{a} file{a} gettext{a} gettext-base{a} 
+  groff-base{a} html2text{a} intltool-debian{a} libcroco3{a} 
+  libglib2.0-0{a} libgomp1{a} libmagic1{a} libpcre3{a} libxml2{a} man-db{a} 
+  po-debconf{a} 
+The following partially installed packages will be configured:
+  pbuilder-satisfydepends-dummy 
+0 packages upgraded, 16 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0B/8219kB of archives. After unpacking 23.2MB will be used.
+Writing extended state information...
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously deselected package libmagic1.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 9751 files and directories currently installed.)
+Unpacking libmagic1 (from .../libmagic1_5.03-1_i386.deb) ...
+Selecting previously deselected package file.
+Unpacking file (from .../archives/file_5.03-1_i386.deb) ...
+Selecting previously deselected package html2text.
+Unpacking html2text (from .../html2text_1.3.2a-14_i386.deb) ...
+Selecting previously deselected package libpcre3.
+Unpacking libpcre3 (from .../libpcre3_7.8-2+b1_i386.deb) ...
+Selecting previously deselected package libglib2.0-0.
+Unpacking libglib2.0-0 (from .../libglib2.0-0_2.20.1-2_i386.deb) ...
+Selecting previously deselected package libxml2.
+Unpacking libxml2 (from .../libxml2_2.7.3.dfsg-1_i386.deb) ...
+Selecting previously deselected package libcroco3.
+Unpacking libcroco3 (from .../libcroco3_0.6.1-2_i386.deb) ...
+Selecting previously deselected package libgomp1.
+Unpacking libgomp1 (from .../libgomp1_4.4.0-5_i386.deb) ...
+Selecting previously deselected package gettext-base.
+Unpacking gettext-base (from .../gettext-base_0.17-6_i386.deb) ...
+Selecting previously deselected package gettext.
+Unpacking gettext (from .../gettext_0.17-6_i386.deb) ...
+Selecting previously deselected package intltool-debian.
+Unpacking intltool-debian (from .../intltool-debian_0.35.0+20060710.1_all.deb) ...
+Selecting previously deselected package po-debconf.
+Unpacking po-debconf (from .../po-debconf_1.0.16_all.deb) ...
+Selecting previously deselected package groff-base.
+Unpacking groff-base (from .../groff-base_1.18.1.1-22_i386.deb) ...
+Selecting previously deselected package bsdmainutils.
+Unpacking bsdmainutils (from .../bsdmainutils_6.1.10_i386.deb) ...
+Selecting previously deselected package man-db.
+Unpacking man-db (from .../man-db_2.5.5-1_i386.deb) ...
+Selecting previously deselected package debhelper.
+Unpacking debhelper (from .../debhelper_7.2.14_all.deb) ...
+Setting up libmagic1 (5.03-1) ...
+Setting up file (5.03-1) ...
+Setting up html2text (1.3.2a-14) ...
+Setting up libpcre3 (7.8-2+b1) ...
+Setting up libglib2.0-0 (2.20.1-2) ...
+Setting up libxml2 (2.7.3.dfsg-1) ...
+Setting up libcroco3 (0.6.1-2) ...
+Setting up libgomp1 (4.4.0-5) ...
+Setting up gettext-base (0.17-6) ...
+Setting up gettext (0.17-6) ...
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.16) ...
+Setting up groff-base (1.18.1.1-22) ...
+Setting up bsdmainutils (6.1.10) ...
+update-alternatives: using /usr/bin/bsd-write to provide /usr/bin/write (write) in auto mode.
+Setting up man-db (2.5.5-1) ...
+Building database of manual pages ...
+Setting up debhelper (7.2.14) ...
+Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+ -> Finished parsing the build-deps
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fakeroot is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+I: Copying back the cached apt archive contents
+I: Copying source file
+I: copying [../libmodern-perl_1.03-1.dsc]
+I: copying [../libmodern-perl_1.03.orig.tar.gz]
+I: copying [../libmodern-perl_1.03-1.diff.gz]
+I: Extracting source
+dpkg-source: warning: extracting unsigned source package (libmodern-perl_1.03-1.dsc)
+dpkg-source: info: extracting libmodern-perl in libmodern-perl-1.03
+dpkg-source: info: unpacking libmodern-perl_1.03.orig.tar.gz
+dpkg-source: info: applying libmodern-perl_1.03-1.diff.gz
+I: Building the package
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package libmodern-perl
+dpkg-buildpackage: source version 1.03-1
+dpkg-buildpackage: source changed by David Moreno <damog@debian.org>
+dpkg-buildpackage: host architecture i386
+ fakeroot debian/rules clean
+dh clean
+   dh_testdir
+   dh_auto_clean
+   dh_clean
+ dpkg-source -b libmodern-perl-1.03
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libmodern-perl using existing libmodern-perl_1.03.orig.tar.gz
+dpkg-source: info: building libmodern-perl in libmodern-perl_1.03-1.diff.gz
+dpkg-source: info: building libmodern-perl in libmodern-perl_1.03-1.dsc
+ debian/rules build
+dh build
+   dh_testdir
+   dh_auto_configure
+ - ERROR: Test::Simple (0.72) is installed, but we need version >= 0.8
+
+ERRORS/WARNINGS FOUND IN PREREQUISITES.  You may wish to install the versions
+of the modules indicated above before proceeding with this installation
+
+Checking whether your kit is complete...
+Looks good
+
+Checking prerequisites...
+Creating new 'Build' script for 'Modern-Perl' version '1.03'
+   dh_auto_build
+Copying lib/Modern/Perl.pm -> blib/lib/Modern/Perl.pm
+Manifying blib/lib/Modern/Perl.pm -> blib/libdoc/Modern::Perl.3pm
+   dh_auto_test
+t/base....ok
+All tests successful.
+Files=1, Tests=5,  0 wallclock secs ( 0.03 cusr +  0.01 csys =  0.04 CPU)
+touch build-stamp
+ fakeroot debian/rules binary
+dh install
+   dh_testroot
+   dh_prep
+   dh_installdirs
+   dh_auto_install
+Installing /tmp/buildd/libmodern-perl-1.03/debian/libmodern-perl/usr/share/perl5/Modern/Perl.pm
+Installing /tmp/buildd/libmodern-perl-1.03/debian/libmodern-perl/usr/share/man/man3/Modern::Perl.3pm
+   dh_install
+   dh_installdocs
+   dh_installchangelogs
+   dh_installexamples
+   dh_installman
+   dh_installcatalogs
+   dh_installcron
+   dh_installdebconf
+   dh_installcatalogs
+   dh_installemacsen
+   dh_installifupdown
+   dh_installinfo
+   dh_installinit
+   dh_installmenu
+   dh_installmime
+   dh_installmodules
+   dh_installlogcheck
+   dh_installlogrotate
+   dh_installpam
+   dh_installppp
+   dh_installudev
+   dh_installwm
+   dh_installxfonts
+   dh_bugfiles
+   dh_lintian
+   dh_gconf
+   dh_icons
+   dh_perl
+   dh_scrollkeeper
+   dh_usrlocal
+   dh_link
+   dh_compress
+   dh_fixperms
+touch install-stamp
+dh binary-indep
+   dh_installdeb -i
+   dh_gencontrol -i
+   dh_md5sums -i
+   dh_builddeb -i
+dpkg-deb: building package `libmodern-perl' in `../libmodern-perl_1.03-1_all.deb'.
+ dpkg-genchanges  >../libmodern-perl_1.03-1_i386.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: full upload (original source is included)
+I: Copying back the cached apt archive contents
+I: unmounting dev/pts filesystem
+I: unmounting proc filesystem
+I: cleaning the build env 
+I: removing directory /var/cache/pbuilder/build//29923 and its subdirectories
+I: Current time: Mon May 25 12:44:41 EDT 2009
+I: pbuilder-time-stamp: 1243269881
+ signfile /home/david/debian/libmodern-perl/libmodern-perl_1.03-1.dsc C671257D
+
+ signfile /home/david/debian/libmodern-perl/libmodern-perl_1.03-1_i386.changes C671257D
+
+Successfully signed dsc and changes files
