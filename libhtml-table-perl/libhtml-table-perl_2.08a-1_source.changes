@@ -1,0 +1,32 @@
+Format: 1.8
+Date: Sun, 17 May 2009 22:57:59 -0430
+Source: libhtml-table-perl
+Binary: libhtml-table-perl
+Architecture: source
+Version: 2.08a-1
+Distribution: unstable
+Urgency: low
+Maintainer: Christian Sánchez <csanchez@unplug.org.ve>
+Changed-By: Christian Sánchez <csanchez@unplug.org.ve>
+Description: 
+ libhtml-table-perl - Perl module for creating HTML tables
+Changes: 
+ libhtml-table-perl (2.08a-1) unstable; urgency=low
+ .
+   * New upstream release
+   - control:
+       + Bumped Standards-Version to 3.8.1 (no changes).
+       + Now depends on debhelper >= 5
+       + debian/rules: [ ! -f Makefile ] || $(MAKE) distclean
+Checksums-Sha1: 
+ d87b4a557972310ab89b06b8eb1b66742fc97492 791 libhtml-table-perl_2.08a-1.dsc
+ b3c899772eb520b248955edf188e692bd8416729 23934 libhtml-table-perl_2.08a.orig.tar.gz
+ 8ecef27c29d2b284f2024f48b44b6befb9943b77 2602 libhtml-table-perl_2.08a-1.diff.gz
+Checksums-Sha256: 
+ 8006cdab4a7ae792e04787a6362d3f783ad5aa3cb2d61d3c6964599202b8fe1a 791 libhtml-table-perl_2.08a-1.dsc
+ f6dd9066cde6a818a2c0eb2bcfdb6e5ef3de030fff6beeadfff3732ef1c32805 23934 libhtml-table-perl_2.08a.orig.tar.gz
+ 60239de53b06a25fa251cb33b8f396bf8266188c3b37493ef69a0dbba0d83b00 2602 libhtml-table-perl_2.08a-1.diff.gz
+Files: 
+ abe85a18de234abe6f43d8dd4acb0442 791 perl optional libhtml-table-perl_2.08a-1.dsc
+ ae24eb86442e34d9ef6c8f3e4deac968 23934 perl optional libhtml-table-perl_2.08a.orig.tar.gz
+ 106b1b3c1b93b65c88aef99104955df3 2602 perl optional libhtml-table-perl_2.08a-1.diff.gz

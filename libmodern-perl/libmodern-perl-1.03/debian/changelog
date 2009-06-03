@@ -1,3 +1,9 @@
+libmodern-perl (1.03-2) unstable; urgency=low
+
+  * Setting Perl dependency to 5.10.
+
+ -- David Moreno <damog@debian.org>  Fri, 29 May 2009 08:04:28 -0400
+
 libmodern-perl (1.03-1) unstable; urgency=low
 
   * Initial Release (Closes: #515231).

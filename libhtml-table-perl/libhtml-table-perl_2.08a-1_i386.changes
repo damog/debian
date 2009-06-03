@@ -1,0 +1,46 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Sun, 17 May 2009 22:57:59 -0430
+Source: libhtml-table-perl
+Binary: libhtml-table-perl
+Architecture: source all
+Version: 2.08a-1
+Distribution: unstable
+Urgency: low
+Maintainer: Christian Sánchez <csanchez@unplug.org.ve>
+Changed-By: Christian Sánchez <csanchez@unplug.org.ve>
+Description: 
+ libhtml-table-perl - Perl module for creating HTML tables
+Changes: 
+ libhtml-table-perl (2.08a-1) unstable; urgency=low
+ .
+   * New upstream release
+   - control:
+       + Bumped Standards-Version to 3.8.1 (no changes).
+       + Now depends on debhelper >= 5
+       + debian/rules: [ ! -f Makefile ] || $(MAKE) distclean
+Checksums-Sha1: 
+ bcae9c649b01c5837760ce6b3f8d1c86c46df12e 1036 libhtml-table-perl_2.08a-1.dsc
+ b3c899772eb520b248955edf188e692bd8416729 23934 libhtml-table-perl_2.08a.orig.tar.gz
+ 4cd09596c7a0be6185a34bd10f4ae9414a3e667f 2602 libhtml-table-perl_2.08a-1.diff.gz
+ 55441102b081b0ffb306a0e838dd1ff07e9a7d88 34776 libhtml-table-perl_2.08a-1_all.deb
+Checksums-Sha256: 
+ 5c46f3748ef5e976a0759f3004c44518fd6eb4f7d857fa7750eeb0b043f9f922 1036 libhtml-table-perl_2.08a-1.dsc
+ f6dd9066cde6a818a2c0eb2bcfdb6e5ef3de030fff6beeadfff3732ef1c32805 23934 libhtml-table-perl_2.08a.orig.tar.gz
+ 1f6b10908ea18e5a83dc1342c57e185779ea6ce8a02b4bed330e447a94653949 2602 libhtml-table-perl_2.08a-1.diff.gz
+ 7e96581d67fc11f2d183ee9828d92d09519f581530d13896eb3152265073d690 34776 libhtml-table-perl_2.08a-1_all.deb
+Files: 
+ 37fe9c166758fca43fcbf1d823c331a4 1036 perl optional libhtml-table-perl_2.08a-1.dsc
+ ae24eb86442e34d9ef6c8f3e4deac968 23934 perl optional libhtml-table-perl_2.08a.orig.tar.gz
+ 973b45ba8fb758294b7df4de34ff187f 2602 perl optional libhtml-table-perl_2.08a-1.diff.gz
+ 4c129361b8aa1e37138c9a2b9a7c5795 34776 perl optional libhtml-table-perl_2.08a-1_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkonAd4ACgkQmBxf18ZxJX3stwCeNnTfzYprb38fzfUgsAi/WKsr
+yiMAnijeo6gugcm8V2lHF16lIeMfy0Qz
+=LO5f
+-----END PGP SIGNATURE-----

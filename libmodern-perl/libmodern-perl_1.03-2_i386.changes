@@ -1,0 +1,39 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+Format: 1.8
+Date: Fri, 29 May 2009 08:04:28 -0400
+Source: libmodern-perl
+Binary: libmodern-perl
+Architecture: source all
+Version: 1.03-2
+Distribution: unstable
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ libmodern-perl - enable all of the features of Modern Perl with one command
+Changes: 
+ libmodern-perl (1.03-2) unstable; urgency=low
+ .
+   * Setting Perl dependency to 5.10.
+Checksums-Sha1: 
+ ef50a42704acdc57d6875a46e1d41f1906bc3421 1093 libmodern-perl_1.03-2.dsc
+ cfed4f1a9b92bb18effce2c1357eb49ebaf65fba 1209 libmodern-perl_1.03-2.diff.gz
+ a42c849a8bb4c25a68e1504a701333b0070fd73c 6866 libmodern-perl_1.03-2_all.deb
+Checksums-Sha256: 
+ 86d32c18f10a29f2d2a7031d959029e8574675f3ec027dcc712805536adb9d65 1093 libmodern-perl_1.03-2.dsc
+ ae3ce6ccb002f1392c1ac97d04a103c41aced992bab7d226bc50b5f248539da3 1209 libmodern-perl_1.03-2.diff.gz
+ 1d12886fc809b672b1915fbfcb305584e5576434e6a397ccfc77c4226a6d1815 6866 libmodern-perl_1.03-2_all.deb
+Files: 
+ e6c1d30b0e53d7b672302c54927112ce 1093 perl optional libmodern-perl_1.03-2.dsc
+ 5367682ac61a9d19c5485b2a7bbf6f79 1209 perl optional libmodern-perl_1.03-2.diff.gz
+ eab49132cff73150fd86878ab331b3e8 6866 perl optional libmodern-perl_1.03-2_all.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.9 (GNU/Linux)
+
+iEYEARECAAYFAkof1sgACgkQmBxf18ZxJX3moQCeIZSTHynmNbLM/llgF1sW5r2Q
+UTQAoIqNspu9ilg0G6HcI6IcHic6hhzq
+=VmQY
+-----END PGP SIGNATURE-----

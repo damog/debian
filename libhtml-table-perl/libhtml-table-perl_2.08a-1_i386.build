@@ -1,0 +1,229 @@
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package libhtml-table-perl
+dpkg-buildpackage: source version 2.08a-1
+dpkg-buildpackage: source changed by Christian Sánchez <csanchez@unplug.org.ve>
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+[ ! -f Makefile ] || /usr/bin/make distclean
+dh_clean build-stamp install-stamp
+ dpkg-source -b libhtml-table-perl-2.08a
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libhtml-table-perl using existing libhtml-table-perl_2.08a.orig.tar.gz
+dpkg-source: info: building libhtml-table-perl in libhtml-table-perl_2.08a-1.diff.gz
+dpkg-source: info: building libhtml-table-perl in libhtml-table-perl_2.08a-1.dsc
+ dpkg-genchanges -S >../libhtml-table-perl_2.08a-1_source.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: source only upload (original source is included)
+W: /home/david/.pbuilderrc does not exist
+I: using fakeroot in build.
+I: Current time: Wed Jun  3 19:04:43 EDT 2009
+I: pbuilder-time-stamp: 1244070283
+I: Building the build Environment
+I: extracting base tarball [/var/cache/pbuilder/base.tgz]
+I: creating local configuration
+I: copying local configuration
+I: mounting /proc filesystem
+I: mounting /dev/pts filesystem
+I: policy-rc.d already exists
+I: Obtaining the cached apt archive contents
+I: Installing the build-deps
+ -> Attempting to satisfy build-dependencies
+ -> Creating pbuilder-satisfydepends-dummy package
+Package: pbuilder-satisfydepends-dummy
+Version: 0.invalid.0
+Architecture: i386
+Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+ This package was created automatically by pbuilder and should
+Depends: debhelper (>= 5)
+dpkg-deb: building package `pbuilder-satisfydepends-dummy' in `/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+aptitude is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Selecting previously deselected package pbuilder-satisfydepends-dummy.
+(Reading database ... 9751 files and directories currently installed.)
+Unpacking pbuilder-satisfydepends-dummy (from .../pbuilder-satisfydepends-dummy.deb) ...
+dpkg: dependency problems prevent configuration of pbuilder-satisfydepends-dummy:
+ pbuilder-satisfydepends-dummy depends on debhelper (>= 5); however:
+  Package debhelper is not installed.
+dpkg: error processing pbuilder-satisfydepends-dummy (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ pbuilder-satisfydepends-dummy
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Initializing package states...
+Writing extended state information...
+The following NEW packages will be installed:
+  bsdmainutils{a} debhelper{a} file{a} gettext{a} gettext-base{a} 
+  groff-base{a} html2text{a} intltool-debian{a} libcroco3{a} 
+  libglib2.0-0{a} libgomp1{a} libmagic1{a} libpcre3{a} libxml2{a} man-db{a} 
+  po-debconf{a} 
+The following partially installed packages will be configured:
+  pbuilder-satisfydepends-dummy 
+0 packages upgraded, 16 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0B/8219kB of archives. After unpacking 23.2MB will be used.
+Writing extended state information...
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously deselected package libmagic1.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 9751 files and directories currently installed.)
+Unpacking libmagic1 (from .../libmagic1_5.03-1_i386.deb) ...
+Selecting previously deselected package file.
+Unpacking file (from .../archives/file_5.03-1_i386.deb) ...
+Selecting previously deselected package html2text.
+Unpacking html2text (from .../html2text_1.3.2a-14_i386.deb) ...
+Selecting previously deselected package libpcre3.
+Unpacking libpcre3 (from .../libpcre3_7.8-2+b1_i386.deb) ...
+Selecting previously deselected package libglib2.0-0.
+Unpacking libglib2.0-0 (from .../libglib2.0-0_2.20.1-2_i386.deb) ...
+Selecting previously deselected package libxml2.
+Unpacking libxml2 (from .../libxml2_2.7.3.dfsg-1_i386.deb) ...
+Selecting previously deselected package libcroco3.
+Unpacking libcroco3 (from .../libcroco3_0.6.1-2_i386.deb) ...
+Selecting previously deselected package libgomp1.
+Unpacking libgomp1 (from .../libgomp1_4.4.0-5_i386.deb) ...
+Selecting previously deselected package gettext-base.
+Unpacking gettext-base (from .../gettext-base_0.17-6_i386.deb) ...
+Selecting previously deselected package gettext.
+Unpacking gettext (from .../gettext_0.17-6_i386.deb) ...
+Selecting previously deselected package intltool-debian.
+Unpacking intltool-debian (from .../intltool-debian_0.35.0+20060710.1_all.deb) ...
+Selecting previously deselected package po-debconf.
+Unpacking po-debconf (from .../po-debconf_1.0.16_all.deb) ...
+Selecting previously deselected package groff-base.
+Unpacking groff-base (from .../groff-base_1.18.1.1-22_i386.deb) ...
+Selecting previously deselected package bsdmainutils.
+Unpacking bsdmainutils (from .../bsdmainutils_6.1.10_i386.deb) ...
+Selecting previously deselected package man-db.
+Unpacking man-db (from .../man-db_2.5.5-1_i386.deb) ...
+Selecting previously deselected package debhelper.
+Unpacking debhelper (from .../debhelper_7.2.14_all.deb) ...
+Setting up libmagic1 (5.03-1) ...
+Setting up file (5.03-1) ...
+Setting up html2text (1.3.2a-14) ...
+Setting up libpcre3 (7.8-2+b1) ...
+Setting up libglib2.0-0 (2.20.1-2) ...
+Setting up libxml2 (2.7.3.dfsg-1) ...
+Setting up libcroco3 (0.6.1-2) ...
+Setting up libgomp1 (4.4.0-5) ...
+Setting up gettext-base (0.17-6) ...
+Setting up gettext (0.17-6) ...
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.16) ...
+Setting up groff-base (1.18.1.1-22) ...
+Setting up bsdmainutils (6.1.10) ...
+update-alternatives: using /usr/bin/bsd-write to provide /usr/bin/write (write) in auto mode.
+Setting up man-db (2.5.5-1) ...
+Building database of manual pages ...
+Setting up debhelper (7.2.14) ...
+Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+ -> Finished parsing the build-deps
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fakeroot is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+I: Copying back the cached apt archive contents
+I: Copying source file
+I: copying [../libhtml-table-perl_2.08a-1.dsc]
+I: copying [../libhtml-table-perl_2.08a.orig.tar.gz]
+I: copying [../libhtml-table-perl_2.08a-1.diff.gz]
+I: Extracting source
+dpkg-source: warning: extracting unsigned source package (libhtml-table-perl_2.08a-1.dsc)
+dpkg-source: info: extracting libhtml-table-perl in libhtml-table-perl-2.08a
+dpkg-source: info: unpacking libhtml-table-perl_2.08a.orig.tar.gz
+dpkg-source: info: applying libhtml-table-perl_2.08a-1.diff.gz
+I: Building the package
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package libhtml-table-perl
+dpkg-buildpackage: source version 2.08a-1
+dpkg-buildpackage: source changed by Christian Sánchez <csanchez@unplug.org.ve>
+dpkg-buildpackage: host architecture i386
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+[ ! -f Makefile ] || /usr/bin/make distclean
+dh_clean build-stamp install-stamp
+ dpkg-source -b libhtml-table-perl-2.08a
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libhtml-table-perl using existing libhtml-table-perl_2.08a.orig.tar.gz
+dpkg-source: info: building libhtml-table-perl in libhtml-table-perl_2.08a-1.diff.gz
+dpkg-source: info: building libhtml-table-perl in libhtml-table-perl_2.08a-1.dsc
+ debian/rules build
+dh_testdir
+/usr/bin/perl Makefile.PL INSTALLDIRS=vendor
+Checking if your kit is complete...
+Looks good
+Writing Makefile for HTML::Table
+/usr/bin/make OPTIMIZE="-Wall -g -O2"
+make[1]: Entering directory `/tmp/buildd/libhtml-table-perl-2.08a'
+cp lib/HTML/Table.pm blib/lib/HTML/Table.pm
+Manifying blib/man3/HTML::Table.3pm
+make[1]: Leaving directory `/tmp/buildd/libhtml-table-perl-2.08a'
+touch build-stamp
+ fakeroot debian/rules binary
+dh_testdir
+dh_testroot
+dh_clean -k
+/usr/bin/make test
+make[1]: Entering directory `/tmp/buildd/libhtml-table-perl-2.08a'
+PERL_DL_NONLAZY=1 /usr/bin/perl "-Iblib/lib" "-Iblib/arch" test.pl
+1..1
+ok 1
+make[1]: Leaving directory `/tmp/buildd/libhtml-table-perl-2.08a'
+/usr/bin/make install DESTDIR=/tmp/buildd/libhtml-table-perl-2.08a/debian/libhtml-table-perl PREFIX=/usr
+make[1]: Entering directory `/tmp/buildd/libhtml-table-perl-2.08a'
+Installing /tmp/buildd/libhtml-table-perl-2.08a/debian/libhtml-table-perl/usr/share/perl5/HTML/Table.pm
+Installing /tmp/buildd/libhtml-table-perl-2.08a/debian/libhtml-table-perl/usr/share/man/man3/HTML::Table.3pm
+make[1]: Leaving directory `/tmp/buildd/libhtml-table-perl-2.08a'
+#As this is a architecture independent package, we are not supposed to install
+#stuff to /usr/lib. MakeMaker creates the dirs, we delete them from the deb:
+[ ! -d /tmp/buildd/libhtml-table-perl-2.08a/debian/libhtml-table-perl/usr/lib/perl5 ] || rmdir --ignore-fail-on-non-empty --parents --verbose /tmp/buildd/libhtml-table-perl-2.08a/debian/libhtml-table-perl/usr/lib/perl5
+touch install-stamp
+dh_testdir
+dh_testroot
+dh_installdocs
+dh_perl
+dh_installchangelogs Changes
+dh_link
+dh_strip
+dh_compress
+dh_fixperms
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb
+dpkg-deb: building package `libhtml-table-perl' in `../libhtml-table-perl_2.08a-1_all.deb'.
+ dpkg-genchanges  >../libhtml-table-perl_2.08a-1_i386.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: full upload (original source is included)
+I: Copying back the cached apt archive contents
+I: unmounting dev/pts filesystem
+I: unmounting proc filesystem
+I: cleaning the build env 
+I: removing directory /var/cache/pbuilder/build//23191 and its subdirectories
+I: Current time: Wed Jun  3 19:05:44 EDT 2009
+I: pbuilder-time-stamp: 1244070344
+ signfile /home/david/debian/libhtml-table-perl/libhtml-table-perl_2.08a-1.dsc C671257D
+
+ signfile /home/david/debian/libhtml-table-perl/libhtml-table-perl_2.08a-1_i386.changes C671257D
+
+Successfully signed dsc and changes files

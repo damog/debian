@@ -1,0 +1,89 @@
+libhtml-table-perl (2.08a-1) unstable; urgency=low
+
+  * New upstream release
+  - control:
+      + Bumped Standards-Version to 3.8.1 (no changes). 
+      + Now depends on debhelper >= 5
+      + debian/rules: [ ! -f Makefile ] || $(MAKE) distclean
+
+ -- Christian Sánchez <csanchez@unplug.org.ve>  Sun, 17 May 2009 22:57:59 -0430
+
+libhtml-table-perl (2.04a-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * debian/rules: Don't FTBFS when perl is smart enough not to create empty 
+    dirs (Closes: #467947)
+
+ -- Marc 'HE' Brockschmidt <he@debian.org>  Sat, 05 Apr 2008 18:47:57 +0200
+
+libhtml-table-perl (2.04a-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Christian Sánchez <csanchez@unplug.org.ve>  Tue, 28 Mar 2006 03:46:49 +0000
+
+libhtml-table-perl (2.02-3) unstable; urgency=low
+
+  * New maintainer. (Closes: #333188)
+    - control:
+        + Bumped Standards-Version to 3.6.2 (no changes).
+
+ -- Christian Sánchez <csanchez@unplug.org.ve>  Fri, 23 Dec 2005 18:03:31 -0400
+
+libhtml-table-perl (2.02-2) unstable; urgency=low
+
+  * QA Group upload orphaning this package
+
+ -- Andrew Pollock <apollock@debian.org>  Thu, 27 Oct 2005 16:29:37 +1000
+
+libhtml-table-perl (2.02-1) unstable; urgency=low
+
+  * New upstream release.
+  * debian/control: I'm a DD now!
+  * debian/rules: Used one of my standard ones, created debian/compat.
+
+ -- Marc 'HE' Brockschmidt <he@debian.org>  Wed, 24 Mar 2004 18:46:38 +0100
+
+libhtml-table-perl (1.20-1) unstable; urgency=low
+
+  * New maintainer. (Closes: #217114)
+  * New upstream release. (Closes: #194269)
+  * debian/: 
+    - copyright: 
+      + Included pointers to GPL and the Artistic license. (Closes: #157591)
+      + Dropped boilerplate (s) to satisfy lintian.
+    - control:
+      + Bumped Standards-Version to 3.6.1 (no changes).
+      + Now depends on debhelper >= 4.
+      + Moved debhelper dependency to Build-Depends, we use it in debian/rules
+        clean.
+    - rules:
+      + Cleaned the makefile.
+    - libhtml-table-perl.*:
+      + Dropped, they are not needed.
+
+ -- Marc Brockschmidt <marc@dch-faq.de>  Fri, 24 Oct 2003 10:59:44 +0200
+
+libhtml-table-perl (1.13-1) unstable; urgency=high
+
+  * New Upstream.
+
+ -- Christopher L Cheney <ccheney@debian.org>  Sun, 10 Feb 2002 03:00:00 -0600
+
+libhtml-table-perl (1.12a-1) unstable; urgency=high
+
+  * New Upstream.
+
+ -- Christopher L Cheney <ccheney@debian.org>  Fri, 23 Nov 2001 20:53:48 -0600
+
+libhtml-table-perl (1.11-1) unstable; urgency=low
+
+  * New Upstream.
+
+ -- Christopher L Cheney <ccheney@debian.org>  Fri, 10 Aug 2001 23:00:00 -0500
+
+libhtml-table-perl (1.07a-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Christopher L Cheney <ccheney@debian.org>  Tue,  6 Mar 2001 10:00:00 -0600
