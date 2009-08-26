@@ -1,0 +1,296 @@
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package libxml-treepp-perl
+dpkg-buildpackage: source version 0.39-1
+dpkg-buildpackage: source changed by David Moreno <damog@debian.org>
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+# Add commands to clean up after the build process here
+[ ! -f Makefile ] || /usr/bin/make realclean
+dh_clean build-stamp install-stamp
+ dpkg-source -b libxml-treepp-perl-0.39
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libxml-treepp-perl using existing libxml-treepp-perl_0.39.orig.tar.gz
+dpkg-source: info: building libxml-treepp-perl in libxml-treepp-perl_0.39-1.diff.gz
+dpkg-source: info: building libxml-treepp-perl in libxml-treepp-perl_0.39-1.dsc
+ dpkg-genchanges -S >../libxml-treepp-perl_0.39-1_source.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: source only upload (original source is included)
+W: /home/david/.pbuilderrc does not exist
+I: using fakeroot in build.
+I: Current time: Wed Aug 26 16:59:57 EDT 2009
+I: pbuilder-time-stamp: 1251320397
+I: Building the build Environment
+I: extracting base tarball [/var/cache/pbuilder/base.tgz]
+I: creating local configuration
+I: copying local configuration
+I: mounting /proc filesystem
+I: mounting /dev/pts filesystem
+I: policy-rc.d already exists
+I: Obtaining the cached apt archive contents
+I: Installing the build-deps
+ -> Attempting to satisfy build-dependencies
+ -> Creating pbuilder-satisfydepends-dummy package
+Package: pbuilder-satisfydepends-dummy
+Version: 0.invalid.0
+Architecture: i386
+Maintainer: Debian Pbuilder Team <pbuilder-maint@lists.alioth.debian.org>
+Description: Dummy package to satisfy dependencies with aptitude - created by pbuilder
+ This package was created automatically by pbuilder and should
+Depends: debhelper (>= 5.0.0), perl (>= 5.8.8-7)
+dpkg-deb: building package `pbuilder-satisfydepends-dummy' in `/tmp/satisfydepends-aptitude/pbuilder-satisfydepends-dummy.deb'.
+Reading package lists...
+Building dependency tree...
+Reading state information...
+aptitude is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+Selecting previously deselected package pbuilder-satisfydepends-dummy.
+(Reading database ... 9910 files and directories currently installed.)
+Unpacking pbuilder-satisfydepends-dummy (from .../pbuilder-satisfydepends-dummy.deb) ...
+dpkg: dependency problems prevent configuration of pbuilder-satisfydepends-dummy:
+ pbuilder-satisfydepends-dummy depends on debhelper (>= 5.0.0); however:
+  Package debhelper is not installed.
+dpkg: error processing pbuilder-satisfydepends-dummy (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ pbuilder-satisfydepends-dummy
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Initializing package states...
+Writing extended state information...
+The following NEW packages will be installed:
+  bsdmainutils{a} debhelper{a} file{a} gettext{a} gettext-base{a} 
+  groff-base{a} html2text{a} intltool-debian{a} libcroco3{a} 
+  libglib2.0-0{a} libmagic1{a} libpcre3{a} libxml2{a} man-db{a} 
+  po-debconf{a} 
+The following partially installed packages will be configured:
+  pbuilder-satisfydepends-dummy 
+0 packages upgraded, 15 newly installed, 0 to remove and 0 not upgraded.
+Need to get 0B/8159kB of archives. After unpacking 24.4MB will be used.
+Writing extended state information...
+debconf: delaying package configuration, since apt-utils is not installed
+Selecting previously deselected package libmagic1.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 9910 files and directories currently installed.)
+Unpacking libmagic1 (from .../libmagic1_5.03-1_i386.deb) ...
+Selecting previously deselected package file.
+Unpacking file (from .../archives/file_5.03-1_i386.deb) ...
+Selecting previously deselected package html2text.
+Unpacking html2text (from .../html2text_1.3.2a-14_i386.deb) ...
+Selecting previously deselected package libpcre3.
+Unpacking libpcre3 (from .../libpcre3_7.8-2+b1_i386.deb) ...
+Selecting previously deselected package libglib2.0-0.
+Unpacking libglib2.0-0 (from .../libglib2.0-0_2.20.4-1_i386.deb) ...
+Selecting previously deselected package libxml2.
+Unpacking libxml2 (from .../libxml2_2.7.3.dfsg-2.1_i386.deb) ...
+Selecting previously deselected package libcroco3.
+Unpacking libcroco3 (from .../libcroco3_0.6.1-2_i386.deb) ...
+Selecting previously deselected package gettext-base.
+Unpacking gettext-base (from .../gettext-base_0.17-7_i386.deb) ...
+Selecting previously deselected package gettext.
+Unpacking gettext (from .../gettext_0.17-7_i386.deb) ...
+Selecting previously deselected package intltool-debian.
+Unpacking intltool-debian (from .../intltool-debian_0.35.0+20060710.1_all.deb) ...
+Selecting previously deselected package po-debconf.
+Unpacking po-debconf (from .../po-debconf_1.0.16_all.deb) ...
+Selecting previously deselected package groff-base.
+Unpacking groff-base (from .../groff-base_1.20.1-5_i386.deb) ...
+Selecting previously deselected package bsdmainutils.
+Unpacking bsdmainutils (from .../bsdmainutils_6.1.10_i386.deb) ...
+Selecting previously deselected package man-db.
+Unpacking man-db (from .../man-db_2.5.6-1_i386.deb) ...
+Selecting previously deselected package debhelper.
+Unpacking debhelper (from .../debhelper_7.3.15_all.deb) ...
+Setting up libmagic1 (5.03-1) ...
+Setting up file (5.03-1) ...
+Setting up html2text (1.3.2a-14) ...
+Setting up libpcre3 (7.8-2+b1) ...
+Setting up libglib2.0-0 (2.20.4-1) ...
+Setting up libxml2 (2.7.3.dfsg-2.1) ...
+Setting up libcroco3 (0.6.1-2) ...
+Setting up gettext-base (0.17-7) ...
+Setting up gettext (0.17-7) ...
+Setting up intltool-debian (0.35.0+20060710.1) ...
+Setting up po-debconf (1.0.16) ...
+Setting up groff-base (1.20.1-5) ...
+Setting up bsdmainutils (6.1.10) ...
+update-alternatives: using /usr/bin/bsd-write to provide /usr/bin/write (write) in auto mode.
+Setting up man-db (2.5.6-1) ...
+Building database of manual pages ...
+Setting up debhelper (7.3.15) ...
+Setting up pbuilder-satisfydepends-dummy (0.invalid.0) ...
+Reading package lists...
+Building dependency tree...
+Reading state information...
+Reading extended state information...
+Initializing package states...
+Writing extended state information...
+ -> Finished parsing the build-deps
+Reading package lists...
+Building dependency tree...
+Reading state information...
+fakeroot is already the newest version.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+I: Copying back the cached apt archive contents
+I: Copying source file
+I: copying [../libxml-treepp-perl_0.39-1.dsc]
+I: copying [../libxml-treepp-perl_0.39.orig.tar.gz]
+I: copying [../libxml-treepp-perl_0.39-1.diff.gz]
+I: Extracting source
+dpkg-source: warning: extracting unsigned source package (libxml-treepp-perl_0.39-1.dsc)
+dpkg-source: info: extracting libxml-treepp-perl in libxml-treepp-perl-0.39
+dpkg-source: info: unpacking libxml-treepp-perl_0.39.orig.tar.gz
+dpkg-source: info: applying libxml-treepp-perl_0.39-1.diff.gz
+I: Building the package
+dpkg-buildpackage: set CFLAGS to default value: -g -O2
+dpkg-buildpackage: set CPPFLAGS to default value: 
+dpkg-buildpackage: set LDFLAGS to default value: 
+dpkg-buildpackage: set FFLAGS to default value: -g -O2
+dpkg-buildpackage: set CXXFLAGS to default value: -g -O2
+dpkg-buildpackage: source package libxml-treepp-perl
+dpkg-buildpackage: source version 0.39-1
+dpkg-buildpackage: source changed by David Moreno <damog@debian.org>
+dpkg-buildpackage: host architecture i386
+ fakeroot debian/rules clean
+dh_testdir
+dh_testroot
+# Add commands to clean up after the build process here
+[ ! -f Makefile ] || /usr/bin/make realclean
+dh_clean build-stamp install-stamp
+ dpkg-source -b libxml-treepp-perl-0.39
+dpkg-source: info: using source format `1.0'
+dpkg-source: info: building libxml-treepp-perl using existing libxml-treepp-perl_0.39.orig.tar.gz
+dpkg-source: info: building libxml-treepp-perl in libxml-treepp-perl_0.39-1.diff.gz
+dpkg-source: info: building libxml-treepp-perl in libxml-treepp-perl_0.39-1.dsc
+ debian/rules build
+dh_testdir
+# Add commands to compile the package here
+/usr/bin/perl Makefile.PL INSTALLDIRS=vendor
+Warning: prerequisite HTTP::Lite 0 not found.
+Checking if your kit is complete...
+Looks good
+Writing Makefile for XML::TreePP
+/usr/bin/make OPTIMIZE="-Wall -O2 -g"
+make[1]: Entering directory `/tmp/buildd/libxml-treepp-perl-0.39'
+cp lib/XML/TreePP.pm blib/lib/XML/TreePP.pm
+Manifying blib/man3/XML::TreePP.3pm
+make[1]: Leaving directory `/tmp/buildd/libxml-treepp-perl-0.39'
+touch build-stamp
+ fakeroot debian/rules binary
+dh_testdir
+dh_testroot
+dh_clean -k
+# Add commands to install the package into debian/ACKAGE_NAME here
+/usr/bin/make test
+make[1]: Entering directory `/tmp/buildd/libxml-treepp-perl-0.39'
+PERL_DL_NONLAZY=1 /usr/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/00_pod...................skipped
+        all skipped: Test::Pod 1.00 required for testing POD
+t/01_parse.................ok
+t/02_write.................ok
+t/03_parsefile.............ok
+t/04_escape................ok
+t/05_empty.................ok
+t/06_cdata.................ok
+t/07_attr_prefix...........ok
+t/08_force_array...........ok
+t/09_http-lite.............skipped
+        all skipped: HTTP::Lite is not loaded.
+t/10_http-lwp..............skipped
+        all skipped: LWP::UserAgent is not loaded.
+t/11_escape_cdata..........ok
+t/12_escape_charref........ok
+t/13_encoding_en...........ok
+t/14_encoding_zh...........ok
+t/15_encoding_ja...........ok
+t/16_encoding_ko...........ok
+t/17_output_encoding.......ok
+t/18_escape_amp............ok
+t/19_multi_text............ok
+t/20_http-lite-cached......skipped
+        all skipped: HTTP::Lite is not loaded.
+t/21_http-lwp-cached.......skipped
+        all skipped: LWP::UserAgent is not loaded.
+t/22_http-lite-headers.....skipped
+        all skipped: HTTP::Lite is not loaded.
+t/23_http-lwp-headers......skipped
+        all skipped: LWP::UserAgent is not loaded.
+t/24_ignore_error..........ok
+t/25_text_node_key.........ok
+t/26_attr_prefix_null......ok
+t/27_http-lite-force.......skipped
+        all skipped: HTTP::Lite is not loaded.
+t/28_http-lwp-force........skipped
+        all skipped: LWP::UserAgent is not loaded.
+t/29_http-lwp-withcache....skipped
+        all skipped: LWP::UserAgent::WithCache is not loaded.
+t/30_first_out.............ok
+t/31_tie_ixhash............skipped
+        all skipped: Tie::IxHash is not loaded.
+t/32_base_class............ok
+t/33_indent................ok
+t/34_utf8_flag.............ok
+t/35_force_hash............ok
+t/36_elem_class............ok
+t/37_undef.................ok
+t/38_cdata_cdsect..........ok
+t/39_writefile.............ok
+t/40_writefile_jcode.......skipped
+        all skipped: Jcode is not loaded.
+t/41_writefile_encode......ok
+t/42_cdata_comment.........ok
+t/43_encoding_quote........ok
+t/44_utf8_bom..............ok
+t/45_attr_space............ok
+t/46_xml_deref.............ok
+t/47_xml_deref_utf8........ok
+t/48_blobref...............ok
+t/49_invalid_encoding......ok
+t/50_invalid_tree..........ok
+All tests successful, 12 tests skipped.
+Files=51, Tests=1058,  3 wallclock secs ( 2.02 cusr +  0.63 csys =  2.65 CPU)
+make[1]: Leaving directory `/tmp/buildd/libxml-treepp-perl-0.39'
+/usr/bin/make install DESTDIR=/tmp/buildd/libxml-treepp-perl-0.39/debian/libxml-treepp-perl PREFIX=/usr
+make[1]: Entering directory `/tmp/buildd/libxml-treepp-perl-0.39'
+Manifying blib/man3/XML::TreePP.3pm
+Installing /tmp/buildd/libxml-treepp-perl-0.39/debian/libxml-treepp-perl/usr/share/perl5/XML/TreePP.pm
+Installing /tmp/buildd/libxml-treepp-perl-0.39/debian/libxml-treepp-perl/usr/share/man/man3/XML::TreePP.3pm
+make[1]: Leaving directory `/tmp/buildd/libxml-treepp-perl-0.39'
+# As this is a architecture independent package, we are not
+# supposed to install stuff to /usr/lib. MakeMaker creates
+# the dirs, we delete them from the deb:
+[ ! -d /tmp/buildd/libxml-treepp-perl-0.39/debian/libxml-treepp-perl/usr/lib/perl5 ] || rmdir --ignore-fail-on-non-empty --parents /tmp/buildd/libxml-treepp-perl-0.39/debian/libxml-treepp-perl/usr/lib/perl5
+touch install-stamp
+dh_testdir
+dh_testroot
+dh_installdocs README
+dh_installchangelogs Changes
+dh_perl
+dh_link
+dh_strip
+dh_compress
+dh_fixperms
+dh_installdeb
+dh_gencontrol
+dh_md5sums
+dh_builddeb
+dpkg-deb: building package `libxml-treepp-perl' in `../libxml-treepp-perl_0.39-1_all.deb'.
+ dpkg-genchanges  >../libxml-treepp-perl_0.39-1_i386.changes
+dpkg-genchanges: including full source code in upload
+dpkg-buildpackage: full upload (original source is included)
+I: Copying back the cached apt archive contents
+I: unmounting dev/pts filesystem
+I: unmounting proc filesystem
+I: cleaning the build env 
+I: removing directory /var/cache/pbuilder/build//12769 and its subdirectories
+I: Current time: Wed Aug 26 17:00:52 EDT 2009
+I: pbuilder-time-stamp: 1251320452
+ signfile /home/david/debian/libxml-treepp-perl/libxml-treepp-perl_0.39-1.dsc C671257D
+
+ signfile /home/david/debian/libxml-treepp-perl/libxml-treepp-perl_0.39-1_i386.changes C671257D
+
+Successfully signed dsc and changes files

@@ -1,0 +1,43 @@
+libxml-treepp-perl (0.39-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Moreno <damog@debian.org>  Wed, 26 Aug 2009 16:51:08 -0400
+
+libxml-treepp-perl (0.36-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Moreno <damog@debian.org>  Thu, 11 Dec 2008 16:05:36 -0500
+
+libxml-treepp-perl (0.33-1.1) unstable; urgency=low
+
+  * Non-maintainer upload.
+  * Fix FTBFS with Perl 5.10.  Closes: #467839
+
+ -- Mark Hymers <mhy@debian.org>  Sat, 05 Apr 2008 21:09:04 +0100
+
+libxml-treepp-perl (0.33-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Moreno Garza <damog@debian.org>  Mon, 25 Feb 2008 10:04:58 -0500
+
+libxml-treepp-perl (0.21-2) unstable; urgency=low
+
+  * Corrected mail address of maintainer.
+  * Added watch file.
+
+ -- David Moreno Garza <damog@debian.org>  Thu, 26 Jul 2007 14:24:41 -0500
+
+libxml-treepp-perl (0.21-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- David Moreno Garza <damog@cerdita.puerquita.cochinita.chanchita.damog.net>  Thu, 26 Jul 2007 14:21:14 -0500
+
+libxml-treepp-perl (0.19-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- David Moreno Garza <damog@debian.org>  Tue, 12 Jun 2007 20:15:15 -0500
