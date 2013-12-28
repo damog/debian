@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Format: 3.0 (quilt)
 Source: kbdlight
 Binary: kbdlight
@@ -17,3 +20,21 @@ Checksums-Sha256:
 Files: 
  3cd4b87a24220a1d144dc53af6128e68 1671 kbdlight_1.2.orig.tar.gz
  258a1494d7d4cac994b6a7773623eb99 1753 kbdlight_1.2-1.debian.tar.gz
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQIcBAEBAgAGBQJSvy4KAAoJEEgtF+lNrewvJiAQALJMAaygpw2GycYXLsFRDNXe
+llSigSSuUTTWzA4pt3U1sRRwt1W6vJtcqXbMX8LWEisF6wtMeK/cjrH3wZjfUnBA
+NUDr+JMZDa+GCK4dfU0o1n9KpwGGeucl1HHd5lyQMNEn2hoO+KlPBndkp+zmeySH
+x3QO7qeUcoYQhPrtlHFRNJHQ90UDw/Tc5cyfygDmUpD209Pjla49AtdjrQMKCGqr
+Rx+OzZhK/naWq861JRcpf9eOyWM/k03i3eJG3J2D+sbIEcvfnjm2tw8Fea9Cfxl1
+naN1vUscTvr4fuoMUcsANGfYro031vQfBBHFsikQWtNOsH3KWLh6dZvaB7EKValG
+7N2eV33I5NsTW/NVC6I2lXk7/dp2YLrJsAFah0mjVMl75DYyuyfBmhWyIC2TkZ2Z
+oWMCq+lgqFPFxwsqldrZ68PGHEeryoPKTEvCzM+ONHfiRTxvtabsQdJbOW/aeGnQ
+df3JRNEnw+UOzNCX44FuhNtXvDjYCdMKhvZALZah483B6U4dYAIo/mFHatGWSJ5+
+wIF+t4exAK02YpGrM4v4et+UUYtNAEMrMhDif0Vba6P3xkSzGrlUku31d8/C8Xqs
+yilkI4u93B2Mg+mf/GOhCTKGpyQgFOz/eP5gioWr0e6Z86ZDSxUFZf639wfE75NZ
+6AyzP8hSKw5NezEUbIA8
+=t9vs
+-----END PGP SIGNATURE-----

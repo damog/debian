@@ -21,8 +21,8 @@ dpkg-genchanges: including full source code in upload
 dpkg-buildpackage: full upload (original source is included)
 W: /home/damog/.pbuilderrc does not exist
 I: using fakeroot in build.
-I: Current time: Sat Dec 28 20:55:32 CET 2013
-I: pbuilder-time-stamp: 1388260532
+I: Current time: Sat Dec 28 21:00:48 CET 2013
+I: pbuilder-time-stamp: 1388260848
 I: Building the build Environment
 I: extracting base tarball [/var/cache/pbuilder/base.tgz]
 I: creating local configuration
@@ -251,6 +251,11 @@ I: Copying back the cached apt archive contents
 I: unmounting dev/pts filesystem
 I: unmounting proc filesystem
 I: cleaning the build env 
-I: removing directory /var/cache/pbuilder/build//24761 and its subdirectories
-I: Current time: Sat Dec 28 20:55:58 CET 2013
-I: pbuilder-time-stamp: 1388260558
+I: removing directory /var/cache/pbuilder/build//11559 and its subdirectories
+I: Current time: Sat Dec 28 21:01:13 CET 2013
+I: pbuilder-time-stamp: 1388260873
+ signfile /home/damog/git/debian/kbdlight/kbdlight_1.2-1.dsc 0x4DADEC2F
+
+ signfile /home/damog/git/debian/kbdlight/kbdlight_1.2-1_amd64.changes 0x4DADEC2F
+
+Successfully signed dsc and changes files
