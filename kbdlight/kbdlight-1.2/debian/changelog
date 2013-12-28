@@ -1,4 +1,4 @@
-kbdlight (1.2-1) UNRELEASED; urgency=low
+kbdlight (1.2-1) unstable; urgency=low
 
   * Initial release (Closes: #733349).
 
