@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
 Format: 1.8
 Date: Sat, 28 Dec 2013 18:38:43 +0100
 Source: kbdlight
@@ -16,17 +19,35 @@ Changes:
  .
    * Initial release (Closes: #733349).
 Checksums-Sha1: 
- 464a3bbf5994751519f1bc611c5700a781c7c755 752 kbdlight_1.2-1.dsc
+ f8cc8aff8c6d5eeb9b66807df7f4cc565f2b091a 1636 kbdlight_1.2-1.dsc
  bb4c8a5fcc1b5277fbe63bcf0e5a92655e1bdb45 1671 kbdlight_1.2.orig.tar.gz
- 5dbc9fe32bc6bd28182f0691ace043136f1b8f13 1744 kbdlight_1.2-1.debian.tar.gz
- c009dd7d259abf8e3082825d191de3866574de9e 4858 kbdlight_1.2-1_amd64.deb
+ 57e4ce01401b5eaa7006391a16d3c0e9363690fe 1750 kbdlight_1.2-1.debian.tar.gz
+ 1d05dd222477c800fa850bd0c750ad61ebb1956a 4860 kbdlight_1.2-1_amd64.deb
 Checksums-Sha256: 
- 081a6c7c6b27a381a6bad821bf1b5eb7f09db16dfafd7535b43db5748e0a0408 752 kbdlight_1.2-1.dsc
+ 445cf6a88aa0a59b23d874c757ae69fbde38115fcb6e9695ce70305de4a6a623 1636 kbdlight_1.2-1.dsc
  030e080cfdcf7fee357b29591163a5950efe0ff45bd7a90a1ea1ff8516512a9b 1671 kbdlight_1.2.orig.tar.gz
- 388781cd6788fbfdeaaa158c10e886b1f4f56d4b4cae13351bf89c638828ffa8 1744 kbdlight_1.2-1.debian.tar.gz
- f4026ce1ceb182e4514abf25e341edab74499eaea3f2d995c80efff40046c0d0 4858 kbdlight_1.2-1_amd64.deb
+ bdb4aaefbe6fc0980252597b7648e803c944a6bda002d947a2039dfd69ba089c 1750 kbdlight_1.2-1.debian.tar.gz
+ d5c3e433cf22394fbf7f8d54ef59507d40c806f39d38605873ce5557f816e95f 4860 kbdlight_1.2-1_amd64.deb
 Files: 
- a7103de56d98aa2bf5ef2d8534f2cb01 752 utils optional kbdlight_1.2-1.dsc
+ c7bf3f7b8b896302af6916695d013ca2 1636 utils optional kbdlight_1.2-1.dsc
  3cd4b87a24220a1d144dc53af6128e68 1671 utils optional kbdlight_1.2.orig.tar.gz
- f25d5b56f4aad7e80b452458f7d401c1 1744 utils optional kbdlight_1.2-1.debian.tar.gz
- 98e12f00c56ab9b85e5297b8782d7dbc 4858 utils optional kbdlight_1.2-1_amd64.deb
+ c45fb6b9637eea31d005d76ef6289d29 1750 utils optional kbdlight_1.2-1.debian.tar.gz
+ e160d3d5156e6a4dfccf8a3170162cbf 4860 utils optional kbdlight_1.2-1_amd64.deb
+
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.12 (GNU/Linux)
+
+iQIcBAEBAgAGBQJSvymcAAoJEEgtF+lNrewv93QP/j75xKSrbzYi05OwunhZW2Hf
+tHFvTijCEhz1kt304c5Ck9RB2AZZQcF1KKWxew3fm3qTbE3yy9LC5NzDk+6aPfPf
+LVr2Xr7VadJ+4LovrPDtc0wjOvl/atgxADisClZuuaGTZky5xX7fLJbJFsms8eC4
+mSS3WMkzvYM3KWwuZ+JPEoKMzDLrDjmDktpoVz3BwdwKlwE/9l+jrQEHX5IlqCvv
+zBXdQlqfCeQzkvmUufmOil328BrUGk88+V0nziNmDZMxjr0Hob6dmQ660bkVgc6/
+4q5/M2fXtkZffPCHzH4id+ZOaoU/+bHrbtSyeiYDE3YX+lv7hLbjvMBlewXTMiI1
+8N7E0tPAVdjaN7z7NLqbm7/R25fAOrxnSExh58p2FPmz4nJXOxxU82NpKxxWIM0g
+gtLj4d7SxFP3d3yPPMyENx3eNhNvDaSUW6O/ElaY/PyJNTuWXoWt1fyGSXMVnQk+
++Bq8JifG10w69+0x+/q1srwhqnLDHJkTm9xZD9SQUajE/KJdxYlaDjHgx+FAtXXj
+c05GIuRNnjQFZ4xWPbJD5oIlO61Pysb/AslbavuPgRVjWr97mnrbhHipHI0aJdII
+nh6EnQe+4IMYb9kZhNGEgGYhirsLHZJ4bkvV4FQsnHbMOJ9A25Qor5Jn9R3ZR78W
+bvH99L8PiNyGfMQpibK3
+=dVl7
+-----END PGP SIGNATURE-----
