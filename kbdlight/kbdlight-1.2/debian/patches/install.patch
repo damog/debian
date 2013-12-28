@@ -1,0 +1,9 @@
+Prefix to point to /usr and not to /usr/local
+--- a/Makefile
++++ b/Makefile
+@@ -1,4 +1,4 @@
+-PREFIX = /usr/local
++PREFIX = /usr
+ 
+ obj = kbdlight.o
+ bin = kbdlight

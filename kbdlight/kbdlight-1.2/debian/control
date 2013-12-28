@@ -1,0 +1,16 @@
+Source: kbdlight
+Maintainer: David Moreno <damog@debian.org>
+Section: utils
+Priority: optional
+Standards-Version: 3.9.4
+Build-Depends: debhelper (>= 9)
+
+Package: kbdlight
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: simple application that changes MacBooks' keyboard backlight level
+ kbdlight is very simple application that changes MacBooks' keyboard backlight
+ level.
+ .
+ While usable standalone, the main goal is for it to be used by other
+ applications, including things like sxhkd or xbindkeys.

@@ -1,0 +1,5 @@
+kbdlight (1.2-1) UNRELEASED; urgency=low
+
+  * Initial release (Closes: #733349).
+
+ -- David Moreno <damog@debian.org>  Sat, 28 Dec 2013 18:38:43 +0100
