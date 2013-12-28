@@ -19,35 +19,35 @@ Changes:
  .
    * Initial release (Closes: #733349).
 Checksums-Sha1: 
- 13867dbcdcf77ab1d477ac6c9ef70fd1268886c0 1636 kbdlight_1.2-1.dsc
+ 8ab6dfb490fb1d388146f510c36b2896774869e5 1636 kbdlight_1.2-1.dsc
  bb4c8a5fcc1b5277fbe63bcf0e5a92655e1bdb45 1671 kbdlight_1.2.orig.tar.gz
- 185c4c02153bee26f4cb180fbac6996d6c91403d 1750 kbdlight_1.2-1.debian.tar.gz
- a81925623d21057e8e3205319c93ab34a7563215 4862 kbdlight_1.2-1_amd64.deb
+ 54c3babaf81f957143e407018369df246249e1d4 1751 kbdlight_1.2-1.debian.tar.gz
+ df88690362ada9b9cdd0a8980c55221118b80d69 4860 kbdlight_1.2-1_amd64.deb
 Checksums-Sha256: 
- f75bd08c836c076cafb080f109778b2f8c18afa8b35683ac38c07b5f0fc34c0b 1636 kbdlight_1.2-1.dsc
+ 07506e5ff597f9dee8badf5d9d911540f49ac858ea0989874390067eaa10bf37 1636 kbdlight_1.2-1.dsc
  030e080cfdcf7fee357b29591163a5950efe0ff45bd7a90a1ea1ff8516512a9b 1671 kbdlight_1.2.orig.tar.gz
- 2a6cd859c5d274e3cb8609d134c886d878bbcfe8bcba87fe0ffa66c7a8a36e99 1750 kbdlight_1.2-1.debian.tar.gz
- 71391a4f975c63ca4d41e8804f0d85a9c5b6b666bc53852191384f1e3a5eff73 4862 kbdlight_1.2-1_amd64.deb
+ 453cea71cbc9356460561339a85bf3a7d6472584deeea51f64ee4accb6903b36 1751 kbdlight_1.2-1.debian.tar.gz
+ 0f97dfe8fd109a749dec60532ac355c6f247ced61b7a44bcb2008bed258087c1 4860 kbdlight_1.2-1_amd64.deb
 Files: 
- 5d3cd6c5d90301662f9ff9b831313629 1636 utils optional kbdlight_1.2-1.dsc
+ e82135c5ae105187eb53471d6ed43533 1636 utils optional kbdlight_1.2-1.dsc
  3cd4b87a24220a1d144dc53af6128e68 1671 utils optional kbdlight_1.2.orig.tar.gz
- aaad7441732365db2616ad71486a4e3b 1750 utils optional kbdlight_1.2-1.debian.tar.gz
- d169cdb6bf66c195ca7cbdc0505a9f45 4862 utils optional kbdlight_1.2-1_amd64.deb
+ a68b45ca226103d2541e4040e820eede 1751 utils optional kbdlight_1.2-1.debian.tar.gz
+ be844cc95482e5e1dfdea929c6fec69e 4860 utils optional kbdlight_1.2-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQIcBAEBAgAGBQJSvyu5AAoJEEgtF+lNrewvEXIQALo4RaiZct7fKNMUJ/gm+2Yx
-W7vHGmQ4MbmL4ed+9c6lqIw66Sq0qpwPpZBOpm5r+hO011dejHw39iv7CPWowhYw
-SpgSSewSB4tb93EBCsJds9rER02if+PSnVE5e6QnN7KBU3U4LNULopaoWikNPpW7
-a5Qj8XzdcbPblhyyLDV3LdwyPjyYv+p/kNgwVGM0KxVdmqiq1fsBwzROFcj9nMOR
-Efq1QRfSC6/uKI1gKDf6IKpy+/O7fPIK6TWsarnF/oCuJwK7gaqTzBiLpQxqb73B
-lJR3Mf2VQnULoZf3g14vMXc//zQhgT+BUjlu5UD+mrOkI+ujv2q02fik504S9Sgh
-KFNG9DawJAhhhRapyo/Tu5JVP12zpVgMOZnHfnL0d62Y6P76L8kudT1g3RBz4JUH
-P4SXmj0jyTMQ+tIgVEua5wNATY6FCFjLVJG7vHz0ANbDaev8TJhsMkJ9FkK7NA+C
-tYIdB036B6kPWaFOyTgkfDZirBYXsJp43Hvy3n/yVwMxT5K9hP9eDuJ0dl/MEfi5
-IXKLkmz6RNwq1oUzeS32yglfW5pGqWAD0D8fvEAuFl/AWbyLECnsYUxwaXLtXSNg
-1C4fV8+80VE2FpQKv7+AWvihLOXeEc+HSSt1dEbKDLSi/c41Xa6eKDs49FZPlSg5
-EfE2yofMHsitqqOannoV
-=6hv/
+iQIcBAEBAgAGBQJSvyyAAAoJEEgtF+lNrewvVYQQANaMgUfmGcZsC8uPWjl/XMYd
+SaKCqVO82HVx8AaD0FOM87a+OKFo/rqQIkDS6L64yiggCvBf1HwzJFN66YIvSvwv
+7PQbZuAuSS9/312QcgK939rsMY1preVCxVVXKWdUmh9UKk1iA21+ESPk/35cEG8L
+PqgSMbQaE9Di+ZoaEnFE2N40ubauawoCrYwoc8kvbWpk9UYBhXjhAQMxf3Bo1iZd
+Qs8ZW0tu2SwgOlOGwqAmd84d/GdYqi/4FAOuVj/d/XwapNIALyTnoXRKElbVyibR
+44i/MRmiOF/rx2jEsEEwTcdMhX4RBVRwwp8V13uy2H6I6JQAD93d0/LaVT0dDGp3
+j/VNCpn27qL/vkkTpuoSVUJoV7dc6HUalzysRdmFwss1LjKXc09tHUy9ePFOWbQU
+v6u5o6VDTciv0IzeHoOqQRbeDINTj01GKDGiEkLOTIgfzBCeutg3P0vu2RmKhODt
+deYtVsqTQzSrvAm/C6qT7ZEXsL8XBCh7BIXxs0DPyGP+6UylxdGHQ8ZmOic6NzKF
+M9bvw7CpvMT6MpMYe7Sdvr/1wupIg3r2yFZOINh8ajeNSYtfdVIubhSeY2tqRHgh
+qmry1WvVI3ATH0d+tqRTocQEEnOQHceaZHYIx519XjssB18xi2pgkCjdPaiS3+K5
+/gUeKGjW6JKD1x70tkaw
+=hX+u
 -----END PGP SIGNATURE-----
