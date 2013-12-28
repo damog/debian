@@ -7,7 +7,7 @@ Source: kbdlight
 Binary: kbdlight
 Architecture: source amd64
 Version: 1.2-1
-Distribution: UNRELEASED
+Distribution: unstable
 Urgency: low
 Maintainer: David Moreno <damog@debian.org>
 Changed-By: David Moreno <damog@debian.org>
@@ -15,39 +15,39 @@ Description:
  kbdlight   - simple application that changes MacBooks' keyboard backlight leve
 Closes: 733349
 Changes: 
- kbdlight (1.2-1) UNRELEASED; urgency=low
+ kbdlight (1.2-1) unstable; urgency=low
  .
    * Initial release (Closes: #733349).
 Checksums-Sha1: 
- f8cc8aff8c6d5eeb9b66807df7f4cc565f2b091a 1636 kbdlight_1.2-1.dsc
+ de5178f72e657cd5f70eadc3c4d4523729853e71 1636 kbdlight_1.2-1.dsc
  bb4c8a5fcc1b5277fbe63bcf0e5a92655e1bdb45 1671 kbdlight_1.2.orig.tar.gz
- 57e4ce01401b5eaa7006391a16d3c0e9363690fe 1750 kbdlight_1.2-1.debian.tar.gz
- 1d05dd222477c800fa850bd0c750ad61ebb1956a 4860 kbdlight_1.2-1_amd64.deb
+ d9cffd6aa01d98e5a03396fa2700c1488ebc783c 1753 kbdlight_1.2-1.debian.tar.gz
+ 031031742a7985e05c328582a6f5874ad72e362c 4858 kbdlight_1.2-1_amd64.deb
 Checksums-Sha256: 
- 445cf6a88aa0a59b23d874c757ae69fbde38115fcb6e9695ce70305de4a6a623 1636 kbdlight_1.2-1.dsc
+ 10ad8b1103e3fe3eaae5c0c45cf0d7263950f6e185f07aa92a5215d15d08e509 1636 kbdlight_1.2-1.dsc
  030e080cfdcf7fee357b29591163a5950efe0ff45bd7a90a1ea1ff8516512a9b 1671 kbdlight_1.2.orig.tar.gz
- bdb4aaefbe6fc0980252597b7648e803c944a6bda002d947a2039dfd69ba089c 1750 kbdlight_1.2-1.debian.tar.gz
- d5c3e433cf22394fbf7f8d54ef59507d40c806f39d38605873ce5557f816e95f 4860 kbdlight_1.2-1_amd64.deb
+ 250002c4aebe260598daad6f3801f5f3b7d02165d864402a111172ecf36b3ce2 1753 kbdlight_1.2-1.debian.tar.gz
+ 7979ccc28eb923b598146d8bdb91cf3e144e62e6a2684c064551b60615d2e692 4858 kbdlight_1.2-1_amd64.deb
 Files: 
- c7bf3f7b8b896302af6916695d013ca2 1636 utils optional kbdlight_1.2-1.dsc
+ fd1f942e3237a2bd23bfb8f6f07bbae6 1636 utils optional kbdlight_1.2-1.dsc
  3cd4b87a24220a1d144dc53af6128e68 1671 utils optional kbdlight_1.2.orig.tar.gz
- c45fb6b9637eea31d005d76ef6289d29 1750 utils optional kbdlight_1.2-1.debian.tar.gz
- e160d3d5156e6a4dfccf8a3170162cbf 4860 utils optional kbdlight_1.2-1_amd64.deb
+ 9612b0e9f9fb7c0cf0558026c1cb5f2c 1753 utils optional kbdlight_1.2-1.debian.tar.gz
+ ac93d9d5c077c32d9b75c1192d6b3171 4858 utils optional kbdlight_1.2-1_amd64.deb
 
 -----BEGIN PGP SIGNATURE-----
 Version: GnuPG v1.4.12 (GNU/Linux)
 
-iQIcBAEBAgAGBQJSvymcAAoJEEgtF+lNrewv93QP/j75xKSrbzYi05OwunhZW2Hf
-tHFvTijCEhz1kt304c5Ck9RB2AZZQcF1KKWxew3fm3qTbE3yy9LC5NzDk+6aPfPf
-LVr2Xr7VadJ+4LovrPDtc0wjOvl/atgxADisClZuuaGTZky5xX7fLJbJFsms8eC4
-mSS3WMkzvYM3KWwuZ+JPEoKMzDLrDjmDktpoVz3BwdwKlwE/9l+jrQEHX5IlqCvv
-zBXdQlqfCeQzkvmUufmOil328BrUGk88+V0nziNmDZMxjr0Hob6dmQ660bkVgc6/
-4q5/M2fXtkZffPCHzH4id+ZOaoU/+bHrbtSyeiYDE3YX+lv7hLbjvMBlewXTMiI1
-8N7E0tPAVdjaN7z7NLqbm7/R25fAOrxnSExh58p2FPmz4nJXOxxU82NpKxxWIM0g
-gtLj4d7SxFP3d3yPPMyENx3eNhNvDaSUW6O/ElaY/PyJNTuWXoWt1fyGSXMVnQk+
-+Bq8JifG10w69+0x+/q1srwhqnLDHJkTm9xZD9SQUajE/KJdxYlaDjHgx+FAtXXj
-c05GIuRNnjQFZ4xWPbJD5oIlO61Pysb/AslbavuPgRVjWr97mnrbhHipHI0aJdII
-nh6EnQe+4IMYb9kZhNGEgGYhirsLHZJ4bkvV4FQsnHbMOJ9A25Qor5Jn9R3ZR78W
-bvH99L8PiNyGfMQpibK3
-=dVl7
+iQIcBAEBAgAGBQJSvyqSAAoJEEgtF+lNrewvlbMP/iI527YjusfbmrYvFofDVA9/
+KdkNyycXH6aQjDx8YH30FqaXbV4YZzJ1CjbwVROmv7owDPYqIjzjZA5YlUU8TJhh
+mzuSGSZp2uiatisxREtzjWolANFeHZOe4Q2vyMCpvmBv/MXHe8htJg82gBk22ZRW
+G1DeOqYoQzInkCwoM7EWMXkuha3c7Ny2stX7WvbevK1hUGZbyPDJuTgLS+utxd9V
+NZ5oGAts7AhkrzwGP4O7NGRMKm4/+zAAGKY5lNTMefXiMvEsp1jQ7RAoGyKl4k2c
+sYOhHwgWPkYYHKQcOKIydLeWWb0gNjSmQ2/ijZ6W54QeaueOS4QrszDNT9v0HWsM
+uZX/56XseG6c34mCN9mWodkGet5P0IymEbSfnQ/YbFhd6HRZ9GdHHkUJDGgC8Bab
+3QNi/Z6sS1kQ8/7RdHPclVq3txZmbNhdPiW0xgy7Ja2hG5+lbrhXvY39jWfL+t3/
+U726QvSM9RuXN9TjzxMcNX5hsOZWuhVgcpVjYojV6gy44MWeZEeGomDpQ6m3rEvs
+B6dyqkbJeiMM8BfaCtDHsVzfIYJqS76wUGuWZkK1JFuNkSS2HQ2hY2Ge4eW5J3HW
+vdwsHcUY319UHJcLuJzFf3q2tNB5Zm8PKO+2gb8TYNOFN7GKcs3N+BSNjSWwB7A/
+m4Ln2OioJmquhgo26Bek
+=GLMN
 -----END PGP SIGNATURE-----
