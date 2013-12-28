@@ -37,7 +37,7 @@ dh binary
    dh_installdirs
    dh_auto_install
 make[1]: Entering directory `/home/damog/git/debian/kbdlight/kbdlight-1.2'
-install -Dm 4755 kbdlight /home/damog/git/debian/kbdlight/kbdlight-1.2/debian/kbdlight/usr/bin/kbdlight
+install -Dm 4755 kbdlight /home/damog/git/debian/kbdlight/kbdlight-1.2/debian/kbdlight/usr/sbin/kbdlight
 make[1]: Leaving directory `/home/damog/git/debian/kbdlight/kbdlight-1.2'
    dh_install
    dh_installdocs
@@ -93,5 +93,4 @@ make[1]: Leaving directory `/home/damog/git/debian/kbdlight/kbdlight-1.2'
  dpkg-source --after-build kbdlight-1.2
 dpkg-buildpackage: full upload (original source is included)
 Now running lintian...
-W: kbdlight: binary-without-manpage usr/bin/kbdlight
 Finished running lintian.

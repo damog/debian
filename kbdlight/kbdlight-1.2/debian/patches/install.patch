@@ -1,4 +1,4 @@
-Prefix to point to /usr and not to /usr/local
+Setting the right location for the destination.
 --- a/Makefile
 +++ b/Makefile
 @@ -1,4 +1,4 @@
@@ -7,3 +7,14 @@ Prefix to point to /usr and not to /usr/local
  
  obj = kbdlight.o
  bin = kbdlight
+@@ -12,8 +12,8 @@
+ 
+ .PHONY: install
+ install:
+-	install -Dm 4755 $(bin) $(DESTDIR)$(PREFIX)/bin/$(bin)
++	install -Dm 4755 $(bin) $(DESTDIR)$(PREFIX)/sbin/$(bin)
+ 
+ .PHONY: uninstall
+ uninstall:
+-	rm -f $(DESTDIR)$(PREFIX)/bin/$(bin)
++	rm -f $(DESTDIR)$(PREFIX)/sbin/$(bin)

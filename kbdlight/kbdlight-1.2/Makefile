@@ -12,8 +12,8 @@ clean:
 
 .PHONY: install
 install:
-	install -Dm 4755 $(bin) $(DESTDIR)$(PREFIX)/bin/$(bin)
+	install -Dm 4755 $(bin) $(DESTDIR)$(PREFIX)/sbin/$(bin)
 
 .PHONY: uninstall
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/$(bin)
+	rm -f $(DESTDIR)$(PREFIX)/sbin/$(bin)

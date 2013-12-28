@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Sat, 28 Dec 2013 18:38:43 +0100
+Source: kbdlight
+Binary: kbdlight
+Architecture: source
+Version: 1.2-1
+Distribution: UNRELEASED
+Urgency: low
+Maintainer: David Moreno <damog@debian.org>
+Changed-By: David Moreno <damog@debian.org>
+Description: 
+ kbdlight   - simple application that changes MacBooks' keyboard backlight leve
+Closes: 733349
+Changes: 
+ kbdlight (1.2-1) UNRELEASED; urgency=low
+ .
+   * Initial release (Closes: #733349).
+Checksums-Sha1: 
+ b04016a20eb778af0e5d5e344c00d70cd88e9294 752 kbdlight_1.2-1.dsc
+ bb4c8a5fcc1b5277fbe63bcf0e5a92655e1bdb45 1671 kbdlight_1.2.orig.tar.gz
+ ac1e59260fd0111279e4aadf630e6bac2cae379a 1648 kbdlight_1.2-1.debian.tar.gz
+Checksums-Sha256: 
+ c70cab8764aa844ae9192594678fc572f9b411582e1b24836f30d54800ab2e57 752 kbdlight_1.2-1.dsc
+ 030e080cfdcf7fee357b29591163a5950efe0ff45bd7a90a1ea1ff8516512a9b 1671 kbdlight_1.2.orig.tar.gz
+ bc3666bae3c1f3d25d2f940f0588dc7f951b9a9adb84ca601a2426b12df68579 1648 kbdlight_1.2-1.debian.tar.gz
+Files: 
+ bdf8b0e01895363907b7cd97956fc0da 752 utils optional kbdlight_1.2-1.dsc
+ 3cd4b87a24220a1d144dc53af6128e68 1671 utils optional kbdlight_1.2.orig.tar.gz
+ e11e5c7158941583e3f97f96a7ef927a 1648 utils optional kbdlight_1.2-1.debian.tar.gz
